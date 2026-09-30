@@ -1,0 +1,4073 @@
+Press the button 'Command list' to get help for available commands!
+
+[\] Press the button 'Command list' to get help for available commands!
+
+[\] allocating morphology param widgets
+\PROJECT LOAD SESSION "/home/umar/projects/Thesis/Sessa-2.3.0-Linux/bin/Sessa_ini.ses"
+Loading session file >/home/umar/projects/Thesis/Sessa-2.3.0-Linux/bin/Sessa_ini.ses<
+[\] Processing: \PROJECT RESET
+
+[\] Done
+Processing: \SOURCE SET ALKA
+
+[\] Done
+Processing: \PREFERENCES SET ENERGY_SCALE KINETIC
+
+[\] Done
+Processing: \PREFERENCES SET DENSITY_SCALE MASS
+
+[\] Done
+Processing: \PREFERENCES SET NDIIMFP 1
+
+[\] Done
+Processing: \SPECTROMETER SET RANGE 1186.6:1206.6 REGION 1
+
+[\] Done
+Processing: \SAMPLE SET MATERIAL /C[CC_CH]0.014794188/C[C_O]0.568938268/C[C_eq_O]0.223288094/C[O_C_eq_O]0.192978450/C[pi_pi_star]0.000001000/O1.200000000/ LAYER 1
+No data base for compound densities in SESSA.
+Providing a rough estimate for the density.
+
+This warning is only shown once!
+[\] Done
+Processing: \SAMPLE SET DENSITY 1.39352695 LAYER 1
+
+[\] Done
+Processing: \SAMPLE SET EGAP 5.16913935 LAYER 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1201.95639443 PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.43358607 PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1200.60410845 PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.53627532 PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1199.25206105 PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.48886085 PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1197.69336199 PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.51463908 PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1195.77044039 PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.48526069 PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \MODEL SET SLA false
+
+[\] Done
+Processing: \MODEL SET TA false
+
+[\] Done
+Processing: \MODEL SET SE true
+
+[\] Done
+Processing: \MODEL SET QEAPLUS true
+
+[\] Done
+Processing: \MODEL SET CONVERGENCE 1.0e-2
+
+[\] Done
+Processing: \MODEL AUTO NCOL REGION 1
+
+[\] Done
+Processing: \MODEL AUTO NTRAJ REGION 1
+
+[\] Done
+Processing: \MODEL SIMULATE
+
+[\] Done
+Processing: \MODEL SAVE SPECTRA "/home/umar/projects/Thesis/spectraVAE/sessa_generated/spectra/case_00002_full"
+
+[\] Done
+Processing: \MODEL SET NCOL 0 REGION 1
+
+[\] Done
+Processing: \MODEL AUTO NTRAJ REGION 1
+
+[\] Done
+Processing: \MODEL SIMULATE
+
+[\] Done
+Processing: \MODEL SAVE SPECTRA "/home/umar/projects/Thesis/spectraVAE/sessa_generated/spectra/case_00002_zero"
+
+[\] Done
+Processing: \PROJECT RESET
+
+[\] Done
+Processing: \SOURCE SET ALKA
+
+[\] Done
+Processing: \PREFERENCES SET ENERGY_SCALE KINETIC
+
+[\] Done
+Processing: \PREFERENCES SET DENSITY_SCALE MASS
+
+[\] Done
+Processing: \PREFERENCES SET NDIIMFP 1
+
+[\] Done
+Processing: \SPECTROMETER SET RANGE 1186.6:1206.6 REGION 1
+
+[\] Done
+Processing: \SAMPLE SET MATERIAL /C[CC_CH]0.246507534/C[C_O]0.233299015/C[C_eq_O]0.171975234/C[O_C_eq_O]0.348217218/C[pi_pi_star]0.000001000/O1.131709786/ LAYER 1
+
+[\] Done
+Processing: \SAMPLE SET DENSITY 1.72379399 LAYER 1
+
+[\] Done
+Processing: \SAMPLE SET EGAP 3.85166188 LAYER 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1200.88048491 PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.60902428 PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1199.34967850 PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.63239263 PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1197.93907730 PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.53089914 PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1196.44700314 PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.55060672 PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1194.50876115 PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.48641798 PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \MODEL SET SLA false
+
+[\] Done
+Processing: \MODEL SET TA false
+
+[\] Done
+Processing: \MODEL SET SE true
+
+[\] Done
+Processing: \MODEL SET QEAPLUS true
+
+[\] Done
+Processing: \MODEL SET CONVERGENCE 1.0e-2
+
+[\] Done
+Processing: \MODEL AUTO NCOL REGION 1
+
+[\] Done
+Processing: \MODEL AUTO NTRAJ REGION 1
+
+[\] Done
+Processing: \MODEL SIMULATE
+
+[\] Done
+Processing: \MODEL SAVE SPECTRA "/home/umar/projects/Thesis/spectraVAE/sessa_generated/spectra/case_00010_full"
+
+[\] Done
+Processing: \MODEL SET NCOL 0 REGION 1
+
+[\] Done
+Processing: \MODEL AUTO NTRAJ REGION 1
+
+[\] Done
+Processing: \MODEL SIMULATE
+
+[\] Done
+Processing: \MODEL SAVE SPECTRA "/home/umar/projects/Thesis/spectraVAE/sessa_generated/spectra/case_00010_zero"
+
+[\] Done
+Processing: \PROJECT RESET
+
+[\] Done
+Processing: \SOURCE SET ALKA
+
+[\] Done
+Processing: \PREFERENCES SET ENERGY_SCALE KINETIC
+
+[\] Done
+Processing: \PREFERENCES SET DENSITY_SCALE MASS
+
+[\] Done
+Processing: \PREFERENCES SET NDIIMFP 1
+
+[\] Done
+Processing: \SPECTROMETER SET RANGE 1186.6:1206.6 REGION 1
+
+[\] Done
+Processing: \SAMPLE SET MATERIAL /C[CC_CH]0.996965740/C[C_O]0.000001000/C[C_eq_O]0.000001000/C[O_C_eq_O]0.003031260/C[pi_pi_star]0.000001000/O0.036062539/ LAYER 1
+
+[\] Done
+Processing: \SAMPLE SET DENSITY 1.52375852 LAYER 1
+
+[\] Done
+Processing: \SAMPLE SET EGAP 2.15974125 LAYER 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1201.91199672 PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.60757428 PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1200.68942479 PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.67631429 PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1198.82767860 PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.67197172 PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1197.59265154 PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.56652353 PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1195.81451248 PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.64982350 PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \MODEL SET SLA false
+
+[\] Done
+Processing: \MODEL SET TA false
+
+[\] Done
+Processing: \MODEL SET SE true
+
+[\] Done
+Processing: \MODEL SET QEAPLUS true
+
+[\] Done
+Processing: \MODEL SET CONVERGENCE 1.0e-2
+
+[\] Done
+Processing: \MODEL AUTO NCOL REGION 1
+
+[\] Done
+Processing: \MODEL AUTO NTRAJ REGION 1
+
+[\] Done
+Processing: \MODEL SIMULATE
+
+[\] Done
+Processing: \MODEL SAVE SPECTRA "/home/umar/projects/Thesis/spectraVAE/sessa_generated/spectra/case_00018_full"
+
+[\] Done
+Processing: \MODEL SET NCOL 0 REGION 1
+
+[\] Done
+Processing: \MODEL AUTO NTRAJ REGION 1
+
+[\] Done
+Processing: \MODEL SIMULATE
+
+[\] Done
+Processing: \MODEL SAVE SPECTRA "/home/umar/projects/Thesis/spectraVAE/sessa_generated/spectra/case_00018_zero"
+
+[\] Done
+Processing: \PROJECT RESET
+
+[\] Done
+Processing: \SOURCE SET ALKA
+
+[\] Done
+Processing: \PREFERENCES SET ENERGY_SCALE KINETIC
+
+[\] Done
+Processing: \PREFERENCES SET DENSITY_SCALE MASS
+
+[\] Done
+Processing: \PREFERENCES SET NDIIMFP 1
+
+[\] Done
+Processing: \SPECTROMETER SET RANGE 1186.6:1206.6 REGION 1
+
+[\] Done
+Processing: \SAMPLE SET MATERIAL /C[CC_CH]0.598701828/C[C_O]0.109327931/C[C_eq_O]0.188247766/C[O_C_eq_O]0.103721476/C[pi_pi_star]0.000001000/O0.535019153/ LAYER 1
+
+[\] Done
+Processing: \SAMPLE SET DENSITY 1.28617877 LAYER 1
+
+[\] Done
+Processing: \SAMPLE SET EGAP 5.25778082 LAYER 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1200.78590325 PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.47419328 PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1199.33907599 PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.60565751 PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1198.06818275 PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.67074668 PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1196.41938790 PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.56732913 PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1194.05994088 PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.52945442 PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \MODEL SET SLA false
+
+[\] Done
+Processing: \MODEL SET TA false
+
+[\] Done
+Processing: \MODEL SET SE true
+
+[\] Done
+Processing: \MODEL SET QEAPLUS true
+
+[\] Done
+Processing: \MODEL SET CONVERGENCE 1.0e-2
+
+[\] Done
+Processing: \MODEL AUTO NCOL REGION 1
+
+[\] Done
+Processing: \MODEL AUTO NTRAJ REGION 1
+
+[\] Done
+Processing: \MODEL SIMULATE
+
+[\] Done
+Processing: \MODEL SAVE SPECTRA "/home/umar/projects/Thesis/spectraVAE/sessa_generated/spectra/case_00026_full"
+
+[\] Done
+Processing: \MODEL SET NCOL 0 REGION 1
+
+[\] Done
+Processing: \MODEL AUTO NTRAJ REGION 1
+
+[\] Done
+Processing: \MODEL SIMULATE
+
+[\] Done
+Processing: \MODEL SAVE SPECTRA "/home/umar/projects/Thesis/spectraVAE/sessa_generated/spectra/case_00026_zero"
+
+[\] Done
+Processing: \PROJECT RESET
+
+[\] Done
+Processing: \SOURCE SET ALKA
+
+[\] Done
+Processing: \PREFERENCES SET ENERGY_SCALE KINETIC
+
+[\] Done
+Processing: \PREFERENCES SET DENSITY_SCALE MASS
+
+[\] Done
+Processing: \PREFERENCES SET NDIIMFP 1
+
+[\] Done
+Processing: \SPECTROMETER SET RANGE 1186.6:1206.6 REGION 1
+
+[\] Done
+Processing: \SAMPLE SET MATERIAL /C[CC_CH]0.128230254/C[C_O]0.594650486/C[C_eq_O]0.000001000/C[O_C_eq_O]0.277117260/C[pi_pi_star]0.000001000/O1.178887304/ LAYER 1
+
+[\] Done
+Processing: \SAMPLE SET DENSITY 1.26901727 LAYER 1
+
+[\] Done
+Processing: \SAMPLE SET EGAP 2.99451706 LAYER 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1202.99443918 PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.43417376 PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1201.63852688 PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.55873703 PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1199.83209230 PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.59530157 PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1198.59944590 PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.62407032 PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1196.91138476 PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.55169964 PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \MODEL SET SLA false
+
+[\] Done
+Processing: \MODEL SET TA false
+
+[\] Done
+Processing: \MODEL SET SE true
+
+[\] Done
+Processing: \MODEL SET QEAPLUS true
+
+[\] Done
+Processing: \MODEL SET CONVERGENCE 1.0e-2
+
+[\] Done
+Processing: \MODEL AUTO NCOL REGION 1
+
+[\] Done
+Processing: \MODEL AUTO NTRAJ REGION 1
+
+[\] Done
+Processing: \MODEL SIMULATE
+
+[\] Done
+Processing: \MODEL SAVE SPECTRA "/home/umar/projects/Thesis/spectraVAE/sessa_generated/spectra/case_00034_full"
+
+[\] Done
+Processing: \MODEL SET NCOL 0 REGION 1
+
+[\] Done
+Processing: \MODEL AUTO NTRAJ REGION 1
+
+[\] Done
+Processing: \MODEL SIMULATE
+
+[\] Done
+Processing: \MODEL SAVE SPECTRA "/home/umar/projects/Thesis/spectraVAE/sessa_generated/spectra/case_00034_zero"
+
+[\] Done
+Processing: \PROJECT RESET
+
+[\] Done
+Processing: \SOURCE SET ALKA
+
+[\] Done
+Processing: \PREFERENCES SET ENERGY_SCALE KINETIC
+
+[\] Done
+Processing: \PREFERENCES SET DENSITY_SCALE MASS
+
+[\] Done
+Processing: \PREFERENCES SET NDIIMFP 1
+
+[\] Done
+Processing: \SPECTROMETER SET RANGE 1186.6:1206.6 REGION 1
+
+[\] Done
+Processing: \SAMPLE SET MATERIAL /C[CC_CH]0.271389969/C[C_O]0.507978895/C[C_eq_O]0.196203642/C[O_C_eq_O]0.024426493/C[pi_pi_star]0.000001000/O0.783036277/ LAYER 1
+
+[\] Done
+Processing: \SAMPLE SET DENSITY 1.46824722 LAYER 1
+
+[\] Done
+Processing: \SAMPLE SET EGAP 6.42130697 LAYER 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1201.34865379 PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.62832142 PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1199.71110713 PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.56364476 PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1198.35001031 PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.50025250 PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1196.82724659 PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.55992747 PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1194.72428351 PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.55654793 PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \MODEL SET SLA false
+
+[\] Done
+Processing: \MODEL SET TA false
+
+[\] Done
+Processing: \MODEL SET SE true
+
+[\] Done
+Processing: \MODEL SET QEAPLUS true
+
+[\] Done
+Processing: \MODEL SET CONVERGENCE 1.0e-2
+
+[\] Done
+Processing: \MODEL AUTO NCOL REGION 1
+
+[\] Done
+Processing: \MODEL AUTO NTRAJ REGION 1
+
+[\] Done
+Processing: \MODEL SIMULATE
+
+[\] Done
+Processing: \MODEL SAVE SPECTRA "/home/umar/projects/Thesis/spectraVAE/sessa_generated/spectra/case_00042_full"
+
+[\] Done
+Processing: \MODEL SET NCOL 0 REGION 1
+
+[\] Done
+Processing: \MODEL AUTO NTRAJ REGION 1
+
+[\] Done
+Processing: \MODEL SIMULATE
+
+[\] Done
+Processing: \MODEL SAVE SPECTRA "/home/umar/projects/Thesis/spectraVAE/sessa_generated/spectra/case_00042_zero"
+
+[\] Done
+Processing: \PROJECT RESET
+
+[\] Done
+Processing: \SOURCE SET ALKA
+
+[\] Done
+Processing: \PREFERENCES SET ENERGY_SCALE KINETIC
+
+[\] Done
+Processing: \PREFERENCES SET DENSITY_SCALE MASS
+
+[\] Done
+Processing: \PREFERENCES SET NDIIMFP 1
+
+[\] Done
+Processing: \SPECTROMETER SET RANGE 1186.6:1206.6 REGION 1
+
+[\] Done
+Processing: \SAMPLE SET MATERIAL /C[CC_CH]0.225270203/C[C_O]0.716103819/C[C_eq_O]0.030809614/C[O_C_eq_O]0.027815365/C[pi_pi_star]0.000001000/O0.832544964/ LAYER 1
+
+[\] Done
+Processing: \SAMPLE SET DENSITY 1.13715419 LAYER 1
+
+[\] Done
+Processing: \SAMPLE SET EGAP 3.06881688 LAYER 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1201.47573944 PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.49651311 PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1200.00732653 PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.45578302 PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1198.46396510 PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.43209745 PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1197.28754270 PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.44242382 PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1194.94436361 PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.40080323 PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \MODEL SET SLA false
+
+[\] Done
+Processing: \MODEL SET TA false
+
+[\] Done
+Processing: \MODEL SET SE true
+
+[\] Done
+Processing: \MODEL SET QEAPLUS true
+
+[\] Done
+Processing: \MODEL SET CONVERGENCE 1.0e-2
+
+[\] Done
+Processing: \MODEL AUTO NCOL REGION 1
+
+[\] Done
+Processing: \MODEL AUTO NTRAJ REGION 1
+
+[\] Done
+Processing: \MODEL SIMULATE
+
+[\] Done
+Processing: \MODEL SAVE SPECTRA "/home/umar/projects/Thesis/spectraVAE/sessa_generated/spectra/case_00050_full"
+
+[\] Done
+Processing: \MODEL SET NCOL 0 REGION 1
+
+[\] Done
+Processing: \MODEL AUTO NTRAJ REGION 1
+
+[\] Done
+Processing: \MODEL SIMULATE
+
+[\] Done
+Processing: \MODEL SAVE SPECTRA "/home/umar/projects/Thesis/spectraVAE/sessa_generated/spectra/case_00050_zero"
+
+[\] Done
+Processing: \PROJECT RESET
+
+[\] Done
+Processing: \SOURCE SET ALKA
+
+[\] Done
+Processing: \PREFERENCES SET ENERGY_SCALE KINETIC
+
+[\] Done
+Processing: \PREFERENCES SET DENSITY_SCALE MASS
+
+[\] Done
+Processing: \PREFERENCES SET NDIIMFP 1
+
+[\] Done
+Processing: \SPECTROMETER SET RANGE 1186.6:1206.6 REGION 1
+
+[\] Done
+Processing: \SAMPLE SET MATERIAL /C[CC_CH]0.435853572/C[C_O]0.193411965/C[C_eq_O]0.074880749/C[O_C_eq_O]0.295852714/C[pi_pi_star]0.000001000/O0.889999003/ LAYER 1
+
+[\] Done
+Processing: \SAMPLE SET DENSITY 1.56770613 LAYER 1
+
+[\] Done
+Processing: \SAMPLE SET EGAP 2.24787940 LAYER 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1202.50573247 PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.53858066 PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1200.75337877 PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.62000417 PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1199.45611824 PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.52314475 PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1198.28850417 PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.51536270 PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1195.90342794 PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.59969302 PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \MODEL SET SLA false
+
+[\] Done
+Processing: \MODEL SET TA false
+
+[\] Done
+Processing: \MODEL SET SE true
+
+[\] Done
+Processing: \MODEL SET QEAPLUS true
+
+[\] Done
+Processing: \MODEL SET CONVERGENCE 1.0e-2
+
+[\] Done
+Processing: \MODEL AUTO NCOL REGION 1
+
+[\] Done
+Processing: \MODEL AUTO NTRAJ REGION 1
+
+[\] Done
+Processing: \MODEL SIMULATE
+
+[\] Done
+Processing: \MODEL SAVE SPECTRA "/home/umar/projects/Thesis/spectraVAE/sessa_generated/spectra/case_00058_full"
+
+[\] Done
+Processing: \MODEL SET NCOL 0 REGION 1
+
+[\] Done
+Processing: \MODEL AUTO NTRAJ REGION 1
+
+[\] Done
+Processing: \MODEL SIMULATE
+
+[\] Done
+Processing: \MODEL SAVE SPECTRA "/home/umar/projects/Thesis/spectraVAE/sessa_generated/spectra/case_00058_zero"
+
+[\] Done
+Processing: \PROJECT RESET
+
+[\] Done
+Processing: \SOURCE SET ALKA
+
+[\] Done
+Processing: \PREFERENCES SET ENERGY_SCALE KINETIC
+
+[\] Done
+Processing: \PREFERENCES SET DENSITY_SCALE MASS
+
+[\] Done
+Processing: \PREFERENCES SET NDIIMFP 1
+
+[\] Done
+Processing: \SPECTROMETER SET RANGE 1186.6:1206.6 REGION 1
+
+[\] Done
+Processing: \SAMPLE SET MATERIAL /C[CC_CH]0.326245690/C[C_O]0.339353514/C[C_eq_O]0.334398796/C[O_C_eq_O]0.000001000/C[pi_pi_star]0.000001000/O0.703753658/ LAYER 1
+
+[\] Done
+Processing: \SAMPLE SET DENSITY 1.46648483 LAYER 1
+
+[\] Done
+Processing: \SAMPLE SET EGAP 6.73355777 LAYER 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1200.80751379 PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.48431430 PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1199.33175837 PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.50876856 PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1197.79793301 PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.53802844 PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1196.79005494 PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.57070632 PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1194.63076609 PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.49194312 PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \MODEL SET SLA false
+
+[\] Done
+Processing: \MODEL SET TA false
+
+[\] Done
+Processing: \MODEL SET SE true
+
+[\] Done
+Processing: \MODEL SET QEAPLUS true
+
+[\] Done
+Processing: \MODEL SET CONVERGENCE 1.0e-2
+
+[\] Done
+Processing: \MODEL AUTO NCOL REGION 1
+
+[\] Done
+Processing: \MODEL AUTO NTRAJ REGION 1
+
+[\] Done
+Processing: \MODEL SIMULATE
+
+[\] Done
+Processing: \MODEL SAVE SPECTRA "/home/umar/projects/Thesis/spectraVAE/sessa_generated/spectra/case_00066_full"
+
+[\] Done
+Processing: \MODEL SET NCOL 0 REGION 1
+
+[\] Done
+Processing: \MODEL AUTO NTRAJ REGION 1
+
+[\] Done
+Processing: \MODEL SIMULATE
+
+[\] Done
+Processing: \MODEL SAVE SPECTRA "/home/umar/projects/Thesis/spectraVAE/sessa_generated/spectra/case_00066_zero"
+
+[\] Done
+Processing: \PROJECT RESET
+
+[\] Done
+Processing: \SOURCE SET ALKA
+
+[\] Done
+Processing: \PREFERENCES SET ENERGY_SCALE KINETIC
+
+[\] Done
+Processing: \PREFERENCES SET DENSITY_SCALE MASS
+
+[\] Done
+Processing: \PREFERENCES SET NDIIMFP 1
+
+[\] Done
+Processing: \SPECTROMETER SET RANGE 1186.6:1206.6 REGION 1
+
+[\] Done
+Processing: \SAMPLE SET MATERIAL /C[CC_CH]0.838102203/C[C_O]0.017908525/C[C_eq_O]0.143987272/C[O_C_eq_O]0.000001000/C[pi_pi_star]0.000001000/O0.191896121/ LAYER 1
+
+[\] Done
+Processing: \SAMPLE SET DENSITY 1.65233477 LAYER 1
+
+[\] Done
+Processing: \SAMPLE SET EGAP 2.94734211 LAYER 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1202.99804252 PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.50000882 PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1201.73593703 PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.49440295 PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1200.46057483 PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.53055503 PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1198.98489259 PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.52345276 PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1197.24001015 PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.51933675 PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \MODEL SET SLA false
+
+[\] Done
+Processing: \MODEL SET TA false
+
+[\] Done
+Processing: \MODEL SET SE true
+
+[\] Done
+Processing: \MODEL SET QEAPLUS true
+
+[\] Done
+Processing: \MODEL SET CONVERGENCE 1.0e-2
+
+[\] Done
+Processing: \MODEL AUTO NCOL REGION 1
+
+[\] Done
+Processing: \MODEL AUTO NTRAJ REGION 1
+
+[\] Done
+Processing: \MODEL SIMULATE
+
+[\] Done
+Processing: \MODEL SAVE SPECTRA "/home/umar/projects/Thesis/spectraVAE/sessa_generated/spectra/case_00074_full"
+
+[\] Done
+Processing: \MODEL SET NCOL 0 REGION 1
+
+[\] Done
+Processing: \MODEL AUTO NTRAJ REGION 1
+
+[\] Done
+Processing: \MODEL SIMULATE
+
+[\] Done
+Processing: \MODEL SAVE SPECTRA "/home/umar/projects/Thesis/spectraVAE/sessa_generated/spectra/case_00074_zero"
+
+[\] Done
+Processing: \PROJECT RESET
+
+[\] Done
+Processing: \SOURCE SET ALKA
+
+[\] Done
+Processing: \PREFERENCES SET ENERGY_SCALE KINETIC
+
+[\] Done
+Processing: \PREFERENCES SET DENSITY_SCALE MASS
+
+[\] Done
+Processing: \PREFERENCES SET NDIIMFP 1
+
+[\] Done
+Processing: \SPECTROMETER SET RANGE 1186.6:1206.6 REGION 1
+
+[\] Done
+Processing: \SAMPLE SET MATERIAL /C[CC_CH]0.575350707/C[C_O]0.172629614/C[C_eq_O]0.252017679/C[O_C_eq_O]0.000001000/C[pi_pi_star]0.000001000/O0.454648142/ LAYER 1
+
+[\] Done
+Processing: \SAMPLE SET DENSITY 1.16709709 LAYER 1
+
+[\] Done
+Processing: \SAMPLE SET EGAP 6.77119567 LAYER 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1202.83988200 PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.42782046 PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1201.42500658 PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.45645253 PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1199.91197113 PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.43867375 PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1198.83994533 PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.51937287 PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1196.81936353 PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.54563961 PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \MODEL SET SLA false
+
+[\] Done
+Processing: \MODEL SET TA false
+
+[\] Done
+Processing: \MODEL SET SE true
+
+[\] Done
+Processing: \MODEL SET QEAPLUS true
+
+[\] Done
+Processing: \MODEL SET CONVERGENCE 1.0e-2
+
+[\] Done
+Processing: \MODEL AUTO NCOL REGION 1
+
+[\] Done
+Processing: \MODEL AUTO NTRAJ REGION 1
+
+[\] Done
+Processing: \MODEL SIMULATE
+
+[\] Done
+Processing: \MODEL SAVE SPECTRA "/home/umar/projects/Thesis/spectraVAE/sessa_generated/spectra/case_00082_full"
+
+[\] Done
+Processing: \MODEL SET NCOL 0 REGION 1
+
+[\] Done
+Processing: \MODEL AUTO NTRAJ REGION 1
+
+[\] Done
+Processing: \MODEL SIMULATE
+
+[\] Done
+Processing: \MODEL SAVE SPECTRA "/home/umar/projects/Thesis/spectraVAE/sessa_generated/spectra/case_00082_zero"
+
+[\] Done
+Processing: \PROJECT RESET
+
+[\] Done
+Processing: \SOURCE SET ALKA
+
+[\] Done
+Processing: \PREFERENCES SET ENERGY_SCALE KINETIC
+
+[\] Done
+Processing: \PREFERENCES SET DENSITY_SCALE MASS
+
+[\] Done
+Processing: \PREFERENCES SET NDIIMFP 1
+
+[\] Done
+Processing: \SPECTROMETER SET RANGE 1186.6:1206.6 REGION 1
+
+[\] Done
+Processing: \SAMPLE SET MATERIAL /C[CC_CH]0.469517821/C[C_O]0.207973239/C[C_eq_O]0.000001000/C[O_C_eq_O]0.141227059/C[pi_pi_star]0.181280881/O0.520427848/ LAYER 1
+
+[\] Done
+Processing: \SAMPLE SET DENSITY 1.48248461 LAYER 1
+
+[\] Done
+Processing: \SAMPLE SET EGAP 0.00000000 LAYER 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1200.25607882 PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.53647040 PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1198.79319923 PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.57320411 PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1197.17996836 PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.57335262 PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1195.81369181 PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.46399144 PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1194.07909346 PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.58583872 PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \MODEL SET SLA false
+
+[\] Done
+Processing: \MODEL SET TA false
+
+[\] Done
+Processing: \MODEL SET SE true
+
+[\] Done
+Processing: \MODEL SET QEAPLUS true
+
+[\] Done
+Processing: \MODEL SET CONVERGENCE 1.0e-2
+
+[\] Done
+Processing: \MODEL AUTO NCOL REGION 1
+
+[\] Done
+Processing: \MODEL AUTO NTRAJ REGION 1
+
+[\] Done
+Processing: \MODEL SIMULATE
+
+[\] Done
+Processing: \MODEL SAVE SPECTRA "/home/umar/projects/Thesis/spectraVAE/sessa_generated/spectra/case_00090_full"
+
+[\] Done
+Processing: \MODEL SET NCOL 0 REGION 1
+
+[\] Done
+Processing: \MODEL AUTO NTRAJ REGION 1
+
+[\] Done
+Processing: \MODEL SIMULATE
+
+[\] Done
+Processing: \MODEL SAVE SPECTRA "/home/umar/projects/Thesis/spectraVAE/sessa_generated/spectra/case_00090_zero"
+
+[\] Done
+Processing: \PROJECT RESET
+
+[\] Done
+Processing: \SOURCE SET ALKA
+
+[\] Done
+Processing: \PREFERENCES SET ENERGY_SCALE KINETIC
+
+[\] Done
+Processing: \PREFERENCES SET DENSITY_SCALE MASS
+
+[\] Done
+Processing: \PREFERENCES SET NDIIMFP 1
+
+[\] Done
+Processing: \SPECTROMETER SET RANGE 1186.6:1206.6 REGION 1
+
+[\] Done
+Processing: \SAMPLE SET MATERIAL /C[CC_CH]0.596134686/C[C_O]0.000001000/C[C_eq_O]0.067806667/C[O_C_eq_O]0.336056647/C[pi_pi_star]0.000001000/O0.769921440/ LAYER 1
+
+[\] Done
+Processing: \SAMPLE SET DENSITY 1.65705785 LAYER 1
+
+[\] Done
+Processing: \SAMPLE SET EGAP 5.11473088 LAYER 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1201.58675968 PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.40385722 PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1200.21532607 PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.36620608 PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1198.37904679 PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.37158492 PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1197.11116500 PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.35548884 PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1195.10252632 PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.43522091 PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \MODEL SET SLA false
+
+[\] Done
+Processing: \MODEL SET TA false
+
+[\] Done
+Processing: \MODEL SET SE true
+
+[\] Done
+Processing: \MODEL SET QEAPLUS true
+
+[\] Done
+Processing: \MODEL SET CONVERGENCE 1.0e-2
+
+[\] Done
+Processing: \MODEL AUTO NCOL REGION 1
+
+[\] Done
+Processing: \MODEL AUTO NTRAJ REGION 1
+
+[\] Done
+Processing: \MODEL SIMULATE
+
+[\] Done
+Processing: \MODEL SAVE SPECTRA "/home/umar/projects/Thesis/spectraVAE/sessa_generated/spectra/case_00098_full"
+
+[\] Done
+Processing: \MODEL SET NCOL 0 REGION 1
+
+[\] Done
+Processing: \MODEL AUTO NTRAJ REGION 1
+
+[\] Done
+Processing: \MODEL SIMULATE
+
+[\] Done
+Processing: \MODEL SAVE SPECTRA "/home/umar/projects/Thesis/spectraVAE/sessa_generated/spectra/case_00098_zero"
+
+[\] Done
+Processing: \PROJECT RESET
+
+[\] Done
+Processing: \SOURCE SET ALKA
+
+[\] Done
+Processing: \PREFERENCES SET ENERGY_SCALE KINETIC
+
+[\] Done
+Processing: \PREFERENCES SET DENSITY_SCALE MASS
+
+[\] Done
+Processing: \PREFERENCES SET NDIIMFP 1
+
+[\] Done
+Processing: \SPECTROMETER SET RANGE 1186.6:1206.6 REGION 1
+
+[\] Done
+Processing: \SAMPLE SET MATERIAL /C[CC_CH]0.615242219/C[C_O]0.180590757/C[C_eq_O]0.000001000/C[O_C_eq_O]0.204165025/C[pi_pi_star]0.000001000/O0.618921984/ LAYER 1
+
+[\] Done
+Processing: \SAMPLE SET DENSITY 1.26771858 LAYER 1
+
+[\] Done
+Processing: \SAMPLE SET EGAP 5.77823364 LAYER 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1200.33264374 PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.62014808 PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1199.30174141 PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.64963430 PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1197.55631787 PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.52762678 PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1196.52322578 PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.57611649 PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1193.74538625 PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.50230772 PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \MODEL SET SLA false
+
+[\] Done
+Processing: \MODEL SET TA false
+
+[\] Done
+Processing: \MODEL SET SE true
+
+[\] Done
+Processing: \MODEL SET QEAPLUS true
+
+[\] Done
+Processing: \MODEL SET CONVERGENCE 1.0e-2
+
+[\] Done
+Processing: \MODEL AUTO NCOL REGION 1
+
+[\] Done
+Processing: \MODEL AUTO NTRAJ REGION 1
+
+[\] Done
+Processing: \MODEL SIMULATE
+
+[\] Done
+Processing: \MODEL SAVE SPECTRA "/home/umar/projects/Thesis/spectraVAE/sessa_generated/spectra/case_00106_full"
+
+[\] Done
+Processing: \MODEL SET NCOL 0 REGION 1
+
+[\] Done
+Processing: \MODEL AUTO NTRAJ REGION 1
+
+[\] Done
+Processing: \MODEL SIMULATE
+
+[\] Done
+Processing: \MODEL SAVE SPECTRA "/home/umar/projects/Thesis/spectraVAE/sessa_generated/spectra/case_00106_zero"
+
+[\] Done
+Processing: \PROJECT RESET
+
+[\] Done
+Processing: \SOURCE SET ALKA
+
+[\] Done
+Processing: \PREFERENCES SET ENERGY_SCALE KINETIC
+
+[\] Done
+Processing: \PREFERENCES SET DENSITY_SCALE MASS
+
+[\] Done
+Processing: \PREFERENCES SET NDIIMFP 1
+
+[\] Done
+Processing: \SPECTROMETER SET RANGE 1186.6:1206.6 REGION 1
+
+[\] Done
+Processing: \SAMPLE SET MATERIAL /C[CC_CH]0.183855113/C[C_O]0.134667161/C[C_eq_O]0.286283044/C[O_C_eq_O]0.395193682/C[pi_pi_star]0.000001000/O1.200000000/ LAYER 1
+
+[\] Done
+Processing: \SAMPLE SET DENSITY 1.19630662 LAYER 1
+
+[\] Done
+Processing: \SAMPLE SET EGAP 6.43561732 LAYER 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1200.65103580 PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.62470189 PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1199.44947655 PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.62504053 PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1197.80561214 PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.65297535 PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1196.49648084 PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.69276427 PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1194.46058371 PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.62178152 PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \MODEL SET SLA false
+
+[\] Done
+Processing: \MODEL SET TA false
+
+[\] Done
+Processing: \MODEL SET SE true
+
+[\] Done
+Processing: \MODEL SET QEAPLUS true
+
+[\] Done
+Processing: \MODEL SET CONVERGENCE 1.0e-2
+
+[\] Done
+Processing: \MODEL AUTO NCOL REGION 1
+
+[\] Done
+Processing: \MODEL AUTO NTRAJ REGION 1
+
+[\] Done
+Processing: \MODEL SIMULATE
+
+[\] Done
+Processing: \MODEL SAVE SPECTRA "/home/umar/projects/Thesis/spectraVAE/sessa_generated/spectra/case_00114_full"
+
+[\] Done
+Processing: \MODEL SET NCOL 0 REGION 1
+
+[\] Done
+Processing: \MODEL AUTO NTRAJ REGION 1
+
+[\] Done
+Processing: \MODEL SIMULATE
+
+[\] Done
+Processing: \MODEL SAVE SPECTRA "/home/umar/projects/Thesis/spectraVAE/sessa_generated/spectra/case_00114_zero"
+
+[\] Done
+Processing: \PROJECT RESET
+
+[\] Done
+Processing: \SOURCE SET ALKA
+
+[\] Done
+Processing: \PREFERENCES SET ENERGY_SCALE KINETIC
+
+[\] Done
+Processing: \PREFERENCES SET DENSITY_SCALE MASS
+
+[\] Done
+Processing: \PREFERENCES SET NDIIMFP 1
+
+[\] Done
+Processing: \SPECTROMETER SET RANGE 1186.6:1206.6 REGION 1
+
+[\] Done
+Processing: \SAMPLE SET MATERIAL /C[CC_CH]0.473860951/C[C_O]0.251223209/C[C_eq_O]0.200445978/C[O_C_eq_O]0.074215059/C[pi_pi_star]0.000254803/O0.630099305/ LAYER 1
+
+[\] Done
+Processing: \SAMPLE SET DENSITY 1.62846623 LAYER 1
+
+[\] Done
+Processing: \SAMPLE SET EGAP 2.01591034 LAYER 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1199.95174851 PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.54265311 PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1198.65231439 PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.56119094 PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1197.12257006 PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.57250408 PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1195.78637529 PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.48741144 PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1193.60513583 PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.49933973 PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \MODEL SET SLA false
+
+[\] Done
+Processing: \MODEL SET TA false
+
+[\] Done
+Processing: \MODEL SET SE true
+
+[\] Done
+Processing: \MODEL SET QEAPLUS true
+
+[\] Done
+Processing: \MODEL SET CONVERGENCE 1.0e-2
+
+[\] Done
+Processing: \MODEL AUTO NCOL REGION 1
+
+[\] Done
+Processing: \MODEL AUTO NTRAJ REGION 1
+
+[\] Done
+Processing: \MODEL SIMULATE
+
+[\] Done
+Processing: \MODEL SAVE SPECTRA "/home/umar/projects/Thesis/spectraVAE/sessa_generated/spectra/case_00122_full"
+
+[\] Done
+Processing: \MODEL SET NCOL 0 REGION 1
+
+[\] Done
+Processing: \MODEL AUTO NTRAJ REGION 1
+
+[\] Done
+Processing: \MODEL SIMULATE
+
+[\] Done
+Processing: \MODEL SAVE SPECTRA "/home/umar/projects/Thesis/spectraVAE/sessa_generated/spectra/case_00122_zero"
+
+[\] Done
+Processing: \PROJECT RESET
+
+[\] Done
+Processing: \SOURCE SET ALKA
+
+[\] Done
+Processing: \PREFERENCES SET ENERGY_SCALE KINETIC
+
+[\] Done
+Processing: \PREFERENCES SET DENSITY_SCALE MASS
+
+[\] Done
+Processing: \PREFERENCES SET NDIIMFP 1
+
+[\] Done
+Processing: \SPECTROMETER SET RANGE 1186.6:1206.6 REGION 1
+
+[\] Done
+Processing: \SAMPLE SET MATERIAL /C[CC_CH]0.195320783/C[C_O]0.500740487/C[C_eq_O]0.000001000/C[O_C_eq_O]0.219926667/C[pi_pi_star]0.084011063/O0.970594761/ LAYER 1
+
+[\] Done
+Processing: \SAMPLE SET DENSITY 1.11557232 LAYER 1
+
+[\] Done
+Processing: \SAMPLE SET EGAP 0.00000000 LAYER 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1200.47719672 PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.45206879 PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1198.79557503 PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.44787933 PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1197.41730854 PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.50498141 PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1196.42071370 PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.44745922 PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1193.43453096 PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.45591571 PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \MODEL SET SLA false
+
+[\] Done
+Processing: \MODEL SET TA false
+
+[\] Done
+Processing: \MODEL SET SE true
+
+[\] Done
+Processing: \MODEL SET QEAPLUS true
+
+[\] Done
+Processing: \MODEL SET CONVERGENCE 1.0e-2
+
+[\] Done
+Processing: \MODEL AUTO NCOL REGION 1
+
+[\] Done
+Processing: \MODEL AUTO NTRAJ REGION 1
+
+[\] Done
+Processing: \MODEL SIMULATE
+
+[\] Done
+Processing: \MODEL SAVE SPECTRA "/home/umar/projects/Thesis/spectraVAE/sessa_generated/spectra/case_00130_full"
+
+[\] Done
+Processing: \MODEL SET NCOL 0 REGION 1
+
+[\] Done
+Processing: \MODEL AUTO NTRAJ REGION 1
+
+[\] Done
+Processing: \MODEL SIMULATE
+
+[\] Done
+Processing: \MODEL SAVE SPECTRA "/home/umar/projects/Thesis/spectraVAE/sessa_generated/spectra/case_00130_zero"
+
+[\] Done
+Processing: \PROJECT RESET
+
+[\] Done
+Processing: \SOURCE SET ALKA
+
+[\] Done
+Processing: \PREFERENCES SET ENERGY_SCALE KINETIC
+
+[\] Done
+Processing: \PREFERENCES SET DENSITY_SCALE MASS
+
+[\] Done
+Processing: \PREFERENCES SET NDIIMFP 1
+
+[\] Done
+Processing: \SPECTROMETER SET RANGE 1186.6:1206.6 REGION 1
+
+[\] Done
+Processing: \SAMPLE SET MATERIAL /C[CC_CH]0.503975470/C[C_O]0.343689492/C[C_eq_O]0.124969636/C[O_C_eq_O]0.027364403/C[pi_pi_star]0.000001000/O0.553388457/ LAYER 1
+
+[\] Done
+Processing: \SAMPLE SET DENSITY 1.27098128 LAYER 1
+
+[\] Done
+Processing: \SAMPLE SET EGAP 5.93610692 LAYER 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1202.53663049 PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.40366933 PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1201.04978899 PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.53408717 PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1199.30932344 PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.57272834 PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1198.59705081 PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.47368815 PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1196.38091903 PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.49957107 PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \MODEL SET SLA false
+
+[\] Done
+Processing: \MODEL SET TA false
+
+[\] Done
+Processing: \MODEL SET SE true
+
+[\] Done
+Processing: \MODEL SET QEAPLUS true
+
+[\] Done
+Processing: \MODEL SET CONVERGENCE 1.0e-2
+
+[\] Done
+Processing: \MODEL AUTO NCOL REGION 1
+
+[\] Done
+Processing: \MODEL AUTO NTRAJ REGION 1
+
+[\] Done
+Processing: \MODEL SIMULATE
+
+[\] Done
+Processing: \MODEL SAVE SPECTRA "/home/umar/projects/Thesis/spectraVAE/sessa_generated/spectra/case_00138_full"
+
+[\] Done
+Processing: \MODEL SET NCOL 0 REGION 1
+
+[\] Done
+Processing: \MODEL AUTO NTRAJ REGION 1
+
+[\] Done
+Processing: \MODEL SIMULATE
+
+[\] Done
+Processing: \MODEL SAVE SPECTRA "/home/umar/projects/Thesis/spectraVAE/sessa_generated/spectra/case_00138_zero"
+
+[\] Done
+Processing: \PROJECT RESET
+
+[\] Done
+Processing: \SOURCE SET ALKA
+
+[\] Done
+Processing: \PREFERENCES SET ENERGY_SCALE KINETIC
+
+[\] Done
+Processing: \PREFERENCES SET DENSITY_SCALE MASS
+
+[\] Done
+Processing: \PREFERENCES SET NDIIMFP 1
+
+[\] Done
+Processing: \SPECTROMETER SET RANGE 1186.6:1206.6 REGION 1
+
+[\] Done
+Processing: \SAMPLE SET MATERIAL /C[CC_CH]0.480700159/C[C_O]0.154901373/C[C_eq_O]0.016906050/C[O_C_eq_O]0.347491417/C[pi_pi_star]0.000001000/O0.896791125/ LAYER 1
+
+[\] Done
+Processing: \SAMPLE SET DENSITY 1.29941088 LAYER 1
+
+[\] Done
+Processing: \SAMPLE SET EGAP 6.79319313 LAYER 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1200.02016691 PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.39462878 PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1198.57624249 PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.36294076 PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1196.92338612 PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.39757763 PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1195.58899452 PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.44488897 PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1193.82037575 PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.41922051 PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \MODEL SET SLA false
+
+[\] Done
+Processing: \MODEL SET TA false
+
+[\] Done
+Processing: \MODEL SET SE true
+
+[\] Done
+Processing: \MODEL SET QEAPLUS true
+
+[\] Done
+Processing: \MODEL SET CONVERGENCE 1.0e-2
+
+[\] Done
+Processing: \MODEL AUTO NCOL REGION 1
+
+[\] Done
+Processing: \MODEL AUTO NTRAJ REGION 1
+
+[\] Done
+Processing: \MODEL SIMULATE
+
+[\] Done
+Processing: \MODEL SAVE SPECTRA "/home/umar/projects/Thesis/spectraVAE/sessa_generated/spectra/case_00146_full"
+
+[\] Done
+Processing: \MODEL SET NCOL 0 REGION 1
+
+[\] Done
+Processing: \MODEL AUTO NTRAJ REGION 1
+
+[\] Done
+Processing: \MODEL SIMULATE
+
+[\] Done
+Processing: \MODEL SAVE SPECTRA "/home/umar/projects/Thesis/spectraVAE/sessa_generated/spectra/case_00146_zero"
+
+[\] Done
+Processing: \PROJECT RESET
+
+[\] Done
+Processing: \SOURCE SET ALKA
+
+[\] Done
+Processing: \PREFERENCES SET ENERGY_SCALE KINETIC
+
+[\] Done
+Processing: \PREFERENCES SET DENSITY_SCALE MASS
+
+[\] Done
+Processing: \PREFERENCES SET NDIIMFP 1
+
+[\] Done
+Processing: \SPECTROMETER SET RANGE 1186.6:1206.6 REGION 1
+
+[\] Done
+Processing: \SAMPLE SET MATERIAL /C[CC_CH]0.204436758/C[C_O]0.000001000/C[C_eq_O]0.299404034/C[O_C_eq_O]0.496157209/C[pi_pi_star]0.000001000/O1.200000000/ LAYER 1
+
+[\] Done
+Processing: \SAMPLE SET DENSITY 1.48106931 LAYER 1
+
+[\] Done
+Processing: \SAMPLE SET EGAP 3.98616480 LAYER 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1200.13455332 PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.63065878 PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1198.88167877 PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.65344917 PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1197.43096909 PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.65739309 PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1196.04558147 PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.75302037 PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1193.94322239 PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.69019835 PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \MODEL SET SLA false
+
+[\] Done
+Processing: \MODEL SET TA false
+
+[\] Done
+Processing: \MODEL SET SE true
+
+[\] Done
+Processing: \MODEL SET QEAPLUS true
+
+[\] Done
+Processing: \MODEL SET CONVERGENCE 1.0e-2
+
+[\] Done
+Processing: \MODEL AUTO NCOL REGION 1
+
+[\] Done
+Processing: \MODEL AUTO NTRAJ REGION 1
+
+[\] Done
+Processing: \MODEL SIMULATE
+
+[\] Done
+Processing: \MODEL SAVE SPECTRA "/home/umar/projects/Thesis/spectraVAE/sessa_generated/spectra/case_00154_full"
+
+[\] Done
+Processing: \MODEL SET NCOL 0 REGION 1
+
+[\] Done
+Processing: \MODEL AUTO NTRAJ REGION 1
+
+[\] Done
+Processing: \MODEL SIMULATE
+
+[\] Done
+Processing: \MODEL SAVE SPECTRA "/home/umar/projects/Thesis/spectraVAE/sessa_generated/spectra/case_00154_zero"
+
+[\] Done
+Processing: \PROJECT RESET
+
+[\] Done
+Processing: \SOURCE SET ALKA
+
+[\] Done
+Processing: \PREFERENCES SET ENERGY_SCALE KINETIC
+
+[\] Done
+Processing: \PREFERENCES SET DENSITY_SCALE MASS
+
+[\] Done
+Processing: \PREFERENCES SET NDIIMFP 1
+
+[\] Done
+Processing: \SPECTROMETER SET RANGE 1186.6:1206.6 REGION 1
+
+[\] Done
+Processing: \SAMPLE SET MATERIAL /C[CC_CH]0.816683702/C[C_O]0.052500739/C[C_eq_O]0.000001000/C[O_C_eq_O]0.130813559/C[pi_pi_star]0.000001000/O0.344128485/ LAYER 1
+
+[\] Done
+Processing: \SAMPLE SET DENSITY 1.66046795 LAYER 1
+
+[\] Done
+Processing: \SAMPLE SET EGAP 2.71147968 LAYER 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1200.07211185 PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.44499376 PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1198.66273822 PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.47077088 PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1197.46620020 PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.45446636 PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1196.04827644 PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.42337489 PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1193.85829697 PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.43214808 PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \MODEL SET SLA false
+
+[\] Done
+Processing: \MODEL SET TA false
+
+[\] Done
+Processing: \MODEL SET SE true
+
+[\] Done
+Processing: \MODEL SET QEAPLUS true
+
+[\] Done
+Processing: \MODEL SET CONVERGENCE 1.0e-2
+
+[\] Done
+Processing: \MODEL AUTO NCOL REGION 1
+
+[\] Done
+Processing: \MODEL AUTO NTRAJ REGION 1
+
+[\] Done
+Processing: \MODEL SIMULATE
+
+[\] Done
+Processing: \MODEL SAVE SPECTRA "/home/umar/projects/Thesis/spectraVAE/sessa_generated/spectra/case_00162_full"
+
+[\] Done
+Processing: \MODEL SET NCOL 0 REGION 1
+
+[\] Done
+Processing: \MODEL AUTO NTRAJ REGION 1
+
+[\] Done
+Processing: \MODEL SIMULATE
+
+[\] Done
+Processing: \MODEL SAVE SPECTRA "/home/umar/projects/Thesis/spectraVAE/sessa_generated/spectra/case_00162_zero"
+
+[\] Done
+Processing: \PROJECT RESET
+
+[\] Done
+Processing: \SOURCE SET ALKA
+
+[\] Done
+Processing: \PREFERENCES SET ENERGY_SCALE KINETIC
+
+[\] Done
+Processing: \PREFERENCES SET DENSITY_SCALE MASS
+
+[\] Done
+Processing: \PREFERENCES SET NDIIMFP 1
+
+[\] Done
+Processing: \SPECTROMETER SET RANGE 1186.6:1206.6 REGION 1
+
+[\] Done
+Processing: \SAMPLE SET MATERIAL /C[CC_CH]0.722173022/C[C_O]0.144845007/C[C_eq_O]0.114009215/C[O_C_eq_O]0.018971756/C[pi_pi_star]0.000001000/O0.326798031/ LAYER 1
+
+[\] Done
+Processing: \SAMPLE SET DENSITY 1.60600578 LAYER 1
+
+[\] Done
+Processing: \SAMPLE SET EGAP 5.36072365 LAYER 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1200.16951553 PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.65252479 PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1198.82212806 PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.56319598 PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1197.19383577 PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.54407052 PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1196.29122438 PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.67615721 PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1193.91192158 PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.72453532 PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \MODEL SET SLA false
+
+[\] Done
+Processing: \MODEL SET TA false
+
+[\] Done
+Processing: \MODEL SET SE true
+
+[\] Done
+Processing: \MODEL SET QEAPLUS true
+
+[\] Done
+Processing: \MODEL SET CONVERGENCE 1.0e-2
+
+[\] Done
+Processing: \MODEL AUTO NCOL REGION 1
+
+[\] Done
+Processing: \MODEL AUTO NTRAJ REGION 1
+
+[\] Done
+Processing: \MODEL SIMULATE
+
+[\] Done
+Processing: \MODEL SAVE SPECTRA "/home/umar/projects/Thesis/spectraVAE/sessa_generated/spectra/case_00170_full"
+
+[\] Done
+Processing: \MODEL SET NCOL 0 REGION 1
+
+[\] Done
+Processing: \MODEL AUTO NTRAJ REGION 1
+
+[\] Done
+Processing: \MODEL SIMULATE
+
+[\] Done
+Processing: \MODEL SAVE SPECTRA "/home/umar/projects/Thesis/spectraVAE/sessa_generated/spectra/case_00170_zero"
+
+[\] Done
+Processing: \PROJECT RESET
+
+[\] Done
+Processing: \SOURCE SET ALKA
+
+[\] Done
+Processing: \PREFERENCES SET ENERGY_SCALE KINETIC
+
+[\] Done
+Processing: \PREFERENCES SET DENSITY_SCALE MASS
+
+[\] Done
+Processing: \PREFERENCES SET NDIIMFP 1
+
+[\] Done
+Processing: \SPECTROMETER SET RANGE 1186.6:1206.6 REGION 1
+
+[\] Done
+Processing: \SAMPLE SET MATERIAL /C[CC_CH]0.838761334/C[C_O]0.036517248/C[C_eq_O]0.064519604/C[O_C_eq_O]0.040045049/C[pi_pi_star]0.020156765/O0.211126950/ LAYER 1
+
+[\] Done
+Processing: \SAMPLE SET DENSITY 1.20399355 LAYER 1
+
+[\] Done
+Processing: \SAMPLE SET EGAP 2.10397165 LAYER 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1201.27949423 PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.66718066 PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1199.81636118 PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.57976721 PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1198.56481358 PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.62246415 PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1197.20027712 PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.78026617 PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1195.35465315 PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.59844090 PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \MODEL SET SLA false
+
+[\] Done
+Processing: \MODEL SET TA false
+
+[\] Done
+Processing: \MODEL SET SE true
+
+[\] Done
+Processing: \MODEL SET QEAPLUS true
+
+[\] Done
+Processing: \MODEL SET CONVERGENCE 1.0e-2
+
+[\] Done
+Processing: \MODEL AUTO NCOL REGION 1
+
+[\] Done
+Processing: \MODEL AUTO NTRAJ REGION 1
+
+[\] Done
+Processing: \MODEL SIMULATE
+
+[\] Done
+Processing: \MODEL SAVE SPECTRA "/home/umar/projects/Thesis/spectraVAE/sessa_generated/spectra/case_00178_full"
+
+[\] Done
+Processing: \MODEL SET NCOL 0 REGION 1
+
+[\] Done
+Processing: \MODEL AUTO NTRAJ REGION 1
+
+[\] Done
+Processing: \MODEL SIMULATE
+
+[\] Done
+Processing: \MODEL SAVE SPECTRA "/home/umar/projects/Thesis/spectraVAE/sessa_generated/spectra/case_00178_zero"
+
+[\] Done
+Processing: \PROJECT RESET
+
+[\] Done
+Processing: \SOURCE SET ALKA
+
+[\] Done
+Processing: \PREFERENCES SET ENERGY_SCALE KINETIC
+
+[\] Done
+Processing: \PREFERENCES SET DENSITY_SCALE MASS
+
+[\] Done
+Processing: \PREFERENCES SET NDIIMFP 1
+
+[\] Done
+Processing: \SPECTROMETER SET RANGE 1186.6:1206.6 REGION 1
+
+[\] Done
+Processing: \SAMPLE SET MATERIAL /C[CC_CH]0.773802093/C[C_O]0.027214343/C[C_eq_O]0.126519296/C[O_C_eq_O]0.072463269/C[pi_pi_star]0.000001000/O0.328660475/ LAYER 1
+
+[\] Done
+Processing: \SAMPLE SET DENSITY 1.61926995 LAYER 1
+
+[\] Done
+Processing: \SAMPLE SET EGAP 3.31067006 LAYER 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1203.16526755 PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.55677661 PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1201.62592024 PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.62863779 PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1199.85223317 PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.57000562 PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1198.96364699 PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.65298316 PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1196.67142945 PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.55553306 PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \MODEL SET SLA false
+
+[\] Done
+Processing: \MODEL SET TA false
+
+[\] Done
+Processing: \MODEL SET SE true
+
+[\] Done
+Processing: \MODEL SET QEAPLUS true
+
+[\] Done
+Processing: \MODEL SET CONVERGENCE 1.0e-2
+
+[\] Done
+Processing: \MODEL AUTO NCOL REGION 1
+
+[\] Done
+Processing: \MODEL AUTO NTRAJ REGION 1
+
+[\] Done
+Processing: \MODEL SIMULATE
+
+[\] Done
+Processing: \MODEL SAVE SPECTRA "/home/umar/projects/Thesis/spectraVAE/sessa_generated/spectra/case_00186_full"
+
+[\] Done
+Processing: \MODEL SET NCOL 0 REGION 1
+
+[\] Done
+Processing: \MODEL AUTO NTRAJ REGION 1
+
+[\] Done
+Processing: \MODEL SIMULATE
+
+[\] Done
+Processing: \MODEL SAVE SPECTRA "/home/umar/projects/Thesis/spectraVAE/sessa_generated/spectra/case_00186_zero"
+
+[\] Done
+Processing: \PROJECT RESET
+
+[\] Done
+Processing: \SOURCE SET ALKA
+
+[\] Done
+Processing: \PREFERENCES SET ENERGY_SCALE KINETIC
+
+[\] Done
+Processing: \PREFERENCES SET DENSITY_SCALE MASS
+
+[\] Done
+Processing: \PREFERENCES SET NDIIMFP 1
+
+[\] Done
+Processing: \SPECTROMETER SET RANGE 1186.6:1206.6 REGION 1
+
+[\] Done
+Processing: \SAMPLE SET MATERIAL /C[CC_CH]0.155194194/C[C_O]0.354798509/C[C_eq_O]0.422604705/C[O_C_eq_O]0.067401591/C[pi_pi_star]0.000001000/O0.942207309/ LAYER 1
+
+[\] Done
+Processing: \SAMPLE SET DENSITY 1.42031501 LAYER 1
+
+[\] Done
+Processing: \SAMPLE SET EGAP 6.92099551 LAYER 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1200.45117413 PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.68684908 PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1198.82008209 PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.57145059 PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1197.58916286 PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.74837236 PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1196.23293855 PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.66559579 PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1193.82084095 PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.55313424 PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \MODEL SET SLA false
+
+[\] Done
+Processing: \MODEL SET TA false
+
+[\] Done
+Processing: \MODEL SET SE true
+
+[\] Done
+Processing: \MODEL SET QEAPLUS true
+
+[\] Done
+Processing: \MODEL SET CONVERGENCE 1.0e-2
+
+[\] Done
+Processing: \MODEL AUTO NCOL REGION 1
+
+[\] Done
+Processing: \MODEL AUTO NTRAJ REGION 1
+
+[\] Done
+Processing: \MODEL SIMULATE
+
+[\] Done
+Processing: \MODEL SAVE SPECTRA "/home/umar/projects/Thesis/spectraVAE/sessa_generated/spectra/case_00194_full"
+
+[\] Done
+Processing: \MODEL SET NCOL 0 REGION 1
+
+[\] Done
+Processing: \MODEL AUTO NTRAJ REGION 1
+
+[\] Done
+Processing: \MODEL SIMULATE
+
+[\] Done
+Processing: \MODEL SAVE SPECTRA "/home/umar/projects/Thesis/spectraVAE/sessa_generated/spectra/case_00194_zero"
+
+[\] Done
+Processing: \PROJECT RESET
+
+[\] Done
+Processing: \SOURCE SET ALKA
+
+[\] Done
+Processing: \PREFERENCES SET ENERGY_SCALE KINETIC
+
+[\] Done
+Processing: \PREFERENCES SET DENSITY_SCALE MASS
+
+[\] Done
+Processing: \PREFERENCES SET NDIIMFP 1
+
+[\] Done
+Processing: \SPECTROMETER SET RANGE 1186.6:1206.6 REGION 1
+
+[\] Done
+Processing: \SAMPLE SET MATERIAL /C[CC_CH]0.679298406/C[C_O]0.008156125/C[C_eq_O]0.015357445/C[O_C_eq_O]0.138955982/C[pi_pi_star]0.158232042/O0.331425534/ LAYER 1
+
+[\] Done
+Processing: \SAMPLE SET DENSITY 1.61882604 LAYER 1
+
+[\] Done
+Processing: \SAMPLE SET EGAP 0.00000000 LAYER 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1200.00097579 PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.50640648 PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1198.73142627 PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.63531247 PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1196.55577540 PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.61204249 PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1195.56594987 PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.43616213 PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1193.84885827 PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.61288101 PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \MODEL SET SLA false
+
+[\] Done
+Processing: \MODEL SET TA false
+
+[\] Done
+Processing: \MODEL SET SE true
+
+[\] Done
+Processing: \MODEL SET QEAPLUS true
+
+[\] Done
+Processing: \MODEL SET CONVERGENCE 1.0e-2
+
+[\] Done
+Processing: \MODEL AUTO NCOL REGION 1
+
+[\] Done
+Processing: \MODEL AUTO NTRAJ REGION 1
+
+[\] Done
+Processing: \MODEL SIMULATE
+
+[\] Done
+Processing: \MODEL SAVE SPECTRA "/home/umar/projects/Thesis/spectraVAE/sessa_generated/spectra/case_00202_full"
+
+[\] Done
+Processing: \MODEL SET NCOL 0 REGION 1
+
+[\] Done
+Processing: \MODEL AUTO NTRAJ REGION 1
+
+[\] Done
+Processing: \MODEL SIMULATE
+
+[\] Done
+Processing: \MODEL SAVE SPECTRA "/home/umar/projects/Thesis/spectraVAE/sessa_generated/spectra/case_00202_zero"
+
+[\] Done
+Processing: \PROJECT RESET
+
+[\] Done
+Processing: \SOURCE SET ALKA
+
+[\] Done
+Processing: \PREFERENCES SET ENERGY_SCALE KINETIC
+
+[\] Done
+Processing: \PREFERENCES SET DENSITY_SCALE MASS
+
+[\] Done
+Processing: \PREFERENCES SET NDIIMFP 1
+
+[\] Done
+Processing: \SPECTROMETER SET RANGE 1186.6:1206.6 REGION 1
+
+[\] Done
+Processing: \SAMPLE SET MATERIAL /C[CC_CH]0.258638622/C[C_O]0.508430916/C[C_eq_O]0.090036683/C[O_C_eq_O]0.142892778/C[pi_pi_star]0.000001000/O0.914254040/ LAYER 1
+
+[\] Done
+Processing: \SAMPLE SET DENSITY 1.70017064 LAYER 1
+
+[\] Done
+Processing: \SAMPLE SET EGAP 5.38198984 LAYER 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1202.97938351 PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.50340841 PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1201.81394921 PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.47829580 PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1200.12117080 PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.57101223 PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1198.93176109 PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.44141903 PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1196.73291074 PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.58167892 PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \MODEL SET SLA false
+
+[\] Done
+Processing: \MODEL SET TA false
+
+[\] Done
+Processing: \MODEL SET SE true
+
+[\] Done
+Processing: \MODEL SET QEAPLUS true
+
+[\] Done
+Processing: \MODEL SET CONVERGENCE 1.0e-2
+
+[\] Done
+Processing: \MODEL AUTO NCOL REGION 1
+
+[\] Done
+Processing: \MODEL AUTO NTRAJ REGION 1
+
+[\] Done
+Processing: \MODEL SIMULATE
+
+[\] Done
+Processing: \MODEL SAVE SPECTRA "/home/umar/projects/Thesis/spectraVAE/sessa_generated/spectra/case_00210_full"
+
+[\] Done
+Processing: \MODEL SET NCOL 0 REGION 1
+
+[\] Done
+Processing: \MODEL AUTO NTRAJ REGION 1
+
+[\] Done
+Processing: \MODEL SIMULATE
+
+[\] Done
+Processing: \MODEL SAVE SPECTRA "/home/umar/projects/Thesis/spectraVAE/sessa_generated/spectra/case_00210_zero"
+
+[\] Done
+Processing: \PROJECT RESET
+
+[\] Done
+Processing: \SOURCE SET ALKA
+
+[\] Done
+Processing: \PREFERENCES SET ENERGY_SCALE KINETIC
+
+[\] Done
+Processing: \PREFERENCES SET DENSITY_SCALE MASS
+
+[\] Done
+Processing: \PREFERENCES SET NDIIMFP 1
+
+[\] Done
+Processing: \SPECTROMETER SET RANGE 1186.6:1206.6 REGION 1
+
+[\] Done
+Processing: \SAMPLE SET MATERIAL /C[CC_CH]0.280146106/C[C_O]0.000001000/C[C_eq_O]0.549690251/C[O_C_eq_O]0.170161643/C[pi_pi_star]0.000001000/O0.920015317/ LAYER 1
+
+[\] Done
+Processing: \SAMPLE SET DENSITY 1.57419547 LAYER 1
+
+[\] Done
+Processing: \SAMPLE SET EGAP 5.48745433 LAYER 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1200.20202302 PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.71798602 PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1198.91895405 PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.63444783 PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1197.26419775 PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.63739482 PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1195.59889472 PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.71834012 PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1193.57359005 PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.62223012 PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \MODEL SET SLA false
+
+[\] Done
+Processing: \MODEL SET TA false
+
+[\] Done
+Processing: \MODEL SET SE true
+
+[\] Done
+Processing: \MODEL SET QEAPLUS true
+
+[\] Done
+Processing: \MODEL SET CONVERGENCE 1.0e-2
+
+[\] Done
+Processing: \MODEL AUTO NCOL REGION 1
+
+[\] Done
+Processing: \MODEL AUTO NTRAJ REGION 1
+
+[\] Done
+Processing: \MODEL SIMULATE
+
+[\] Done
+Processing: \MODEL SAVE SPECTRA "/home/umar/projects/Thesis/spectraVAE/sessa_generated/spectra/case_00218_full"
+
+[\] Done
+Processing: \MODEL SET NCOL 0 REGION 1
+
+[\] Done
+Processing: \MODEL AUTO NTRAJ REGION 1
+
+[\] Done
+Processing: \MODEL SIMULATE
+
+[\] Done
+Processing: \MODEL SAVE SPECTRA "/home/umar/projects/Thesis/spectraVAE/sessa_generated/spectra/case_00218_zero"
+
+[\] Done
+Processing: \PROJECT RESET
+
+[\] Done
+Processing: \SOURCE SET ALKA
+
+[\] Done
+Processing: \PREFERENCES SET ENERGY_SCALE KINETIC
+
+[\] Done
+Processing: \PREFERENCES SET DENSITY_SCALE MASS
+
+[\] Done
+Processing: \PREFERENCES SET NDIIMFP 1
+
+[\] Done
+Processing: \SPECTROMETER SET RANGE 1186.6:1206.6 REGION 1
+
+[\] Done
+Processing: \SAMPLE SET MATERIAL /C[CC_CH]0.793778974/C[C_O]0.117928688/C[C_eq_O]0.008439312/C[O_C_eq_O]0.079852027/C[pi_pi_star]0.000001000/O0.316072340/ LAYER 1
+
+[\] Done
+Processing: \SAMPLE SET DENSITY 1.44045028 LAYER 1
+
+[\] Done
+Processing: \SAMPLE SET EGAP 5.08205050 LAYER 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1201.90265635 PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.37035015 PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1200.38871744 PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.46572416 PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1198.93617183 PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.42629389 PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1197.69308265 PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.47598590 PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1195.99638338 PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.38437829 PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \MODEL SET SLA false
+
+[\] Done
+Processing: \MODEL SET TA false
+
+[\] Done
+Processing: \MODEL SET SE true
+
+[\] Done
+Processing: \MODEL SET QEAPLUS true
+
+[\] Done
+Processing: \MODEL SET CONVERGENCE 1.0e-2
+
+[\] Done
+Processing: \MODEL AUTO NCOL REGION 1
+
+[\] Done
+Processing: \MODEL AUTO NTRAJ REGION 1
+
+[\] Done
+Processing: \MODEL SIMULATE
+
+[\] Done
+Processing: \MODEL SAVE SPECTRA "/home/umar/projects/Thesis/spectraVAE/sessa_generated/spectra/case_00226_full"
+
+[\] Done
+Processing: \MODEL SET NCOL 0 REGION 1
+
+[\] Done
+Processing: \MODEL AUTO NTRAJ REGION 1
+
+[\] Done
+Processing: \MODEL SIMULATE
+
+[\] Done
+Processing: \MODEL SAVE SPECTRA "/home/umar/projects/Thesis/spectraVAE/sessa_generated/spectra/case_00226_zero"
+
+[\] Done
+Processing: \PROJECT RESET
+
+[\] Done
+Processing: \SOURCE SET ALKA
+
+[\] Done
+Processing: \PREFERENCES SET ENERGY_SCALE KINETIC
+
+[\] Done
+Processing: \PREFERENCES SET DENSITY_SCALE MASS
+
+[\] Done
+Processing: \PREFERENCES SET NDIIMFP 1
+
+[\] Done
+Processing: \SPECTROMETER SET RANGE 1186.6:1206.6 REGION 1
+
+[\] Done
+Processing: \SAMPLE SET MATERIAL /C[CC_CH]0.136251445/C[C_O]0.208252648/C[C_eq_O]0.380273234/C[O_C_eq_O]0.275221673/C[pi_pi_star]0.000001000/O1.168970367/ LAYER 1
+
+[\] Done
+Processing: \SAMPLE SET DENSITY 1.24622998 LAYER 1
+
+[\] Done
+Processing: \SAMPLE SET EGAP 4.09419224 LAYER 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1201.36546013 PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.40290190 PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1200.00612072 PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.48652241 PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1198.64928063 PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.44716308 PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1197.03685198 PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.54686523 PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1195.10295118 PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.51860601 PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \MODEL SET SLA false
+
+[\] Done
+Processing: \MODEL SET TA false
+
+[\] Done
+Processing: \MODEL SET SE true
+
+[\] Done
+Processing: \MODEL SET QEAPLUS true
+
+[\] Done
+Processing: \MODEL SET CONVERGENCE 1.0e-2
+
+[\] Done
+Processing: \MODEL AUTO NCOL REGION 1
+
+[\] Done
+Processing: \MODEL AUTO NTRAJ REGION 1
+
+[\] Done
+Processing: \MODEL SIMULATE
+
+[\] Done
+Processing: \MODEL SAVE SPECTRA "/home/umar/projects/Thesis/spectraVAE/sessa_generated/spectra/case_00234_full"
+
+[\] Done
+Processing: \MODEL SET NCOL 0 REGION 1
+
+[\] Done
+Processing: \MODEL AUTO NTRAJ REGION 1
+
+[\] Done
+Processing: \MODEL SIMULATE
+
+[\] Done
+Processing: \MODEL SAVE SPECTRA "/home/umar/projects/Thesis/spectraVAE/sessa_generated/spectra/case_00234_zero"
+
+[\] Done
+Processing: \PROJECT RESET
+
+[\] Done
+Processing: \SOURCE SET ALKA
+
+[\] Done
+Processing: \PREFERENCES SET ENERGY_SCALE KINETIC
+
+[\] Done
+Processing: \PREFERENCES SET DENSITY_SCALE MASS
+
+[\] Done
+Processing: \PREFERENCES SET NDIIMFP 1
+
+[\] Done
+Processing: \SPECTROMETER SET RANGE 1186.6:1206.6 REGION 1
+
+[\] Done
+Processing: \SAMPLE SET MATERIAL /C[CC_CH]0.036205916/C[C_O]0.242914927/C[C_eq_O]0.611773544/C[O_C_eq_O]0.109104614/C[pi_pi_star]0.000001000/O1.102898771/ LAYER 1
+
+[\] Done
+Processing: \SAMPLE SET DENSITY 1.32080612 LAYER 1
+
+[\] Done
+Processing: \SAMPLE SET EGAP 4.99480627 LAYER 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1199.51130008 PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.39978320 PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1198.06224398 PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.34395481 PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1196.65854437 PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.37128391 PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1195.04070603 PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.39438945 PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1193.10343582 PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.39979075 PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \MODEL SET SLA false
+
+[\] Done
+Processing: \MODEL SET TA false
+
+[\] Done
+Processing: \MODEL SET SE true
+
+[\] Done
+Processing: \MODEL SET QEAPLUS true
+
+[\] Done
+Processing: \MODEL SET CONVERGENCE 1.0e-2
+
+[\] Done
+Processing: \MODEL AUTO NCOL REGION 1
+
+[\] Done
+Processing: \MODEL AUTO NTRAJ REGION 1
+
+[\] Done
+Processing: \MODEL SIMULATE
+
+[\] Done
+Processing: \MODEL SAVE SPECTRA "/home/umar/projects/Thesis/spectraVAE/sessa_generated/spectra/case_00242_full"
+
+[\] Done
+Processing: \MODEL SET NCOL 0 REGION 1
+
+[\] Done
+Processing: \MODEL AUTO NTRAJ REGION 1
+
+[\] Done
+Processing: \MODEL SIMULATE
+
+[\] Done
+Processing: \MODEL SAVE SPECTRA "/home/umar/projects/Thesis/spectraVAE/sessa_generated/spectra/case_00242_zero"
+
+[\] Done
+Processing: \PROJECT RESET
+
+[\] Done
+Processing: \SOURCE SET ALKA
+
+[\] Done
+Processing: \PREFERENCES SET ENERGY_SCALE KINETIC
+
+[\] Done
+Processing: \PREFERENCES SET DENSITY_SCALE MASS
+
+[\] Done
+Processing: \PREFERENCES SET NDIIMFP 1
+
+[\] Done
+Processing: \SPECTROMETER SET RANGE 1186.6:1206.6 REGION 1
+
+[\] Done
+Processing: \SAMPLE SET MATERIAL /C[CC_CH]0.031854070/C[C_O]0.491936285/C[C_eq_O]0.155921861/C[O_C_eq_O]0.320286784/C[pi_pi_star]0.000001000/O1.200000000/ LAYER 1
+
+[\] Done
+Processing: \SAMPLE SET DENSITY 1.31457569 LAYER 1
+
+[\] Done
+Processing: \SAMPLE SET EGAP 3.29492868 LAYER 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1201.57592830 PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.43303062 PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1200.22576743 PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.41740324 PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 2 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1199.24585528 PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.39515955 PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 3 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1197.69174281 PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.44713905 PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 4 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1195.60543167 PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET WIDTH 0.46783953 PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET HEIGHT 1.0 PEAK 5 SUBPEAK 1
+
+[\] Done
+Processing: \MODEL SET SLA false
+
+[\] Done
+Processing: \MODEL SET TA false
+
+[\] Done
+Processing: \MODEL SET SE true
+
+[\] Done
+Processing: \MODEL SET QEAPLUS true
+
+[\] Done
+Processing: \MODEL SET CONVERGENCE 1.0e-2
+
+[\] Done
+Processing: \MODEL AUTO NCOL REGION 1
+
+[\] Done
+Processing: \MODEL AUTO NTRAJ REGION 1
+
+[\] Done
+Processing: \MODEL SIMULATE
+
+[\] Done
+Processing: \MODEL SAVE SPECTRA "/home/umar/projects/Thesis/spectraVAE/sessa_generated/spectra/case_00250_full"
+
+[\] Done
+Processing: \MODEL SET NCOL 0 REGION 1
+
+[\] Done
+Processing: \MODEL AUTO NTRAJ REGION 1
+
+[\] Done
+Processing: \MODEL SIMULATE
+
+[\] Done
+Processing: \MODEL SAVE SPECTRA "/home/umar/projects/Thesis/spectraVAE/sessa_generated/spectra/case_00250_zero"
+
+[\] Done
+Processing: \PROJECT RESET
+
+[\] Done
+Processing: \SOURCE SET ALKA
+
+[\] Done
+Processing: \PREFERENCES SET ENERGY_SCALE KINETIC
+
+[\] Done
+Processing: \PREFERENCES SET DENSITY_SCALE MASS
+
+[\] Done
+Processing: \PREFERENCES SET NDIIMFP 1
+
+[\] Done
+Processing: \SPECTROMETER SET RANGE 1186.6:1206.6 REGION 1
+
+[\] Done
+Processing: \SAMPLE SET MATERIAL /C[CC_CH]0.408211149/C[C_O]0.158797196/C[C_eq_O]0.149377118/C[O_C_eq_O]0.283613537/C[pi_pi_star]0.000001000/O0.905402264/ LAYER 1
+
+[\] Done
+Processing: \SAMPLE SET DENSITY 1.31942328 LAYER 1
+
+[\] Done
+Processing: \SAMPLE SET EGAP 3.57334797 LAYER 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET TYPE GAUSS PEAK 1 SUBPEAK 1
+
+[\] Done
+Processing: \SAMPLE PEAK SET POSITION 1201.85865111 PEAK 1 SUBPEAK 1

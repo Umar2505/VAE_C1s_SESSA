@@ -1,0 +1,16 @@
+name: VAE
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - numpy
+  - pandas
+  - matplotlib
+  - scikit-learn
+  - tensorflow
+  - keras
+  - jupyter
+  - notebook
+  - openpyxl
+  - pytorch
