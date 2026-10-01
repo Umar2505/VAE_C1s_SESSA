@@ -86,6 +86,8 @@ def commands_for_case(case_id: int, case: dict, spectra_dir: Path) -> list[str]:
             f"\\SAMPLE PEAK SET TYPE GAUSS PEAK {peak} SUBPEAK 1",
             f"\\SAMPLE PEAK SET POSITION {kinetic_center:.8f} PEAK {peak} SUBPEAK 1",
             f"\\SAMPLE PEAK SET WIDTH {sigma:.8f} PEAK {peak} SUBPEAK 1",
+            # SESSA uses relative subpeak height here. Detector-count heights are
+            # recovered from its zero-loss output when packaging the dataset.
             f"\\SAMPLE PEAK SET HEIGHT 1.0 PEAK {peak} SUBPEAK 1",
         ])
     lines.extend([

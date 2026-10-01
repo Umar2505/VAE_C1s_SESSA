@@ -8,6 +8,7 @@ dependencies:
   - pandas
   - matplotlib
   - scikit-learn
+  - scipy
   - tensorflow
   - keras
   - jupyter

@@ -68,8 +68,9 @@ setting does not populate the C 1s peak list reliably in console mode. The conve
 binding energy uses Al K-alpha = 1486.6 eV and is performed automatically by the dataset builder.
 
 The resulting NPZ contains the energy axis, noisy spectra, expected totals, zero-loss clean
-signals, SESSA-derived inelastic backgrounds, component centres, FWHMs, fractions, physical
-case IDs, and noise-realization IDs. Split training/validation/testing by `case_id`, not by row.
+signals, SESSA-derived inelastic backgrounds, component centres, FWHMs, material fractions,
+isolated peak heights in counts, physical case IDs, and noise-realization IDs. Split
+training/validation/testing by `case_id`, not by row.
 
 ### Preferred self-contained HDF5 layout
 
@@ -83,7 +84,19 @@ python sessa_atmospheric/build_h5_dataset.py \
 ```
 
 This creates 12,000 `.h5` files containing 60,000 acquisitions in total. Each file includes
-the spectra, energy axis, peak names, centres, FWHMs, fractions, presence mask, atmospheric
-family, aging index, O:C ratio, density, band gap, charging shift, count scale, noise labels,
+the spectra, energy axis, peak names, centres, FWHMs, material fractions, isolated peak heights
+in counts, presence mask, atmospheric family, aging index, O:C ratio, density, band gap,
+charging shift, count scale, noise labels,
 SESSA version, photon energy, and a train/validation/test assignment. `dataset_index.csv`
 provides a lightweight catalogue of every file.
+
+`peaks/height_counts` has shape `(acquisitions, components)`. It is the maximum intensity
+of each **isolated** zero-loss Gaussian component, after that acquisition's count scaling.
+The builder obtains it by non-negative least squares against the SESSA zero-loss spectrum
+using the recorded centres and FWHMs. Absent components have height zero, and
+`peaks/height_fit_nrmse` records the decomposition error. The existing `area_fraction`
+field is a nominal material fraction, not an observed component height or fitted area.
+SESSA's `SAMPLE PEAK SET HEIGHT 1.0` specifies a relative subpeak height in arbitrary
+units; it is not a detector-count label. The loader can derive height labels from older
+HDF5 files, so SESSA simulations do not need to be repeated. Rebuild the HDF5 files only
+if the height labels should be stored in each file.

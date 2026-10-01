@@ -10,7 +10,7 @@ from pathlib import Path
 import h5py
 import numpy as np
 
-from build_vae_dataset import AXIS, LABELS, find_spectrum, interpolate
+from build_vae_dataset import AXIS, LABELS, find_spectrum, interpolate, zero_loss_peak_heights
 
 
 DISPLAY_NAMES = np.asarray(["C-C/C-H", "C-O/C-N", "C=O/O-C-O", "O-C=O/COO-", "pi-pi*"], dtype=object)
@@ -40,6 +40,7 @@ def write_case(
     widths = np.asarray([float(row[f"fwhm_{name}"]) for name in LABELS], dtype=np.float32)
     fractions = np.asarray([float(row[f"fraction_{name}"]) for name in LABELS], dtype=np.float32)
     present = fractions > 0.0
+    raw_heights, height_fit_nrmse = zero_loss_peak_heights(zero, centers, widths, present)
     aging = float(row["aging"])
     family = atmospheric_family(aging, fractions)
     rng = np.random.default_rng(seed + case_id * 1_000_003)
@@ -51,6 +52,7 @@ def write_case(
     count_scale = np.empty(replicates, dtype=np.float32)
     target_maximum = np.empty(replicates, dtype=np.float32)
     read_noise_sigma = np.empty(replicates, dtype=np.float32)
+    peak_heights = np.empty((replicates, len(LABELS)), dtype=np.float32)
 
     for sweep in range(replicates):
         target_max = 10.0 ** rng.uniform(np.log10(200.0), np.log10(150_000.0))
@@ -66,13 +68,14 @@ def write_case(
         count_scale[sweep] = scale
         target_maximum[sweep] = target_max
         read_noise_sigma[sweep] = read_sigma
+        peak_heights[sweep] = raw_heights * scale
 
     destination.parent.mkdir(parents=True, exist_ok=True)
     string_dtype = h5py.string_dtype(encoding="utf-8")
     with h5py.File(destination, "w") as handle:
         handle.attrs.update({
             "schema_name": "atmospheric_xps_c1s_vae",
-            "schema_version": "1.0.0",
+            "schema_version": "1.1.0",
             "case_id": case_id,
             "split": split,
             "atmospheric_family": family,
@@ -113,7 +116,13 @@ def write_case(
         peaks.create_dataset("binding_energy_eV", data=centers)
         peaks.create_dataset("fwhm_eV", data=widths)
         peaks.create_dataset("area_fraction", data=fractions)
+        peaks["area_fraction"].attrs["role"] = "nominal material fraction; not fitted component area"
         peaks.create_dataset("present", data=present)
+        peak_height = peaks.create_dataset("height_counts", data=peak_heights)
+        peak_height.attrs["units"] = "counts"
+        peak_height.attrs["role"] = "isolated zero-loss Gaussian component height per acquisition"
+        peak_height.attrs["method"] = "non-negative least squares using labelled centers and FWHM"
+        peaks.create_dataset("height_fit_nrmse", data=np.float32(height_fit_nrmse))
         peaks.create_dataset("shape", data=np.asarray(["Gaussian"] * 5, dtype=object), dtype=string_dtype)
 
         sample = handle.create_group("sample_labels")

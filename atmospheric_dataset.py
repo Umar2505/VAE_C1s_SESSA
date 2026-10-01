@@ -11,6 +11,7 @@ import numpy as np
 
 SCHEMA_NAME = "atmospheric_xps_c1s_vae"
 REQUIRED_SPLITS = {"train", "validation", "test"}
+CACHE_LAYOUT = "peak_height_v1"
 
 
 def _text(value: object) -> str:
@@ -18,11 +19,11 @@ def _text(value: object) -> str:
 
 
 def h5_manifest(data_root: Path) -> np.ndarray:
-    """Return a cache key that changes when the index or case files change."""
+    """Return a cache key that changes with loader layout or dataset files."""
     data_root = Path(data_root)
     paths = sorted(data_root.glob("atmospheric_c1s_case_*.h5"))
     index_path = data_root / "dataset_index.csv"
-    records = []
+    records = [f"loader|{CACHE_LAYOUT}"]
     for path in ([index_path] if index_path.exists() else []) + paths:
         stat = path.stat()
         records.append(f"{path.name}|{stat.st_size}|{stat.st_mtime_ns}")
@@ -48,7 +49,8 @@ def load_atmospheric_c1s(
     parts: dict[str, list[np.ndarray]] = {
         name: [] for name in (
             "noisy", "clean", "background", "expected_total", "peak_center",
-            "peak_width", "peak_fraction", "peak_present", "photon_energy",
+            "peak_width", "peak_fraction", "peak_height", "peak_height_fit_nrmse",
+            "peak_present", "photon_energy",
             "case_id", "source", "sweep", "split", "atmospheric_family",
             "aging_index", "oxygen_to_carbon_ratio", "mass_density_g_cm3",
             "band_gap_eV", "charge_shift_eV", "count_scale",
@@ -89,6 +91,26 @@ def load_atmospheric_c1s(
             parts["peak_width"].append(_repeat_rows(handle["peaks/fwhm_eV"][:], n_acquisitions))
             parts["peak_fraction"].append(_repeat_rows(handle["peaks/area_fraction"][:], n_acquisitions))
             parts["peak_present"].append(_repeat_rows(handle["peaks/present"][:], n_acquisitions))
+            if "height_counts" in handle["peaks"]:
+                peak_height = handle["peaks/height_counts"][:].astype(np.float32)
+                fit_nrmse = float(handle["peaks/height_fit_nrmse"][()])
+            else:
+                # Older HDF5 files retain the raw zero-loss spectrum and count scale.
+                # Derive the same height labels without rerunning SESSA.
+                from sessa_atmospheric.build_vae_dataset import zero_loss_peak_heights
+
+                raw_height, fit_nrmse = zero_loss_peak_heights(
+                    handle["spectra/raw_sessa_zero_loss"][:],
+                    handle["peaks/binding_energy_eV"][:],
+                    handle["peaks/fwhm_eV"][:],
+                    handle["peaks/present"][:],
+                )
+                count_scale = handle["acquisition_labels/count_scale"][:].astype(np.float32)
+                peak_height = count_scale[:, None] * raw_height[None, :]
+            if peak_height.shape != (n_acquisitions, len(names)):
+                raise ValueError(f"Unexpected peak-height shape in {path}: {peak_height.shape}")
+            parts["peak_height"].append(peak_height)
+            parts["peak_height_fit_nrmse"].append(np.full(n_acquisitions, fit_nrmse, np.float32))
 
             case_id = int(handle.attrs["case_id"])
             split = _text(handle.attrs["split"])
@@ -117,6 +139,6 @@ def load_atmospheric_c1s(
     found_splits = set(np.unique(result["split"]).tolist())
     if found_splits != REQUIRED_SPLITS:
         raise ValueError(f"Expected splits {sorted(REQUIRED_SPLITS)}, found {sorted(found_splits)}")
-    if not all(np.isfinite(result[name]).all() for name in ("noisy", "expected_total", "background")):
+    if not all(np.isfinite(result[name]).all() for name in ("noisy", "expected_total", "background", "peak_height")):
         raise ValueError("Spectra contain non-finite values")
     return result
