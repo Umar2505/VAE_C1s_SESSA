@@ -34,6 +34,8 @@ def write_case(
     replicates: int,
     seed: int,
     split: str,
+    target_maxima: np.ndarray | None = None,
+    continuation_stratum: str | None = None,
 ) -> dict[str, object]:
     case_id = int(row["case_id"])
     centers = np.asarray([float(row[f"center_{name}"]) for name in LABELS], dtype=np.float32)
@@ -53,9 +55,14 @@ def write_case(
     target_maximum = np.empty(replicates, dtype=np.float32)
     read_noise_sigma = np.empty(replicates, dtype=np.float32)
     peak_heights = np.empty((replicates, len(LABELS)), dtype=np.float32)
+    if target_maxima is not None:
+        target_maxima = np.asarray(target_maxima, dtype=np.float64)
+        if target_maxima.shape != (replicates,) or not np.isfinite(target_maxima).all() or np.any(target_maxima <= 0):
+            raise ValueError("target_maxima must contain one positive finite value per acquisition")
 
     for sweep in range(replicates):
-        target_max = 10.0 ** rng.uniform(np.log10(200.0), np.log10(150_000.0))
+        target_max = (float(target_maxima[sweep]) if target_maxima is not None else
+                      10.0 ** rng.uniform(np.log10(200.0), np.log10(150_000.0)))
         scale = target_max / max(float(full.max()), 1.0e-30)
         expectation = np.maximum(full * scale, 0.0)
         read_sigma = float(rng.uniform(0.0, 1.5))
@@ -91,6 +98,8 @@ def write_case(
             "number_of_acquisitions": replicates,
             "random_seed": seed + case_id * 1_000_003,
         })
+        if continuation_stratum is not None:
+            handle.attrs["continuation_stratum"] = continuation_stratum
 
         energy = handle.create_dataset("energy_eV", data=AXIS.astype(np.float32))
         energy.attrs["units"] = "eV"

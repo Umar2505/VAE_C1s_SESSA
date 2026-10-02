@@ -100,3 +100,47 @@ SESSA's `SAMPLE PEAK SET HEIGHT 1.0` specifies a relative subpeak height in arbi
 units; it is not a detector-count label. The loader can derive height labels from older
 HDF5 files, so SESSA simulations do not need to be repeated. Rebuild the HDF5 files only
 if the height labels should be stored in each file.
+
+## Targeted continuation after the 12,000-case baseline
+
+The saved vanilla VAE is weakest on low-count C 1s spectra, especially when the
+pi-pi* component is strong or peaks are narrow. `continue_dataset.py` prepares **only** IDs
+12000-13999. It selects new physical cases from the original parameter ranges:
+1,200 have strong pi-pi* with negative, central, or positive charging shifts;
+400 have a moderate pi-pi* component with positive shift; and 400 have weak or
+absent pi-pi* but a complex positively shifted multiplet. Each case gets four
+200-1,000-count acquisitions and one 1,000-10,000-count acquisition. This is
+2,000 new physical cases and 10,000 new acquisitions, not a rebuild of the old
+12,000 cases.
+
+```bash
+python sessa_atmospheric/continue_dataset.py prepare --cases 2000 --shards 8
+python sessa_atmospheric/run_sessa_shards.py \
+  --input sessa_generated \
+  --sessa /absolute/path/to/sessa \
+  --library-dir /absolute/path/to/sessa/lib \
+  --workers 8 \
+  --pattern 'atmospheric_c1s_continuation_*.ses'
+python sessa_atmospheric/continue_dataset.py package --cases 2000
+```
+
+The runner skips completed new cases on retry. Packaging writes only new HDF5
+files and then appends their rows to `dataset_index.csv` and
+`physical_cases.csv`. The original splits stay fixed; the continuation adds
+1,400 training, 300 validation, and 300 test cases, stratified within the five
+new regimes. The vanilla notebook now samples weak, pi-rich, and narrow-peak **training**
+acquisitions more often; validation and test sampling remain unchanged. Its
+saved plots and metrics still describe the original 12,000-case checkpoint.
+The old test cases informed the choice of continuation regimes, so report the
+new held-out continuation test cases separately when judging the retrained model.
+
+To audit that checkpoint on the original test set and, after packaging, the
+new continuation test set without running notebook cells:
+
+```bash
+python sessa_atmospheric/evaluate_vanilla_slices.py
+```
+
+After retraining the notebook, point `--checkpoint` at its newly saved
+`outputs/atmospheric_vanilla_vae_zero_loss/best_vanilla_vae_zero_loss.pt`
+and choose a separate `--output` name to compare both checkpoints.

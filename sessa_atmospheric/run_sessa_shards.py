@@ -102,6 +102,8 @@ def main() -> None:
     parser.add_argument("--workers", type=int, default=8)
     parser.add_argument("--attempts", type=int, default=3)
     parser.add_argument("--pattern", default="atmospheric_c1s_batch*.ses")
+    parser.add_argument("--limit", type=int, default=None,
+                        help="Run at most this many pending cases (useful for a pilot)")
     args = parser.parse_args()
 
     root = args.input.resolve()
@@ -116,7 +118,14 @@ def main() -> None:
         if not (spectra / f"case_{case_id:05d}_fullreg1.spc").exists()
         or not (spectra / f"case_{case_id:05d}_zeroreg1.spc").exists()
     }
-    print(f"cases discovered={len(blocks):,}; already complete={len(blocks)-len(pending):,}; pending={len(pending):,}")
+    already_complete = len(blocks) - len(pending)
+    remaining = len(pending)
+    if args.limit is not None:
+        if args.limit < 1:
+            parser.error("--limit must be positive")
+        pending = dict(sorted(pending.items())[:args.limit])
+    print(f"cases discovered={len(blocks):,}; already complete={already_complete:,}; "
+          f"remaining={remaining:,}; selected this run={len(pending):,}")
 
     env = os.environ.copy()
     existing = env.get("LD_LIBRARY_PATH", "")
@@ -149,7 +158,7 @@ def main() -> None:
 
     if failures:
         raise SystemExit(f"{len(failures)} cases failed; rerun the same command to retry only missing cases")
-    print(f"SESSA generation complete: {len(blocks):,} physical cases", flush=True)
+    print(f"SESSA generation complete for this run: {len(pending):,} physical cases", flush=True)
 
 
 if __name__ == "__main__":
