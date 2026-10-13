@@ -52,6 +52,37 @@ def zero_loss_peak_heights(
     return heights, fit_nrmse
 
 
+def gaussian_peak_areas(heights: np.ndarray, centers: np.ndarray, fwhm: np.ndarray) -> np.ndarray:
+    """Integrate fitted Gaussian components over the stored 280–300 eV grid.
+
+    The last dimension indexes components. Leading dimensions, if any, index
+    acquisitions. Areas have units of intensity times eV.
+    """
+    heights = np.asarray(heights, dtype=np.float64)
+    centers = np.asarray(centers, dtype=np.float64)
+    fwhm = np.asarray(fwhm, dtype=np.float64)
+    if centers.shape != (len(LABELS),) or fwhm.shape != centers.shape or heights.shape[-1] != len(LABELS):
+        raise ValueError("Unexpected component-label shape")
+    if not np.isfinite(heights).all() or not np.isfinite(centers).all() or not np.isfinite(fwhm).all():
+        raise ValueError("Non-finite Gaussian component parameter")
+    if np.any(heights < 0) or np.any((fwhm <= 0) & np.any(heights > 0, axis=tuple(range(heights.ndim - 1)))):
+        raise ValueError("Positive components require positive FWHM")
+    safe_widths = np.where(fwhm > 0, fwhm, 1.0)
+    sigma = safe_widths / GAUSSIAN_FWHM_FACTOR
+    basis = np.exp(-0.5 * ((AXIS[:, None] - centers[None, :]) / sigma[None, :]) ** 2)
+    unit_areas = np.trapezoid(basis, AXIS, axis=0)
+    return (heights * unit_areas).astype(np.float32)
+
+
+def fitted_area_fractions(areas: np.ndarray) -> np.ndarray:
+    """Normalize fitted component areas, preserving exactly zero absent peaks."""
+    areas = np.asarray(areas, dtype=np.float64)
+    total = areas.sum(axis=-1, keepdims=True)
+    if not np.isfinite(areas).all() or np.any(areas < 0) or np.any(total <= 0):
+        raise ValueError("Fitted areas must be finite, non-negative, and have positive total")
+    return (areas / total).astype(np.float32)
+
+
 def find_spectrum(directory: Path, stem: str) -> Path:
     candidates = sorted(directory.glob(stem + "*.spc"))
     if not candidates:
@@ -118,6 +149,8 @@ def main() -> None:
     widths = np.empty((n, 5), dtype=np.float32)
     fractions = np.empty((n, 5), dtype=np.float32)
     heights = np.empty((n, 5), dtype=np.float32)
+    areas = np.empty((n, 5), dtype=np.float32)
+    fitted_fractions = np.empty((n, 5), dtype=np.float32)
     height_fit_nrmse = np.empty(n, dtype=np.float32)
     case_ids = np.empty(n, dtype=np.int32)
     sweeps = np.empty(n, dtype=np.int16)
@@ -136,6 +169,8 @@ def main() -> None:
         raw_heights, fit_nrmse = zero_loss_peak_heights(
             zero, component_centers, component_widths, component_fractions > 0
         )
+        raw_areas = gaussian_peak_areas(raw_heights, component_centers, component_widths)
+        fitted_fraction = fitted_area_fractions(raw_areas)
 
         for sweep in range(repeats):
             target_max = 10.0 ** rng.uniform(np.log10(200.0), np.log10(150_000.0))
@@ -153,6 +188,8 @@ def main() -> None:
             widths[out] = component_widths
             fractions[out] = component_fractions
             heights[out] = raw_heights * scale
+            areas[out] = raw_areas * scale
+            fitted_fractions[out] = fitted_fraction
             height_fit_nrmse[out] = fit_nrmse
             case_ids[out] = case_index
             sweeps[out] = sweep
@@ -172,7 +209,10 @@ def main() -> None:
         peak_center=centers,
         peak_width=widths,
         peak_fraction=fractions,
+        peak_material_fraction=fractions,
         peak_height=heights,
+        peak_area_counts_eV=areas,
+        peak_fitted_area_fraction=fitted_fractions,
         peak_height_fit_nrmse=height_fit_nrmse,
         case_id=case_ids,
         sweep=sweeps,

@@ -1,0 +1,51 @@
+{
+  "total_scans": 47020,
+  "base_conditions": 1020,
+  "unique_peak_parameter_sets_rounded_4dp": 31,
+  "unique_photon_energies": 31,
+  "peak_fraction_values": [
+    [
+      0.699999988079071,
+      0.25,
+      0.05000000074505806
+    ]
+  ],
+  "center_min": [
+    277.35980224609375,
+    278.84405517578125,
+    280.8230895996094
+  ],
+  "center_max": [
+    281.6182556152344,
+    283.12530517578125,
+    285.13470458984375
+  ],
+  "sigma_min": [
+    0.4676190912723541,
+    0.4676190912723541,
+    0.4273616075515747
+  ],
+  "sigma_max": [
+    0.6079047918319702,
+    0.6079047918319702,
+    0.5555700659751892
+  ],
+  "test_conditions": 175,
+  "test_unique_parameter_sets": 31,
+  "test_parameter_sets_seen_in_train": 31,
+  "test_primary_center_mae": 0.017750708386301994,
+  "constant_train_mean_center_mae": 1.0746746063232422,
+  "true_center_std": [
+    1.3565645217895508,
+    1.3638298511505127,
+    1.373504638671875
+  ],
+  "predicted_center_std": [
+    1.3530124425888062,
+    1.362976312637329,
+    1.3744137287139893
+  ],
+  "median_count_space_rmse_over_true_max": 0.012046524323523045,
+  "notebook_selected_condition": "sphere_radius_10.0/peak_shift/eal_5_restricted_range/offcenter_2/0002/data.xlsx#h\u03bd_958",
+  "selected_condition_test_scans": 51
+}

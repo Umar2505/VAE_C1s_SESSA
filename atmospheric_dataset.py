@@ -11,7 +11,7 @@ import numpy as np
 
 SCHEMA_NAME = "atmospheric_xps_c1s_vae"
 REQUIRED_SPLITS = {"train", "validation", "test"}
-CACHE_LAYOUT = "peak_height_v1"
+CACHE_LAYOUT = "peak_area_v2"
 
 
 def _text(value: object) -> str:
@@ -49,7 +49,9 @@ def load_atmospheric_c1s(
     parts: dict[str, list[np.ndarray]] = {
         name: [] for name in (
             "noisy", "clean", "background", "expected_total", "peak_center",
-            "peak_width", "peak_fraction", "peak_height", "peak_height_fit_nrmse",
+            "peak_width", "peak_fraction", "peak_material_fraction",
+            "peak_height", "peak_area_counts_eV", "peak_fitted_area_fraction",
+            "peak_height_fit_nrmse",
             "peak_present", "photon_energy",
             "case_id", "source", "sweep", "split", "atmospheric_family",
             "aging_index", "oxygen_to_carbon_ratio", "mass_density_g_cm3",
@@ -90,6 +92,7 @@ def load_atmospheric_c1s(
             parts["peak_center"].append(_repeat_rows(handle["peaks/binding_energy_eV"][:], n_acquisitions))
             parts["peak_width"].append(_repeat_rows(handle["peaks/fwhm_eV"][:], n_acquisitions))
             parts["peak_fraction"].append(_repeat_rows(handle["peaks/area_fraction"][:], n_acquisitions))
+            parts["peak_material_fraction"].append(_repeat_rows(handle["peaks/area_fraction"][:], n_acquisitions))
             parts["peak_present"].append(_repeat_rows(handle["peaks/present"][:], n_acquisitions))
             if "height_counts" in handle["peaks"]:
                 peak_height = handle["peaks/height_counts"][:].astype(np.float32)
@@ -110,6 +113,21 @@ def load_atmospheric_c1s(
             if peak_height.shape != (n_acquisitions, len(names)):
                 raise ValueError(f"Unexpected peak-height shape in {path}: {peak_height.shape}")
             parts["peak_height"].append(peak_height)
+            from sessa_atmospheric.build_vae_dataset import fitted_area_fractions, gaussian_peak_areas
+
+            # Older cases have no stored area targets; derive them from the same
+            # fitted heights, centers, and widths used by the current generator.
+            peak_area = gaussian_peak_areas(
+                peak_height,
+                handle["peaks/binding_energy_eV"][:],
+                handle["peaks/fwhm_eV"][:],
+            )
+            if "area_counts_eV" in handle["peaks"] and not np.allclose(
+                peak_area, handle["peaks/area_counts_eV"][:], rtol=1e-5, atol=1e-5
+            ):
+                raise ValueError(f"Stored fitted areas disagree with heights in {path}")
+            parts["peak_area_counts_eV"].append(peak_area)
+            parts["peak_fitted_area_fraction"].append(fitted_area_fractions(peak_area))
             parts["peak_height_fit_nrmse"].append(np.full(n_acquisitions, fit_nrmse, np.float32))
 
             case_id = int(handle.attrs["case_id"])
@@ -139,6 +157,8 @@ def load_atmospheric_c1s(
     found_splits = set(np.unique(result["split"]).tolist())
     if found_splits != REQUIRED_SPLITS:
         raise ValueError(f"Expected splits {sorted(REQUIRED_SPLITS)}, found {sorted(found_splits)}")
-    if not all(np.isfinite(result[name]).all() for name in ("noisy", "expected_total", "background", "peak_height")):
+    if not all(np.isfinite(result[name]).all() for name in (
+        "noisy", "expected_total", "background", "peak_height", "peak_area_counts_eV"
+    )):
         raise ValueError("Spectra contain non-finite values")
     return result
