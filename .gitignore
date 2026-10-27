@@ -2,5 +2,4 @@ __pycache__/
 *.py[cod]
 .ipynb_checkpoints/
 data_cache/
-sessa_generated/failures/
-outputs/atmospheric_vanilla_vae/*_acquisitions.csv
+outputs/
