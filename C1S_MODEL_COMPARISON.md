@@ -19,6 +19,14 @@ The three format-5 notebooks use exactly the same dataset and held-out cases:
 
 Each notebook saves `latest.pt` after every epoch and selects `best.pt` using the validation split. It can resume an interrupted run. A threshold for declaring a peak present is chosen on validation cases only. The test split is used once for final reporting.
 
+## If training is slow
+
+The default generator makes 50,000 spectra (`10,000` cases × `5` scans), with about 40,000 in training. With batch size `64`, an epoch has about 625 training batches plus a full validation pass. Every batch renders Voigt, pseudo-Voigt, Doniach, and Gaussian profiles, three background types, and a clean spectrum for the reconstruction loss. The Transformer also matches its unordered queries to the true peaks. This is much more work than a simple CNN classification pass.
+
+Check the notebook's first output for `Device: cuda` versus `Device: cpu`. On a CUDA machine, check GPU use and memory with `nvidia-smi`. Run the three notebooks one after another if they share one GPU. The epoch message now reports separate training, validation, and checkpoint times; `training_history.csv` stores training and validation seconds. A slow validation pass points to full renderer evaluation; a slow checkpoint points to disk speed. Low GPU use with a long training pass suggests data loading, CPU matching, or synchronization overhead.
+
+The performance changes in `c1s_peak_pipeline.py` reduce repeated CUDA synchronization and keep the same checkpoint format. They affect a run only after restarting its Python kernel with the updated file. An interrupted run resumes from `latest.pt` at the next epoch. These changes have not been benchmarked on the training machine, so use the new timings to measure their effect rather than assuming a particular speedup.
+
 ## What the reports mean
 
 | File | What to inspect |

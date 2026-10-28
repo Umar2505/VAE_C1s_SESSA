@@ -167,6 +167,10 @@ def load_dataset(directory: str | Path, manifest: dict) -> dict:
         raise ValueError("Input counts must be finite and nonnegative")
     if not np.all(np.isfinite(result["expected_counts"])):
         raise ValueError("Clean targets contain non-finite values")
+    native_steps = np.asarray(result["native_step_ev"], dtype=np.float32)
+    allowed_steps = np.array([0.05, 0.10, 0.20], dtype=np.float32)
+    if not np.all(np.min(np.abs(native_steps[:, None] - allowed_steps), axis=1) < 0.025):
+        raise ValueError("Unsupported native sampling step")
     case_splits = {}
     for case_id, split in zip(result["case_id"], result["split"]):
         old = case_splits.setdefault(int(case_id), split)
@@ -484,9 +488,6 @@ class C1sRenderer(nn.Module):
                                     mode="linear", align_corners=True)
             mask = (native_step - step).abs() < 0.025
             result = torch.where(mask[:, None, None], sampled, result)
-        if not torch.all(torch.min(torch.abs(native_step[:, None] -
-                                        native_step.new_tensor([0.05, 0.10, 0.20])), dim=1).values < 0.025):
-            raise ValueError("Unsupported native sampling step")
         return result.reshape(original_shape)
 
     def forward(self, pred, native_step, presence_override=None,
@@ -573,30 +574,31 @@ def _target_assignment(pred, labels):
         if k != 6:
             raise ValueError("Named-slot models require six peak outputs")
         return torch.arange(6, device=pred["center"].device)[None].expand(b, -1)
-    assignments = torch.full((b, k), -1, device=pred["center"].device,
-                             dtype=torch.long)
     with torch.no_grad():
         component_logp = F.log_softmax(pred["component_logits"], -1)
         shape_logp = F.log_softmax(pred["shape_logits"], -1)
+        shape_ids = (labels["peak_shape_code"] - 1).clamp(0, 3)
+        shape_cost = shape_logp.gather(2, shape_ids[:, None, :].expand(-1, k, -1))
+        center = torch.nan_to_num(labels["peak_center_ev"], nan=0.0)
+        area = torch.nan_to_num(labels["peak_area_counts_ev"], nan=0.0)
+        cost = (
+            -component_logp[:, :, :6]
+            - 0.5 * shape_cost
+            + 2.0 * (pred["center"][:, :, None] - center[:, None, :]).abs() / 0.5
+            + 0.4 * (torch.log1p(pred["area"][:, :, None])
+                     - torch.log1p(area[:, None, :])).abs()
+        )
+        # Transfer one cost table for the whole batch. The old row-by-row
+        # transfers synchronized the GPU once for every spectrum.
+        cost_cpu = cost.cpu().numpy()
+        present_cpu = labels["peak_present"].cpu().numpy().astype(bool)
+        assignments = np.full((b, k), -1, dtype=np.int64)
         for row in range(b):
-            true_slots = torch.flatnonzero(labels["peak_present"][row]).cpu().numpy()
-            if len(true_slots) == 0:
-                continue
-            ids = torch.as_tensor(true_slots, device=assignments.device)
-            true_shape = labels["peak_shape_code"][row, ids] - 1
-            cost = (
-                -component_logp[row][:, ids]
-                - 0.5 * shape_logp[row][:, true_shape]
-                + 2.0 * (pred["center"][row, :, None]
-                         - labels["peak_center_ev"][row, ids][None]).abs() / 0.5
-                + 0.4 * (torch.log1p(pred["area"][row, :, None])
-                         - torch.log1p(labels["peak_area_counts_ev"][row, ids][None])).abs()
-            )
-            output_rows, target_cols = linear_sum_assignment(cost.detach().cpu().numpy())
-            assignments[row, torch.as_tensor(output_rows, device=assignments.device)] = ids[
-                torch.as_tensor(target_cols, device=assignments.device)
-            ]
-    return assignments
+            true_slots = np.flatnonzero(present_cpu[row])
+            if len(true_slots):
+                output_rows, target_cols = linear_sum_assignment(cost_cpu[row][:, true_slots])
+                assignments[row, output_rows] = true_slots[target_cols]
+    return torch.as_tensor(assignments, device=pred["center"].device)
 
 
 def _masked_huber(predicted, target, mask, scale):
@@ -647,11 +649,12 @@ def loss_terms(pred, batch, renderer, cfg: RunConfig, class_weights,
             pred["presence_logits"], present.float(),
             pos_weight=class_weights["positive"].to(pred["center"].device),
         )
-    if present.any():
-        shape = F.cross_entropy(pred["shape_logits"][present], shape_ids[present],
-                                weight=class_weights["shape"].to(pred["center"].device))
-    else:
-        shape = pred["shape_logits"].sum() * 0.0
+    shape_weights = class_weights["shape"].to(pred["center"].device)
+    shape_losses = F.cross_entropy(pred["shape_logits"].reshape(-1, 4),
+                                   shape_ids.reshape(-1), weight=shape_weights,
+                                   reduction="none").reshape_as(shape_ids)
+    shape = ((shape_losses * present).sum()
+             / (shape_weights[shape_ids] * present).sum().clamp_min(1e-12))
 
     scale = batch["counts"].amax(-1).clamp_min(1.0)[:, None]
     area_log = torch.log1p(pred["area"] / scale)
@@ -736,12 +739,12 @@ def loss_terms(pred, batch, renderer, cfg: RunConfig, class_weights,
 
 def _move_batch(batch, device):
     return {
-        "counts": batch["counts"].to(device),
-        "clean": batch["clean"].to(device),
-        "background": batch["background"].to(device),
-        "native_step": batch["native_step"].to(device),
+        "counts": batch["counts"].to(device, non_blocking=True),
+        "clean": batch["clean"].to(device, non_blocking=True),
+        "background": batch["background"].to(device, non_blocking=True),
+        "native_step": batch["native_step"].to(device, non_blocking=True),
         "index": batch["index"],
-        "labels": {k: v.to(device) for k, v in batch["labels"].items()},
+        "labels": {k: v.to(device, non_blocking=True) for k, v in batch["labels"].items()},
     }
 
 
@@ -749,7 +752,7 @@ def _epoch(model, renderer, loader, cfg, weights, optimizer, device,
            teacher_ratio=0.0, beta=0.0):
     training = optimizer is not None
     model.train(training)
-    sums, scans = {}, 0
+    names, sums, scans = None, None, 0
     for source_batch in loader:
         batch = _move_batch(source_batch, device)
         with torch.set_grad_enabled(training):
@@ -763,11 +766,15 @@ def _epoch(model, renderer, loader, cfg, weights, optimizer, device,
                 optimizer.step()
         n = len(batch["counts"])
         scans += n
-        for name, value in terms.items():
-            sums[name] = sums.get(name, 0.0) + float(value.detach()) * n
+        if names is None:
+            names = tuple(terms)
+            sums = torch.zeros(len(names), device=device, dtype=torch.float32)
+        # Keep metrics on the device until the epoch ends. Converting each
+        # scalar to float used to synchronize CUDA once per loss term/batch.
+        sums += torch.stack([terms[name].detach() for name in names]) * n
     if not scans:
         raise ValueError("Empty data split")
-    return {k: v / scans for k, v in sums.items()}
+    return dict(zip(names, (sums / scans).cpu().tolist()))
 
 
 def _save_checkpoint(payload, path):
@@ -812,16 +819,22 @@ def train_model(model, renderer, loaders, data, cfg: RunConfig,
         teacher_ratio = max(0.0, 1.0 - epoch / max(1, cfg.teacher_forcing_epochs))
         beta = (cfg.vae_beta_max * min(1.0, (epoch + 1) / max(1, cfg.vae_warmup_epochs))
                 if cfg.model_name == "vae" else 0.0)
+        train_started = time.perf_counter()
         train = _epoch(model, renderer, loaders["train"], cfg, weights, optimizer,
                        device, teacher_ratio, beta)
+        train_seconds = time.perf_counter() - train_started
+        validation_started = time.perf_counter()
         validation = _epoch(model, renderer, loaders["validation"], cfg, weights,
                             None, device, 0.0, cfg.vae_beta_max if cfg.model_name == "vae" else 0.0)
+        validation_seconds = time.perf_counter() - validation_started
         scheduler.step(validation["total"])
         row = {"epoch": epoch + 1, "teacher_ratio": teacher_ratio,
-               "vae_beta": beta, "learning_rate": optimizer.param_groups[0]["lr"]}
+               "vae_beta": beta, "learning_rate": optimizer.param_groups[0]["lr"],
+               "train_seconds": train_seconds, "validation_seconds": validation_seconds}
         row.update({f"train_{k}": v for k, v in train.items()})
         row.update({f"validation_{k}": v for k, v in validation.items()})
         history.append(row)
+        checkpoint_started = time.perf_counter()
         improved = validation["total"] < best - 1e-5
         if improved:
             best = validation["total"]
@@ -838,11 +851,14 @@ def train_model(model, renderer, loaders, data, cfg: RunConfig,
                           "best": best, "bad_epochs": bad_epochs, "history": history,
                           "config": asdict(cfg)}, latest)
         pd.DataFrame(history).to_csv(output / "training_history.csv", index=False)
+        checkpoint_seconds = time.perf_counter() - checkpoint_started
         print(f"{cfg.model_name} epoch {epoch + 1}/{cfg.epochs}: "
               f"train={train['total']:.4f}, val={validation['total']:.4f}, "
               f"peak detection={validation['detection']:.4f}, "
               f"shape={validation['shape']:.4f}, "
-              f"curve={validation['spectrum']:.4f}, best={best:.4f}", flush=True)
+              f"curve={validation['spectrum']:.4f}, best={best:.4f}, "
+              f"time: train={train_seconds:.1f}s, validation={validation_seconds:.1f}s, "
+              f"checkpoint={checkpoint_seconds:.1f}s", flush=True)
         if bad_epochs >= cfg.patience:
             print(f"Early stopping after {bad_epochs} epochs without improvement")
             break
