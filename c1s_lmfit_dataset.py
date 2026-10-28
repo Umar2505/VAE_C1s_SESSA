@@ -1,4 +1,4 @@
-"""Generate synthetic atmospheric C 1s spectra in family-specific NeXus files.
+"""Generate compact synthetic C 1s training spectra in family-specific NeXus files.
 
 Its numerical priors are illustrative and should
 be calibrated against measured spectra before drawing scientific conclusions.
@@ -42,6 +42,10 @@ ENERGY_STEP_EV = float(ENERGY_EV[1] - ENERGY_EV[0])
 NATIVE_STEPS_EV = (0.05, 0.10, 0.20)
 FWHM_TO_SIGMA = 2.0 * np.sqrt(2.0 * np.log(2.0))
 DEFAULT_OUTPUT_DIR = (
+    Path(__file__).resolve().parent / "datasets" / "c1s_nexus" /
+    "c1s_peak_training_v1"
+)
+LEGACY_OUTPUT_DIR = (
     Path(__file__).resolve().parent / "datasets" / "c1s_nexus" /
     "c1s_atmospheric_v2"
 )
@@ -173,7 +177,9 @@ def _sample_background(
     return background, kind, parameters
 
 
-def _sample_case(rng: np.random.Generator, family: str) -> dict[str, object]:
+def _sample_case(
+    rng: np.random.Generator, family: str, *, mixed_ordinary_shapes: bool = False,
+) -> dict[str, object]:
     prior = FAMILY_PRIORS[family]
     present = np.zeros(len(COMPONENTS), dtype=bool)
     present[:5] = rng.random(5) < np.asarray(prior["presence"])
@@ -203,7 +209,8 @@ def _sample_case(rng: np.random.Generator, family: str) -> dict[str, object]:
 
     instrument_fwhm = float(rng.uniform(0.35, 0.80))
     chemical_fwhm = float(rng.uniform(0.65, 1.30))
-    ordinary_shape = int(rng.choice(ORDINARY_SHAPES, p=ORDINARY_SHAPE_WEIGHTS))
+    ordinary_shape = (int(rng.choice(ORDINARY_SHAPES, p=ORDINARY_SHAPE_WEIGHTS))
+                      if not mixed_ordinary_shapes else None)
     shared_lorentz_gamma = float(rng.uniform(0.09, 0.23))
     shared_pseudo_fraction = float(rng.uniform(0.12, 0.48))
     shape_code = np.zeros(len(COMPONENTS), dtype=np.int8)
@@ -225,7 +232,8 @@ def _sample_case(rng: np.random.Generator, family: str) -> dict[str, object]:
         elif family == "soot_rich" and index == SATELLITE_PARENT:
             shape = DONIACH_GAUSSIAN
         else:
-            shape = ordinary_shape
+            shape = (int(rng.choice(ORDINARY_SHAPES, p=ORDINARY_SHAPE_WEIGHTS))
+                     if mixed_ordinary_shapes else ordinary_shape)
 
         shape_code[index] = shape
         if shape == GAUSSIAN:
@@ -553,15 +561,177 @@ def _generate_shard(
         temporary.unlink(missing_ok=True)
 
 
-def generate(output_dir: Path, n_cases: int, replicates: int = 5, seed: int = 42) -> Path:
-    """Publish one NeXus file per family and a manifest after all files finish."""
+def _generate_compact_shard(
+    output: Path, family: str, case_ids: np.ndarray, case_split: np.ndarray,
+    replicates: int, rng: np.random.Generator,
+) -> None:
+    """Write only the inputs and independent targets for a peak renderer."""
+    if output.exists():
+        raise FileExistsError(f"Refusing to overwrite {output}")
+    output.parent.mkdir(parents=True, exist_ok=True)
+    n_cases = len(case_ids)
+    n_scans = n_cases * replicates
+    n_points = len(ENERGY_EV)
+    n_components = len(COMPONENTS)
+    spectra = np.empty((n_scans, n_points), dtype="f4")
+    clean = np.empty_like(spectra)
+    backgrounds = np.empty_like(spectra)
+    native_step = np.empty(n_scans, dtype="f4")
+    labels = {
+        "peak_present": np.empty((n_scans, n_components), dtype=bool),
+        "peak_shape_code": np.empty((n_scans, n_components), dtype="i1"),
+        "peak_center_ev": np.empty((n_scans, n_components), dtype="f4"),
+        "peak_model_sigma_ev": np.empty((n_scans, n_components), dtype="f4"),
+        "peak_lorentz_gamma_ev": np.empty((n_scans, n_components), dtype="f4"),
+        "peak_pseudo_voigt_fraction": np.empty((n_scans, n_components), dtype="f4"),
+        "peak_asymmetry_gamma": np.empty((n_scans, n_components), dtype="f4"),
+        "peak_area_counts_ev": np.empty((n_scans, n_components), dtype="f4"),
+        "instrument_gaussian_fwhm_ev": np.empty(n_scans, dtype="f4"),
+        "background_kind_code": np.empty(n_scans, dtype="i1"),
+        "background_parameters": np.empty((n_scans, 4), dtype="f4"),
+        "case_id": np.repeat(case_ids.astype("i4"), replicates),
+        "split": np.empty(n_scans, dtype="S10"),
+    }
+
+    for local_case, case_id in enumerate(case_ids):
+        sampled = _sample_case(rng, family, mixed_ordinary_shapes=True)
+        components = sampled["components"]
+        background = sampled["background"]
+        full_curve = components.sum(axis=0) + background
+        for sweep in range(replicates):
+            row = local_case * replicates + sweep
+            step = float(rng.choice(NATIVE_STEPS_EV))
+            native_axis = np.linspace(
+                ENERGY_EV[0], ENERGY_EV[-1], int(round(20.0 / step)) + 1
+            )
+            native_full = np.interp(native_axis, ENERGY_EV, full_curve)
+            native_background = np.interp(native_axis, ENERGY_EV, background)
+            target_max = float(10 ** rng.uniform(np.log10(300), np.log10(100_000)))
+            scale = target_max / native_full.max()
+            native_expectation = native_full * scale
+            spectra[row] = np.interp(
+                ENERGY_EV, native_axis, rng.poisson(native_expectation)
+            ).astype("f4")
+            clean[row] = np.interp(
+                ENERGY_EV, native_axis, native_expectation
+            ).astype("f4")
+            backgrounds[row] = np.interp(
+                ENERGY_EV, native_axis, native_background * scale
+            ).astype("f4")
+            native_step[row] = step
+            labels["peak_present"][row] = sampled["present"]
+            labels["peak_shape_code"][row] = sampled["shape_code"]
+            labels["peak_center_ev"][row] = sampled["centers"]
+            labels["peak_model_sigma_ev"][row] = sampled["model_sigma"]
+            labels["peak_lorentz_gamma_ev"][row] = sampled["lorentz_gamma"]
+            labels["peak_pseudo_voigt_fraction"][row] = sampled["pseudo_fraction"]
+            labels["peak_asymmetry_gamma"][row] = sampled["asymmetry_gamma"]
+            labels["peak_area_counts_ev"][row] = (
+                trapezoid(components, ENERGY_EV, axis=1) * scale
+            )
+            labels["instrument_gaussian_fwhm_ev"][row] = sampled["instrument_fwhm"]
+            labels["background_kind_code"][row] = BACKGROUND_KINDS.index(
+                sampled["background_kind"]
+            )
+            # Tougaard C is fixed for this generator, so only four variable
+            # background parameters need per-scan labels.
+            labels["background_parameters"][row] = sampled["background_parameters"][:4]
+            labels["split"][row] = case_split[case_id]
+
+    peak_only = clean - backgrounds
+    area_from_curve = trapezoid(peak_only, ENERGY_EV, axis=1)
+    area_from_labels = labels["peak_area_counts_ev"].sum(axis=1)
+    if (not np.all(np.isfinite(spectra)) or np.any(spectra < 0)
+            or not np.all(np.isfinite(clean)) or np.any(peak_only < -1e-3)
+            or not np.allclose(area_from_curve, area_from_labels, rtol=1e-3, atol=1e-2)):
+        raise ValueError(f"Inconsistent clean spectra or peak labels in {output.name}")
+
+    descriptor, temporary_name = tempfile.mkstemp(
+        prefix=f".{output.stem}.", suffix=".partial", dir=output.parent
+    )
+    os.close(descriptor)
+    temporary = Path(temporary_name)
+    try:
+        with h5py.File(temporary, "w") as nexus:
+            nexus.attrs["default"] = "entry"
+            nexus.attrs["format_version"] = 5
+            nexus.attrs["synthetic"] = True
+            nexus.attrs["family"] = family
+            entry = nexus.create_group("entry")
+            entry.attrs["NX_class"] = "NXentry"
+            entry.attrs["default"] = "data"
+            data = entry.create_group("data")
+            data.attrs["NX_class"] = "NXdata"
+            data.attrs["signal"] = "counts"
+            data.attrs["axes"] = np.asarray(
+                ("scan_index", "binding_energy"), dtype=h5py.string_dtype("utf-8")
+            )
+            data.attrs["scan_index_indices"] = 0
+            data.attrs["binding_energy_indices"] = 1
+            data.attrs["auxiliary_signals"] = np.asarray(
+                ("expected_counts", "background_counts"),
+                dtype=h5py.string_dtype("utf-8"),
+            )
+            data.create_dataset("scan_index", data=np.arange(n_scans, dtype="i4"))
+            energy = data.create_dataset("binding_energy", data=ENERGY_EV.astype("f4"))
+            energy.attrs["units"] = "eV"
+            chunks = (min(max(replicates, 8), n_scans), n_points)
+            for name, values in (("counts", spectra), ("expected_counts", clean),
+                                 ("background_counts", backgrounds)):
+                dataset = _compressed(data, name, data=values, chunks=chunks)
+                dataset.attrs["units"] = "counts"
+            step_data = _compressed(data, "native_step_ev", data=native_step)
+            step_data.attrs["units"] = "eV"
+            step_data.attrs["description"] = (
+                "Sampling interval before linear interpolation to binding_energy"
+            )
+
+            ground_truth = entry.create_group("labels")
+            ground_truth.attrs["NX_class"] = "NXcollection"
+            ground_truth.attrs["tougaard_C_eV2"] = 1643.0
+            ground_truth.attrs["missing_numeric_label"] = (
+                "NaN for absent or inapplicable peak and background parameters"
+            )
+            string_type = h5py.string_dtype("utf-8")
+            for name, names in (("component_names", COMPONENTS),
+                                ("shape_names", SHAPE_NAMES),
+                                ("background_kind_names", BACKGROUND_KINDS),
+                                ("background_parameter_names", (
+                                    "low_fraction", "high_fraction",
+                                    "shirley_step_fraction", "tougaard_B_eV2",
+                                ))):
+                ground_truth.create_dataset(name, data=np.asarray(names, dtype=string_type))
+            for name, values in labels.items():
+                dataset = _compressed(ground_truth, name, data=values)
+                if name.endswith("_ev"):
+                    dataset.attrs["units"] = "eV"
+            ground_truth["peak_area_counts_ev"].attrs["units"] = "counts * eV"
+            ground_truth["background_parameters"].attrs["description"] = (
+                "Endpoint fractions refer to maximum clean peak counts; inactive "
+                "shape-specific values are NaN"
+            )
+        if output.exists():
+            raise FileExistsError(f"Refusing to overwrite {output}")
+        os.replace(temporary, output)
+    finally:
+        temporary.unlink(missing_ok=True)
+
+
+def generate(
+    output_dir: Path, n_cases: int, replicates: int = 5, seed: int = 42,
+    scans_per_file: int = 100, compact: bool = True,
+) -> Path:
+    """Publish small family-specific NeXus files and a completion manifest."""
     if n_cases < 10 or replicates < 1:
         raise ValueError("Use at least 10 cases and one acquisition per case")
+    if scans_per_file < replicates:
+        raise ValueError("--scans-per-file must be at least --replicates so a case stays in one file")
     output_dir = output_dir.expanduser().resolve()
     output_dir.mkdir(parents=True, exist_ok=True)
     manifest_path = output_dir / "manifest.json"
-    shard_paths = [output_dir / f"c1s_{family}.nxs" for family in FAMILIES]
-    existing = [path for path in (*shard_paths, manifest_path) if path.exists()]
+    existing = [*output_dir.glob("*.nxs")]
+    if manifest_path.exists():
+        existing.append(manifest_path)
     if existing:
         raise FileExistsError(f"Refusing to overwrite existing dataset files: {existing}")
 
@@ -585,20 +755,40 @@ def generate(output_dir: Path, n_cases: int, replicates: int = 5, seed: int = 42
     created = []
     try:
         shards = []
-        for family_index, (family, path) in enumerate(zip(FAMILIES, shard_paths)):
-            case_ids = np.flatnonzero(family_code == family_index)
-            _generate_shard(path, family, case_ids, case_split, replicates, seed, rng)
-            created.append(path)
-            shards.append({
-                "file": path.name, "family": family,
-                "cases": int(len(case_ids)), "scans": int(len(case_ids) * replicates),
-            })
-            print(f"Saved {shards[-1]['scans']:,} {family} scans to {path}", flush=True)
+        cases_per_file = scans_per_file // replicates
+        for family_index, family in enumerate(FAMILIES):
+            family_ids = np.flatnonzero(family_code == family_index)
+            for part, offset in enumerate(range(0, len(family_ids), cases_per_file), start=1):
+                case_ids = family_ids[offset:offset + cases_per_file]
+                path = output_dir / f"c1s_{family}_{part:04d}.nxs"
+                if compact:
+                    _generate_compact_shard(
+                        path, family, case_ids, case_split, replicates, rng
+                    )
+                else:
+                    _generate_shard(
+                        path, family, case_ids, case_split, replicates, seed, rng
+                    )
+                created.append(path)
+                shards.append({
+                    "file": path.name, "family": family,
+                    "cases": int(len(case_ids)), "scans": int(len(case_ids) * replicates),
+                    "first_case_id": int(case_ids[0]),
+                })
+                print(f"Saved {shards[-1]['scans']:,} {family} scans to {path}", flush=True)
         manifest = {
-            "format_version": 3, "generator": Path(__file__).name,
+            "format_version": 5 if compact else 4,
+            "generator": Path(__file__).name,
             "seed": seed, "cases": n_cases, "replicates": replicates,
+            "scans_per_file": scans_per_file,
             "total_scans": n_cases * replicates, "shards": shards,
         }
+        if compact:
+            manifest["schema"] = "independent_peak_parameters_and_clean_spectrum"
+            manifest["script_sha256"] = hashlib.sha256(
+                Path(__file__).read_bytes()
+            ).hexdigest()
+            manifest["mixed_ordinary_shapes"] = True
         descriptor, temporary_name = tempfile.mkstemp(
             prefix=".manifest.", suffix=".partial", dir=output_dir
         )
@@ -621,10 +811,16 @@ def main() -> None:
     parser.add_argument("--cases", type=int, default=10_000)
     parser.add_argument("--replicates", type=int, default=5)
     parser.add_argument("--seed", type=int, default=42)
-    parser.add_argument("--output-dir", type=Path, default=DEFAULT_OUTPUT_DIR)
+    parser.add_argument("--scans-per-file", type=int, default=100)
+    parser.add_argument("--output-dir", type=Path)
+    parser.add_argument("--legacy-schema", action="store_true",
+                        help="Write the larger format-4 dataset for the existing VAE notebook")
     args = parser.parse_args()
-    manifest_path = generate(args.output_dir, args.cases, args.replicates, args.seed)
-    print(f"Saved {args.cases * args.replicates:,} C 1s scans; manifest: {manifest_path}")
+    output_dir = args.output_dir or (LEGACY_OUTPUT_DIR if args.legacy_schema else DEFAULT_OUTPUT_DIR)
+    manifest_path = generate(output_dir, args.cases, args.replicates, args.seed,
+                             args.scans_per_file, compact=not args.legacy_schema)
+    print(f"Saved {args.cases * args.replicates:,} C 1s scans in "
+          f"{len(json.loads(manifest_path.read_text())['shards'])} files; manifest: {manifest_path}")
 
 
 if __name__ == "__main__":

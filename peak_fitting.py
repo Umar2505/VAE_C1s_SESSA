@@ -157,7 +157,8 @@ def fit_predicted_peaks(
             if profile == "voigt":
                 gamma = guess["lorentz_gamma"] or sigma * 0.5
                 local[prefix + "gamma"].set(value=float(np.clip(gamma, step * 0.1, span / 4)),
-                                            min=step * 0.05, max=span / 3, expr="")
+                                            min=step * 0.05, max=span / 3,
+                                            vary=True, expr="")
             elif profile == "pseudo_voigt":
                 local[prefix + "fraction"].set(value=float(np.clip(guess["fraction"] if guess["fraction"] is not None else 0.3, 0.0, 1.0)), min=0, max=1)
             elif profile == "doniach_gaussian":

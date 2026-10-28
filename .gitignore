@@ -3,3 +3,6 @@ __pycache__/
 .ipynb_checkpoints/
 data_cache/
 outputs/
+dataset/
+datasets/
+output/

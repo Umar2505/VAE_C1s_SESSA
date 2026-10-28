@@ -6,8 +6,10 @@ dependencies:
   - python=3.9
   - numpy
   - matplotlib
+  - pandas
   - scipy
   - lmfit
   - h5py
   - notebook
-  - pytorch
+  - ipykernel
+  - pytorch>=2.2
