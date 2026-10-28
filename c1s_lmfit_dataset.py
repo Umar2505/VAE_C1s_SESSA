@@ -1,6 +1,6 @@
-"""Generate synthetic atmospheric C 1s spectra in one NeXus/HDF5 file.
+"""Generate synthetic atmospheric C 1s spectra in family-specific NeXus files.
 
-This is a single-file generator. Its numerical priors are illustrative and should
+Its numerical priors are illustrative and should
 be calibrated against measured spectra before drawing scientific conclusions.
 The file uses generic NXentry/NXdata/NXprocess groups. It does not claim NXxps
 compliance because synthetic scans have no real instrument/sample metadata.
@@ -41,9 +41,9 @@ ENERGY_EV = np.linspace(280.0, 300.0, 401, dtype=np.float64)
 ENERGY_STEP_EV = float(ENERGY_EV[1] - ENERGY_EV[0])
 NATIVE_STEPS_EV = (0.05, 0.10, 0.20)
 FWHM_TO_SIGMA = 2.0 * np.sqrt(2.0 * np.log(2.0))
-DEFAULT_OUTPUT = (
+DEFAULT_OUTPUT_DIR = (
     Path(__file__).resolve().parent / "datasets" / "c1s_nexus" /
-    "c1s_atmospheric_v2.nxs"
+    "c1s_atmospheric_v2"
 )
 MODELS = {
     GAUSSIAN: GaussianModel(), VOIGT: VoigtModel(),
@@ -173,8 +173,7 @@ def _sample_background(
     return background, kind, parameters
 
 
-def _sample_case(rng: np.random.Generator) -> dict[str, object]:
-    family = str(rng.choice(FAMILIES, p=FAMILY_WEIGHTS))
+def _sample_case(rng: np.random.Generator, family: str) -> dict[str, object]:
     prior = FAMILY_PRIORS[family]
     present = np.zeros(len(COMPONENTS), dtype=bool)
     present[:5] = rng.random(5) < np.asarray(prior["presence"])
@@ -283,10 +282,12 @@ def _compressed(group: h5py.Group, name: str, **kwargs: object) -> h5py.Dataset:
     )
 
 
-def generate(output: Path, n_cases: int, replicates: int = 5, seed: int = 42) -> None:
-    """Write a new .nxs file. Refuse to overwrite an existing dataset."""
-    if n_cases < 10 or replicates < 1:
-        raise ValueError("Use at least 10 cases and one acquisition per case")
+def _generate_shard(
+    output: Path, family: str, case_ids: np.ndarray, case_split: np.ndarray,
+    replicates: int, seed: int, rng: np.random.Generator,
+) -> None:
+    """Write one chemical-family shard atomically."""
+    n_cases = len(case_ids)
     if output.suffix.lower() != ".nxs":
         raise ValueError("The output file must have a .nxs extension")
     output = output.expanduser().resolve()
@@ -294,17 +295,9 @@ def generate(output: Path, n_cases: int, replicates: int = 5, seed: int = 42) ->
     if output.exists():
         raise FileExistsError(f"Refusing to overwrite {output}")
 
-    rng = np.random.default_rng(seed)
     n_scans = n_cases * replicates
     n_points = ENERGY_EV.size
     n_components = len(COMPONENTS)
-    case_split = np.full(n_cases, b"test", dtype="S10")
-    shuffled = rng.permutation(n_cases)
-    n_train = max(1, int(0.8 * n_cases))
-    n_validation = max(1, int(0.1 * n_cases))
-    case_split[shuffled[:n_train]] = b"train"
-    case_split[shuffled[n_train:n_train + n_validation]] = b"validation"
-
     labels = {
         "peak_present": np.empty((n_scans, n_components), dtype=bool),
         "peak_center_ev": np.empty((n_scans, n_components), dtype=np.float32),
@@ -320,7 +313,7 @@ def generate(output: Path, n_cases: int, replicates: int = 5, seed: int = 42) ->
         "family": np.empty(n_scans, dtype="S24"),
         "background_kind": np.empty(n_scans, dtype="S24"),
         "split": np.empty(n_scans, dtype="S10"),
-        "case_id": np.repeat(np.arange(n_cases, dtype=np.int32), replicates),
+        "case_id": np.repeat(case_ids.astype(np.int32), replicates),
         "sweep": np.tile(np.arange(replicates, dtype=np.int16), n_cases),
         "native_step_ev": np.empty(n_scans, dtype=np.float32),
         "native_point_count": np.empty(n_scans, dtype=np.int16),
@@ -343,6 +336,7 @@ def generate(output: Path, n_cases: int, replicates: int = 5, seed: int = 42) ->
             nexus.attrs["default"] = "entry"
             nexus.attrs["file_name"] = output.name
             nexus.attrs["synthetic"] = True
+            nexus.attrs["family"] = family
             entry = nexus.create_group("entry")
             entry.attrs["NX_class"] = "NXentry"
             entry.attrs["default"] = "data"
@@ -395,16 +389,18 @@ def generate(output: Path, n_cases: int, replicates: int = 5, seed: int = 42) ->
             simulation = entry.create_group("simulation")
             simulation.attrs["NX_class"] = "NXprocess"
             simulation.create_dataset("program", data=Path(__file__).name)
-            simulation.create_dataset("version", data="2")
+            simulation.create_dataset("version", data="3")
             simulation.create_dataset("date", data=datetime.now(timezone.utc).isoformat())
             simulation.create_dataset("script_sha256", data=hashlib.sha256(
                 Path(__file__).read_bytes()
             ).hexdigest())
+            simulation.create_dataset("case_ids", data=case_ids.astype(np.int32))
             parameters = simulation.create_group("parameters")
             parameters.attrs["NX_class"] = "NXparameters"
             for name, value in (("seed", seed), ("n_cases", n_cases),
                                 ("replicates", replicates)):
                 parameters.create_dataset(name, data=value)
+            parameters.create_dataset("family", data=family)
             parameters.create_dataset("family_weights", data=FAMILY_WEIGHTS)
             parameters.create_dataset("background_weights", data=BACKGROUND_WEIGHTS)
             parameters.create_dataset("ordinary_shape_codes", data=ORDINARY_SHAPES)
@@ -466,16 +462,16 @@ def generate(output: Path, n_cases: int, replicates: int = 5, seed: int = 42) ->
             case_components.attrs["units"] = "fraction / eV"
             case_backgrounds.attrs["units"] = "fraction / eV"
 
-            for case_id in range(n_cases):
-                sampled = _sample_case(rng)
+            for local_case_id, case_id in enumerate(case_ids):
+                sampled = _sample_case(rng, family)
                 components = sampled["components"]
                 background = sampled["background"]
                 profile = components.sum(axis=0) + background
-                case_components[case_id] = components.astype("f4")
-                case_backgrounds[case_id] = background.astype("f4")
+                case_components[local_case_id] = components.astype("f4")
+                case_backgrounds[local_case_id] = background.astype("f4")
 
                 for sweep in range(replicates):
-                    row = case_id * replicates + sweep
+                    row = local_case_id * replicates + sweep
                     step = float(rng.choice(NATIVE_STEPS_EV))
                     native_axis = np.linspace(
                         ENERGY_EV[0], ENERGY_EV[-1], int(round(20.0 / step)) + 1
@@ -557,15 +553,78 @@ def generate(output: Path, n_cases: int, replicates: int = 5, seed: int = 42) ->
         temporary.unlink(missing_ok=True)
 
 
+def generate(output_dir: Path, n_cases: int, replicates: int = 5, seed: int = 42) -> Path:
+    """Publish one NeXus file per family and a manifest after all files finish."""
+    if n_cases < 10 or replicates < 1:
+        raise ValueError("Use at least 10 cases and one acquisition per case")
+    output_dir = output_dir.expanduser().resolve()
+    output_dir.mkdir(parents=True, exist_ok=True)
+    manifest_path = output_dir / "manifest.json"
+    shard_paths = [output_dir / f"c1s_{family}.nxs" for family in FAMILIES]
+    existing = [path for path in (*shard_paths, manifest_path) if path.exists()]
+    if existing:
+        raise FileExistsError(f"Refusing to overwrite existing dataset files: {existing}")
+
+    rng = np.random.default_rng(seed)
+    # Fixed family counts follow the requested proportions, including small runs.
+    expected = n_cases * np.asarray(FAMILY_WEIGHTS)
+    family_counts = np.floor(expected).astype(int)
+    for index in np.argsort(-(expected - family_counts))[:n_cases - family_counts.sum()]:
+        family_counts[index] += 1
+    family_code = np.repeat(np.arange(len(FAMILIES)), family_counts)
+    rng.shuffle(family_code)
+    case_split = np.full(n_cases, b"test", dtype="S10")
+    for family_index in range(len(FAMILIES)):
+        family_ids = rng.permutation(np.flatnonzero(family_code == family_index))
+        count = len(family_ids)
+        n_train = min(max(1, int(0.8 * count)), max(1, count - 2))
+        n_validation = min(max(1, int(0.1 * count)), max(0, count - n_train - 1))
+        case_split[family_ids[:n_train]] = b"train"
+        case_split[family_ids[n_train:n_train + n_validation]] = b"validation"
+
+    created = []
+    try:
+        shards = []
+        for family_index, (family, path) in enumerate(zip(FAMILIES, shard_paths)):
+            case_ids = np.flatnonzero(family_code == family_index)
+            _generate_shard(path, family, case_ids, case_split, replicates, seed, rng)
+            created.append(path)
+            shards.append({
+                "file": path.name, "family": family,
+                "cases": int(len(case_ids)), "scans": int(len(case_ids) * replicates),
+            })
+            print(f"Saved {shards[-1]['scans']:,} {family} scans to {path}", flush=True)
+        manifest = {
+            "format_version": 3, "generator": Path(__file__).name,
+            "seed": seed, "cases": n_cases, "replicates": replicates,
+            "total_scans": n_cases * replicates, "shards": shards,
+        }
+        descriptor, temporary_name = tempfile.mkstemp(
+            prefix=".manifest.", suffix=".partial", dir=output_dir
+        )
+        os.close(descriptor)
+        temporary = Path(temporary_name)
+        try:
+            temporary.write_text(json.dumps(manifest, indent=2) + "\n")
+            os.replace(temporary, manifest_path)
+        finally:
+            temporary.unlink(missing_ok=True)
+    except Exception:
+        for path in created:
+            path.unlink(missing_ok=True)
+        raise
+    return manifest_path
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--cases", type=int, default=10_000)
     parser.add_argument("--replicates", type=int, default=5)
     parser.add_argument("--seed", type=int, default=42)
-    parser.add_argument("--output", type=Path, default=DEFAULT_OUTPUT)
+    parser.add_argument("--output-dir", type=Path, default=DEFAULT_OUTPUT_DIR)
     args = parser.parse_args()
-    generate(args.output, args.cases, args.replicates, args.seed)
-    print(f"Saved {args.cases * args.replicates:,} C 1s scans to {args.output}")
+    manifest_path = generate(args.output_dir, args.cases, args.replicates, args.seed)
+    print(f"Saved {args.cases * args.replicates:,} C 1s scans; manifest: {manifest_path}")
 
 
 if __name__ == "__main__":
