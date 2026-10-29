@@ -2,6 +2,8 @@
 
 The three format-5 notebooks use exactly the same dataset and held-out cases:
 
+Each notebook is self-contained: its architecture, data loading, loss, training, and evaluation code are visible in code cells. The generator and its completed NeXus dataset remain separate inputs. The shared `c1s_peak_pipeline.py` file is retained as a reference implementation and is not imported by the notebooks.
+
 | Notebook | Predictor | Saved checkpoint directory |
 | --- | --- | --- |
 | [`c1s_peak_cnn.ipynb`](c1s_peak_cnn.ipynb) | Deterministic 1D residual CNN, six named peak slots | `outputs/c1s_peak_models/supervised_parameters_v1/cnn/` |

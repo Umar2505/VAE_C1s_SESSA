@@ -1,7 +1,6 @@
-"""Shared format-5 C 1s training, rendering, and evaluation code.
+"""Reference format-5 C 1s training, rendering, and evaluation code.
 
-The three notebooks deliberately share this data contract and reporting code so
-architecture comparisons do not silently change preprocessing or metrics.
+The three notebooks contain standalone copies of the applicable definitions.
 Running/importing this module never starts training.
 """
 
