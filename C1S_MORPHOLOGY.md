@@ -10,12 +10,12 @@ The generator now writes format-5 compact training files by default:
 python c1s_lmfit_dataset.py --cases 10000 --replicates 5 --scans-per-file 100
 ```
 
-The output directory is `datasets/c1s_nexus/c1s_peak_training_v1/`. The manifest is written only after every family shard finishes; each `.nxs` file contains at most 100 scans from one family. These files retain only the information needed to train and evaluate a model that predicts independent peak/background parameters and reconstructs the clean curve:
+The output directory is `datasets/c1s_nexus/c1s_peak_training_v1/`. The manifest is written only after every family shard finishes; each `.nxs` file contains at most 100 scans from one family. These files retain the labelled peak/background parameters needed for training and the clean curves needed for evaluation:
 
 | NeXus location | Role |
 | --- | --- |
 | `/entry/data/binding_energy`, `counts` | Energy axis and noisy model input |
-| `/entry/data/expected_counts`, `background_counts` | Clean full-spectrum and background targets; clean peak-only target is their difference |
+| `/entry/data/expected_counts`, `background_counts` | Clean full-spectrum and background references for evaluation; clean peak-only reference is their difference |
 | `/entry/data/native_step_ev` | Known sampling interval needed to reproduce the clean target after acquisition and interpolation |
 | `/entry/labels/peak_present`, `peak_shape_code`, `peak_center_ev`, `peak_model_sigma_ev`, `peak_area_counts_ev` | Independent peak targets |
 | `/entry/labels/peak_lorentz_gamma_ev`, `peak_pseudo_voigt_fraction`, `peak_asymmetry_gamma` | Parameters used only by the corresponding profile family |
@@ -28,11 +28,11 @@ The labels group also contains small component, profile, and background name lis
 
 The new notebooks are [`c1s_peak_cnn.ipynb`](c1s_peak_cnn.ipynb), [`c1s_peak_vae_v5.ipynb`](c1s_peak_vae_v5.ipynb), and [`c1s_peak_transformer.ipynb`](c1s_peak_transformer.ipynb). All import [`c1s_peak_pipeline.py`](c1s_peak_pipeline.py), wait for the generator's completed manifest, use identical case splits, and check that the renderer can recreate spectra from the stored true parameters before starting training. They are prepared for execution on a training machine; **no new training has been run here**.
 
-The CNN is a deterministic six-slot residual convolutional model. The VAE uses a convolutional encoder, a sampled latent state, physical parameter heads, spectral reconstruction, gradual KL weighting, and free bits. The Transformer uses eight learned peak queries with a no-peak class and matching to the six chemical labels. Its number of predicted peaks is flexible within those eight queries, while its chemical vocabulary is still limited to the six synthetic labels.
+The CNN is a deterministic six-slot residual convolutional model. The VAE uses a convolutional encoder, a sampled latent state, physical parameter heads, gradual KL weighting, and free bits. The Transformer uses eight learned peak queries with a no-peak class and matching to the six chemical labels. All three train directly against stored parameter and class labels, without spectrum rendering in the loss. Their predicted spectra are rendered only for held-out evaluation. The Transformer's number of predicted peaks is flexible within eight queries, while its chemical vocabulary is still limited to the six synthetic labels.
 
-Each run writes `best.pt`, `latest.pt`, `training_history.csv`, validation threshold selection, full held-out scan and peak predictions, task metrics, subgroup breakdown, shape confusion, and best/worst case galleries below `outputs/c1s_peak_models/<model>/`. `outputs/c1s_peak_models/model_comparison.csv` contains completed runs on the same manifest. The notebooks show how to read these reports. The VAE also saves a sample-spread report, which is exploratory rather than a calibrated confidence interval. See [`C1S_MODEL_COMPARISON.md`](C1S_MODEL_COMPARISON.md) for run order and metric definitions.
+Each run writes `best.pt`, `latest.pt`, `training_history.csv`, validation threshold selection, full held-out scan and peak predictions, task metrics, subgroup breakdown, shape confusion, and best/worst case galleries below `outputs/c1s_peak_models/supervised_parameters_v1/<model>/`. `outputs/c1s_peak_models/supervised_parameters_v1/model_comparison.csv` contains completed runs on the same manifest and objective. Earlier renderer-loss checkpoints remain in their original directories. The notebooks show how to read these reports. The VAE also saves a sample-spread report, which is exploratory rather than a calibrated confidence interval. See [`C1S_MODEL_COMPARISON.md`](C1S_MODEL_COMPARISON.md) for run order and metric definitions.
 
-**The existing VAE notebook and saved checkpoint use format 3/4.** Format 5 is the data contract for the proposed peak-plus-reconstruction model; the existing notebook has not been converted to train on it. Keep the older files and checkpoint as the baseline. The generator refuses to overwrite either dataset.
+**The existing VAE notebook and saved checkpoint use format 3/4.** Format 5 is the data contract for the three new supervised parameter models; the existing notebook has not been converted to train on it. Keep the older files and checkpoint as the baseline. The generator refuses to overwrite either dataset.
 
 ## Generate and read the legacy notebook dataset
 

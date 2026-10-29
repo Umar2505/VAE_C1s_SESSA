@@ -29,7 +29,9 @@ from torch.utils.data import DataLoader, Dataset
 
 ROOT = Path(__file__).resolve().parent
 DATA_DIR = ROOT / "datasets" / "c1s_nexus" / "c1s_peak_training_v1"
-OUTPUT_ROOT = ROOT / "outputs" / "c1s_peak_models"
+OBJECTIVE_VERSION = "supervised_parameters_v1"
+# Keep the new supervised experiments separate from earlier renderer-loss runs.
+OUTPUT_ROOT = ROOT / "outputs" / "c1s_peak_models" / OBJECTIVE_VERSION
 COMPONENT_NAMES = (
     "CC_CH", "C_O", "C_eq_O", "O_C_eq_O", "aromatic_graphitic_sp2", "pi_pi_star"
 )
@@ -61,9 +63,8 @@ class RunConfig:
     patience: int = 18
     workers: int = 0
     resume: bool = True
+    objective_version: str = OBJECTIVE_VERSION
     # These are starting weights, recorded alongside every experiment.
-    spectrum_weight: float = 2.0
-    background_curve_weight: float = 0.3
     detection_weight: float = 1.0
     shape_weight: float = 0.5
     peak_parameter_weight: float = 0.7
@@ -71,11 +72,12 @@ class RunConfig:
     instrument_weight: float = 0.03
     vae_beta_max: float = 0.01
     vae_warmup_epochs: int = 25
-    teacher_forcing_epochs: int = 20
 
     def __post_init__(self):
         if self.model_name not in {"cnn", "vae", "transformer"}:
             raise ValueError("model_name must be cnn, vae, or transformer")
+        if self.objective_version != OBJECTIVE_VERSION:
+            raise ValueError(f"This pipeline uses objective {OBJECTIVE_VERSION}")
         if not self.output_dir:
             self.output_dir = str(OUTPUT_ROOT / self.model_name)
 
@@ -631,8 +633,8 @@ def compute_train_weights(data):
             "shape": torch.tensor(shape_weight, dtype=torch.float32)}
 
 
-def loss_terms(pred, batch, renderer, cfg: RunConfig, class_weights,
-               teacher_ratio=0.0, beta=0.0):
+def loss_terms(pred, batch, cfg: RunConfig, class_weights, beta=0.0):
+    """Supervise the labelled physical parameters without rendering a curve."""
     labels = batch["labels"]
     assignments = _target_assignment(pred, labels)
     target = _aligned_targets(labels, assignments)
@@ -688,41 +690,16 @@ def loss_terms(pred, batch, renderer, cfg: RunConfig, class_weights,
                                labels["instrument_gaussian_fwhm_ev"],
                                torch.ones_like(bg_kind, dtype=torch.bool), 0.25)
 
-    if teacher_ratio:
-        presence = teacher_ratio * present.float() + (1.0 - teacher_ratio) * torch.sigmoid(pred["presence_logits"])
-        shape_mix = (teacher_ratio * F.one_hot(shape_ids, 4).float()
-                     + (1.0 - teacher_ratio) * torch.softmax(pred["shape_logits"], -1))
-        background_mix = (
-            teacher_ratio * F.one_hot(bg_kind, 3).float()
-            + (1.0 - teacher_ratio) * torch.softmax(pred["background_logits"], -1)
-        )
-    else:
-        presence = shape_mix = background_mix = None
-    rendered = renderer(pred, batch["native_step"], presence, shape_mix, background_mix)
-    target_clean = batch["clean"]
-    curve_scale = target_clean.amax(-1, keepdim=True).clamp_min(1.0)
-    normalized_error = (rendered["clean"] - target_clean) / curve_scale
-    spectrum = F.smooth_l1_loss(normalized_error / 0.05,
-                                torch.zeros_like(normalized_error), beta=1.0)
-    # First-difference error emphasizes peak shoulders and widths.
-    slope_error = (normalized_error[:, 1:] - normalized_error[:, :-1]) / 0.025
-    spectrum = spectrum + 0.25 * F.smooth_l1_loss(
-        slope_error, torch.zeros_like(slope_error), beta=1.0)
-    background_error = (rendered["background"] - batch["background"]) / curve_scale
-    background_curve = F.smooth_l1_loss(background_error / 0.05,
-                                        torch.zeros_like(background_error), beta=1.0)
     if "mu" in pred:
         kl_by_dim = -0.5 * (1 + pred["logvar"] - pred["mu"].square()
                               - pred["logvar"].exp()).mean(0)
         kl = kl_by_dim.mean()
         kl_penalty = kl_by_dim.clamp_min(0.02).mean()  # free bits
     else:
-        kl = spectrum.new_zeros(())
+        kl = detection.new_zeros(())
         kl_penalty = kl
     total = (
-        cfg.spectrum_weight * spectrum
-        + cfg.background_curve_weight * background_curve
-        + cfg.detection_weight * detection
+        cfg.detection_weight * detection
         + cfg.shape_weight * shape
         + cfg.peak_parameter_weight * peak_parameters
         + cfg.background_parameter_weight * (background_class + background_params)
@@ -730,35 +707,34 @@ def loss_terms(pred, batch, renderer, cfg: RunConfig, class_weights,
         + beta * kl_penalty
     )
     return {
-        "total": total, "spectrum": spectrum, "background_curve": background_curve,
-        "detection": detection, "shape": shape,
+        "total": total, "detection": detection, "shape": shape,
         "background_class": background_class, "background_parameters": background_params,
         "instrument": instrument, "kl": kl, **parameter,
     }
 
 
-def _move_batch(batch, device):
-    return {
+def _move_batch(batch, device, include_curves=True):
+    moved = {
         "counts": batch["counts"].to(device, non_blocking=True),
-        "clean": batch["clean"].to(device, non_blocking=True),
-        "background": batch["background"].to(device, non_blocking=True),
         "native_step": batch["native_step"].to(device, non_blocking=True),
         "index": batch["index"],
         "labels": {k: v.to(device, non_blocking=True) for k, v in batch["labels"].items()},
     }
+    if include_curves:
+        moved["clean"] = batch["clean"].to(device, non_blocking=True)
+        moved["background"] = batch["background"].to(device, non_blocking=True)
+    return moved
 
 
-def _epoch(model, renderer, loader, cfg, weights, optimizer, device,
-           teacher_ratio=0.0, beta=0.0):
+def _epoch(model, loader, cfg, weights, optimizer, device, beta=0.0):
     training = optimizer is not None
     model.train(training)
     names, sums, scans = None, None, 0
     for source_batch in loader:
-        batch = _move_batch(source_batch, device)
+        batch = _move_batch(source_batch, device, include_curves=False)
         with torch.set_grad_enabled(training):
             pred = model(batch["counts"], batch["native_step"], sample=training)
-            terms = loss_terms(pred, batch, renderer, cfg, weights,
-                               teacher_ratio=teacher_ratio, beta=beta)
+            terms = loss_terms(pred, batch, cfg, weights, beta=beta)
             if training:
                 optimizer.zero_grad(set_to_none=True)
                 terms["total"].backward()
@@ -783,7 +759,7 @@ def _save_checkpoint(payload, path):
     os.replace(temporary, path)
 
 
-def train_model(model, renderer, loaders, data, cfg: RunConfig,
+def train_model(model, loaders, data, cfg: RunConfig,
                 manifest_sha: str, device):
     """Run only when a notebook explicitly calls this function."""
     output = Path(cfg.output_dir)
@@ -816,20 +792,19 @@ def train_model(model, renderer, loaders, data, cfg: RunConfig,
         history = checkpoint["history"]
         print(f"Resuming {cfg.model_name} at epoch {start_epoch + 1}")
     for epoch in range(start_epoch, cfg.epochs):
-        teacher_ratio = max(0.0, 1.0 - epoch / max(1, cfg.teacher_forcing_epochs))
         beta = (cfg.vae_beta_max * min(1.0, (epoch + 1) / max(1, cfg.vae_warmup_epochs))
                 if cfg.model_name == "vae" else 0.0)
         train_started = time.perf_counter()
-        train = _epoch(model, renderer, loaders["train"], cfg, weights, optimizer,
-                       device, teacher_ratio, beta)
+        train = _epoch(model, loaders["train"], cfg, weights, optimizer,
+                       device, beta)
         train_seconds = time.perf_counter() - train_started
         validation_started = time.perf_counter()
-        validation = _epoch(model, renderer, loaders["validation"], cfg, weights,
-                            None, device, 0.0, cfg.vae_beta_max if cfg.model_name == "vae" else 0.0)
+        validation = _epoch(model, loaders["validation"], cfg, weights,
+                            None, device, cfg.vae_beta_max if cfg.model_name == "vae" else 0.0)
         validation_seconds = time.perf_counter() - validation_started
         scheduler.step(validation["total"])
-        row = {"epoch": epoch + 1, "teacher_ratio": teacher_ratio,
-               "vae_beta": beta, "learning_rate": optimizer.param_groups[0]["lr"],
+        row = {"epoch": epoch + 1, "vae_beta": beta,
+               "learning_rate": optimizer.param_groups[0]["lr"],
                "train_seconds": train_seconds, "validation_seconds": validation_seconds}
         row.update({f"train_{k}": v for k, v in train.items()})
         row.update({f"validation_{k}": v for k, v in validation.items()})
@@ -856,7 +831,8 @@ def train_model(model, renderer, loaders, data, cfg: RunConfig,
               f"train={train['total']:.4f}, val={validation['total']:.4f}, "
               f"peak detection={validation['detection']:.4f}, "
               f"shape={validation['shape']:.4f}, "
-              f"curve={validation['spectrum']:.4f}, best={best:.4f}, "
+              f"center={validation['center']:.4f}, area={validation['area']:.4f}, "
+              f"best={best:.4f}, "
               f"time: train={train_seconds:.1f}s, validation={validation_seconds:.1f}s, "
               f"checkpoint={checkpoint_seconds:.1f}s", flush=True)
         if bad_epochs >= cfg.patience:
@@ -1150,7 +1126,7 @@ def evaluate_model(model, renderer, loader, data, cfg: RunConfig,
     predicted_peaks.to_csv(output / f"{split}_predicted_peaks.csv", index=False)
     summary = _summarize(scans, true_peaks)
     summary.update(model=cfg.model_name, split=split, threshold=threshold,
-                   manifest_sha=manifest_sha,
+                   manifest_sha=manifest_sha, objective_version=cfg.objective_version,
                    scans=int(len(scans)), true_peaks=int(len(true_peaks)))
     (output / f"{split}_summary.json").write_text(json.dumps(summary, indent=2) + "\n")
     breakdown = _breakdown(scans, true_peaks)
@@ -1243,11 +1219,12 @@ def _breakdown(scans, peaks):
 
 def plot_learning_history(history: pd.DataFrame, output_dir: str | Path):
     path = Path(output_dir) / "learning_curves.png"
-    fig, axes = plt.subplots(2, 2, figsize=(12, 8))
+    fig, axes = plt.subplots(2, 3, figsize=(15, 8))
     for ax, name, title in zip(
         axes.flat,
-        ("total", "spectrum", "detection", "area"),
-        ("Combined loss", "Clean-spectrum loss", "Peak detection loss", "Peak-area loss"),
+        ("total", "detection", "shape", "center", "sigma", "area"),
+        ("Combined loss", "Peak detection", "Peak shape", "Peak center",
+         "Peak width", "Peak area"),
     ):
         for split in ("train", "validation"):
             key = f"{split}_{name}"
@@ -1389,11 +1366,13 @@ def compare_available_models(output_root: str | Path = OUTPUT_ROOT):
     output_root = Path(output_root)
     rows = []
     dataset_hashes = set()
+    objective_versions = set()
     for name in ("cnn", "vae", "transformer"):
         path = output_root / name / "test_summary.json"
         if path.is_file():
             item = json.loads(path.read_text())
             dataset_hashes.add(item.get("manifest_sha", ""))
+            objective_versions.add(item.get("objective_version", ""))
             rows.append({
                 "model": name, "test_scans": item["scans"],
                 "peak_recall": item["presence_recall"],
@@ -1407,6 +1386,8 @@ def compare_available_models(output_root: str | Path = OUTPUT_ROOT):
             })
     if len(dataset_hashes) > 1:
         raise ValueError("Model reports use different dataset manifests; comparison would be invalid")
+    if len(objective_versions) > 1:
+        raise ValueError("Model reports use different training objectives; comparison would be invalid")
     table = pd.DataFrame(rows)
     if len(table):
         output_root.mkdir(parents=True, exist_ok=True)
