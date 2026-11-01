@@ -1,5 +1,7 @@
 name: VAE
 channels:
+  - pytorch
+  - nvidia
   - conda-forge
   - defaults
 dependencies:
@@ -12,4 +14,5 @@ dependencies:
   - h5py
   - notebook
   - ipykernel
-  - pytorch>=2.2
+  - pytorch=2.5.1
+  - pytorch-cuda=11.8
