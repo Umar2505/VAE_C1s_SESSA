@@ -1,4 +1,6 @@
 __pycache__/
+.venv/
+.ruff_cache/
 *.py[cod]
 .ipynb_checkpoints/
 data_cache/
