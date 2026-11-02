@@ -3,6 +3,7 @@ __pycache__/
 .ruff_cache/
 *.py[cod]
 .ipynb_checkpoints/
+.~lock.*#
 data_cache/
 outputs/
 dataset/

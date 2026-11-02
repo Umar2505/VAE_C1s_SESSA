@@ -1,9 +1,0 @@
-# Real C 1s measurements
-
-The seven original `.xy` files in this directory are the sucrose and malonic acid measurements from the [Zenodo record](https://zenodo.org/records/4624072) accompanying [the ACP paper](https://acp.copernicus.org/articles/21/4709/2021/). Their file sizes and MD5 checksums were checked against the Zenodo record. The filename `Sucrose_1mbar .xy` contains a space before `.xy` in the original record.
-
-`real_c1s_spectra.csv` is the separate analysis table used by all three model notebooks. It contains six C 1s measurements, each on a 280–300 eV binding-energy grid at 0.05 eV intervals (401 points). For each original file, the first C 1s region was selected, count rates at repeated kinetic energies were averaged, binding energy was calculated as excitation energy minus kinetic energy, and the result was interpolated to this grid. `counts_per_second` is the averaged, interpolated measurement. `model_input` is the endpoint-baseline-subtracted, clipped, maximum-normalized version fed to the models. The latter has no absolute count scale.
-
-`MalonicAcid_0mbar.xy` is retained as an original file, but it has no C 1s region, so it has no rows in `real_c1s_spectra.csv`.
-
-`real_c1s_published_fits.csv` transcribes the reported C 1s fit values from Tables S3 and S5 of the [paper supplement](../acp-21-4709-2021-supplement.pdf). Its FWHM columns preserve the numbers **as printed**: the table header says eV although the printed values are around 1500–2200 and appear to be in meV. Do not compare these values directly with model widths in eV without resolving that unit inconsistency. The paper's 0 mbar sucrose centers also differ from Table S3 by 0.70 eV. The malonic acid fit includes two C–C components and decomposition-related peaks, so it does not have a one-to-one mapping to the five model outputs. `raw_c1s_available` is 0 for the malonic acid 0 mbar fit because the corresponding `.xy` file has no C 1s region.

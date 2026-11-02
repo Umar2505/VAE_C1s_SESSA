@@ -1,0 +1,17 @@
+sample,material,pressure_mbar,model_component,published_peak_number,published_center_ev,published_center_offset_from_cc_ev,published_fwhm_ev_assuming_printed_mev,published_area_fraction_of_matched_peaks,comparison_scope,supplement_table
+Sucrose 0 mbar,sucrose,0.000000,CC,1,285.900000,0.000000,2.199890,0.809340,all_published_peaks,S3
+Sucrose 0 mbar,sucrose,0.000000,CO,2,287.360000,1.460000,2.199890,0.140147,all_published_peaks,S3
+Sucrose 0 mbar,sucrose,0.000000,OCO,3,288.760000,2.860000,2.199890,0.050513,all_published_peaks,S3
+Sucrose 0.2 mbar,sucrose,0.200000,CC,1,285.650000,0.000000,1.950420,0.801615,all_published_peaks,S3
+Sucrose 0.2 mbar,sucrose,0.200000,CO,2,287.360000,1.710000,1.950420,0.130360,all_published_peaks,S3
+Sucrose 0.2 mbar,sucrose,0.200000,OCO,3,288.760000,3.110000,1.950420,0.068025,all_published_peaks,S3
+Sucrose 1 mbar,sucrose,1.000000,CC,1,285.570000,0.000000,1.913740,0.791366,all_published_peaks,S3
+Sucrose 1 mbar,sucrose,1.000000,CO,2,287.100000,1.530000,1.913740,0.120146,all_published_peaks,S3
+Sucrose 1 mbar,sucrose,1.000000,OCO,3,288.500000,2.930000,1.913740,0.088488,all_published_peaks,S3
+Sucrose 5 mbar,sucrose,5.000000,CC,1,285.570000,0.000000,1.950350,0.699823,all_published_peaks,S3
+Sucrose 5 mbar,sucrose,5.000000,CO,2,287.560000,1.990000,1.950350,0.206151,all_published_peaks,S3
+Sucrose 5 mbar,sucrose,5.000000,OCO,3,288.960000,3.390000,1.950350,0.094026,all_published_peaks,S3
+Malonic acid 0.2 mbar,malonic_acid,0.200000,CC,1,285.480000,0.000000,1.823450,0.887883,matched_peaks_only,S5
+Malonic acid 0.2 mbar,malonic_acid,0.200000,COO,2,289.640000,4.160000,1.823450,0.112117,matched_peaks_only,S5
+Malonic acid 1 mbar,malonic_acid,1.000000,CC,1,285.220000,0.000000,1.673490,0.887620,matched_peaks_only,S5
+Malonic acid 1 mbar,malonic_acid,1.000000,COO,2,289.070000,3.850000,1.673490,0.112380,matched_peaks_only,S5
