@@ -1,0 +1,2407 @@
+sample,material,pressure_mbar,raw_filename,binding_energy_ev,counts_per_second,model_input
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,280.00,290.72126333,0.00000000
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,280.05,291.79963727,0.00000000
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,280.10,292.87801121,0.00000000
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,280.15,290.76246773,0.00000000
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,280.20,288.64692424,0.00000000
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,280.25,292.40519152,0.00000000
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,280.30,296.16345879,0.00738399
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,280.35,298.10416152,0.01635064
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,280.40,300.04486424,0.02531743
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,280.45,301.95732439,0.03415078
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,280.50,303.86978455,0.04298398
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,280.55,304.09015455,0.04382676
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,280.60,304.31052455,0.04466940
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,280.65,300.75507561,0.02768148
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,280.70,297.19962667,0.01069343
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,280.75,299.56831136,0.02168128
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,280.80,301.93699606,0.03266900
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,280.85,299.10878818,0.01911547
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,280.90,296.28058030,0.00556166
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,280.95,298.19269788,0.01439342
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,281.00,300.10481545,0.02322518
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,281.05,297.35648788,0.01004852
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,281.10,294.60816030,0.00000000
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,281.15,296.21056576,0.00424129
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,281.20,297.81297121,0.01161043
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,281.25,305.37927727,0.04714312
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,281.30,312.94558333,0.08267596
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,281.35,304.15010106,0.04094274
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,281.40,295.35461879,0.00000000
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,281.45,291.46991379,0.00000000
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,281.50,287.58520879,0.00000000
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,281.55,300.62863333,0.02352134
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,281.60,313.67205788,0.08491880
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,281.65,319.17957955,0.11072925
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,281.70,324.68710121,0.13653970
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,281.75,324.06664182,0.13341184
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,281.80,323.44618242,0.13028385
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,281.85,317.94057621,0.10408659
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,281.90,312.43497000,0.07788920
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,281.95,308.50948682,0.05915375
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,282.00,304.58400364,0.04041846
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,282.05,303.46048470,0.03491473
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,282.10,302.33696576,0.02941129
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,282.15,304.47957682,0.03933140
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,282.20,306.62218788,0.04925166
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,282.25,306.90649773,0.05039622
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,282.30,307.19080758,0.05154091
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,282.35,306.08683545,0.04612957
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,282.40,304.98286333,0.04071821
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,282.45,304.38771606,0.03770997
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,282.50,303.79256879,0.03470144
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,282.55,300.42082955,0.01858110
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,282.60,297.04909030,0.00246061
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,282.65,302.68040939,0.02885573
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,282.70,308.31172848,0.05525070
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,282.75,307.24076636,0.04999529
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,282.80,306.16980424,0.04473987
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,282.85,299.99969379,0.01540467
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,282.90,293.82958333,0.00000000
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,282.95,290.58296379,0.00000000
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,283.00,287.33634424,0.00000000
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,283.05,294.39318500,0.00000000
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,283.10,301.45002576,0.02126379
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,283.15,306.27553379,0.04385357
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,283.20,311.10104182,0.06644335
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,283.25,313.83345636,0.07914875
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,283.30,316.56587091,0.09185417
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,283.35,310.83448000,0.06459061
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,283.40,305.10308909,0.03732706
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,283.45,302.80544561,0.02627897
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,283.50,300.50780212,0.01523073
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,283.55,300.37197000,0.01439140
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,283.60,300.23613788,0.01355194
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,283.65,304.64661939,0.03418176
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,283.70,309.05710091,0.05481159
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,283.75,315.12746591,0.08328009
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,283.80,321.19783091,0.11174843
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,283.85,317.39128455,0.09357461
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,283.90,313.58473818,0.07540092
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,283.95,320.20545576,0.10646808
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,284.00,326.82617333,0.13753554
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,284.05,322.74895894,0.11808356
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,284.10,318.67174455,0.09863172
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,284.15,328.68300015,0.14571027
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,284.20,338.69425576,0.19278884
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,284.25,336.35501000,0.18154417
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,284.30,334.01576424,0.17029950
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,284.35,340.21180061,0.19936131
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,284.40,346.40783697,0.22842313
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,284.45,362.73295864,0.30531809
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,284.50,379.05808030,0.38221276
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,284.55,379.74942167,0.38527966
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,284.60,380.44076303,0.38834640
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,284.65,393.37776833,0.44924149
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,284.70,406.31477364,0.51013643
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,284.75,401.03175258,0.48499021
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,284.80,395.74873152,0.45984396
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,284.85,399.17153939,0.47580969
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,284.90,402.59434727,0.49177554
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,284.95,413.45886106,0.54288340
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,285.00,424.32337485,0.59399140
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,285.05,428.31600545,0.61264801
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,285.10,432.30863606,0.63130462
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,285.15,438.51735439,0.66042638
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,285.20,444.72607273,0.68954813
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,285.25,444.46951742,0.68813854
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,285.30,444.21296212,0.68672895
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,285.35,460.99974606,0.76580411
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,285.40,477.78653000,0.84487891
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,285.45,482.93872121,0.86901146
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,285.50,488.09091242,0.89314383
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,285.55,481.39312894,0.86131674
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,285.60,474.69534545,0.82948953
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,285.65,483.33336742,0.87008333
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,285.70,491.97138939,0.91067690
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,285.75,493.93936348,0.91977239
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,285.80,495.90733758,0.92886806
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,285.85,495.49872167,0.92674035
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,285.90,495.09010576,0.92461294
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,285.95,503.11399833,0.96230632
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,286.00,511.13789091,1.00000000
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,286.05,502.16755091,0.95744103
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,286.10,493.19721091,0.91488218
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,286.15,493.40044909,0.91564393
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,286.20,493.60368727,0.91640574
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,286.25,494.72080803,0.92148316
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,286.30,495.83792879,0.92656064
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,286.35,484.79192848,0.87419987
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,286.40,473.74592818,0.82183892
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,286.45,475.57952318,0.83029985
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,286.50,477.41311818,0.83876067
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,286.55,471.48974364,0.81059062
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,286.60,465.56636909,0.78242046
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,286.65,454.30071197,0.72902238
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,286.70,443.03505485,0.67562407
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,286.75,438.58658152,0.65441883
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,286.80,434.13810818,0.63321382
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,286.85,434.82732439,0.63627052
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,286.90,435.51654061,0.63932729
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,286.95,433.49705485,0.62959254
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,287.00,431.47756909,0.61985803
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,287.05,427.69914045,0.60181695
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,287.10,423.92071182,0.58377612
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,287.15,417.01191439,0.55095237
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,287.20,410.10311697,0.51812869
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,287.25,399.74816273,0.46903127
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,287.30,389.39320848,0.41993368
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,287.35,395.66442258,0.44935057
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,287.40,401.93563667,0.47876734
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,287.45,397.13399303,0.45589453
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,287.50,392.33234939,0.43302143
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,287.55,378.18967303,0.36603707
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,287.60,364.04699667,0.29905257
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,287.65,362.35611576,0.29086959
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,287.70,360.66523485,0.28268680
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,287.75,365.77715788,0.30662909
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,287.80,370.88908091,0.33057138
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,287.85,370.47120152,0.32840002
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,287.90,370.05332212,0.32622880
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,287.95,370.88239682,0.32994592
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,288.00,371.71147152,0.33366323
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,288.05,366.34603985,0.30812788
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,288.10,360.98060818,0.28259254
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,288.15,358.00436379,0.26833978
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,288.20,355.02811939,0.25408685
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,288.25,347.21810515,0.21700755
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,288.30,339.40809091,0.17992793
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,288.35,343.41859697,0.19866914
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,288.40,347.42910303,0.21741006
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,288.45,341.84628485,0.19084819
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,288.50,336.26346667,0.16428618
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,288.55,335.42432152,0.16012560
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,288.60,334.58517636,0.15596488
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,288.65,331.83868924,0.14279701
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,288.70,329.09220212,0.12962928
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,288.75,327.49418394,0.12188486
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,288.80,325.89616576,0.11414073
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,288.85,322.48099030,0.09781502
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,288.90,319.06581485,0.08148961
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,288.95,329.96050439,0.13273999
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,289.00,340.85519394,0.18399051
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,289.05,334.34798076,0.15306328
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,289.10,327.84076758,0.12213591
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,289.15,325.40399955,0.11043079
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,289.20,322.96723152,0.09872554
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,289.25,329.63673273,0.13002329
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,289.30,336.30623394,0.16132103
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,289.35,329.94537576,0.13108498
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,289.40,323.58451758,0.10084878
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,289.45,325.03589242,0.10750484
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,289.50,326.48726727,0.11416076
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,289.55,324.00115879,0.10222247
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,289.60,321.51505030,0.09028433
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,289.65,320.71683515,0.08631686
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,289.70,319.91862000,0.08234954
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,289.75,307.91132500,0.02544901
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,289.80,295.90403000,0.00000000
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,289.85,305.73554652,0.01477835
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,289.90,315.56706303,0.06100836
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,289.95,323.58854318,0.09869038
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,290.00,331.61002333,0.13637267
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,290.05,327.39156561,0.11625373
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,290.10,323.17310788,0.09613465
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,290.15,319.28350091,0.07756883
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,290.20,315.39389394,0.05900272
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,290.25,309.60555576,0.03147040
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,290.30,303.81721758,0.00393792
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,290.35,311.49926106,0.04001724
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,290.40,319.18130455,0.07609642
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,290.45,316.28157500,0.06220509
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,290.50,313.38184545,0.04831347
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,290.55,314.63611758,0.05403856
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,290.60,315.89038970,0.05976379
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,290.65,311.88210000,0.04063737
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,290.70,307.87381030,0.02151094
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,290.75,305.42040864,0.00972714
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,290.80,302.96700697,0.00000000
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,290.85,309.51960939,0.02868913
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,290.90,316.07221182,0.05943478
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,290.95,313.92528985,0.04909832
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,291.00,311.77836788,0.03876186
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,291.05,315.43672500,0.05583999
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,291.10,319.09508212,0.07291798
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,291.15,313.21690076,0.04496123
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,291.20,307.33871939,0.01700448
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,291.25,299.46796697,0.00000000
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,291.30,291.59721455,0.00000000
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,291.35,300.89056909,0.00000000
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,291.40,310.18392364,0.02964879
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,291.45,314.24824970,0.04864393
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,291.50,318.31257576,0.06763906
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,291.55,317.57952803,0.06397942
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,291.60,316.84648030,0.06031979
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,291.65,315.35992379,0.05310182
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,291.70,313.87336727,0.04588385
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,291.75,312.43180894,0.03887845
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,291.80,310.99025061,0.03187305
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,291.85,307.18454470,0.01370311
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,291.90,303.37883879,0.00000000
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,291.95,307.11772788,0.01299176
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,292.00,310.85661697,0.03045007
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,292.05,315.04341439,0.05002368
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,292.10,319.23021182,0.06959715
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,292.15,320.49436742,0.07536893
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,292.20,321.75852303,0.08114070
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,292.25,315.59704500,0.05184629
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,292.30,309.43556697,0.02255173
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,292.35,318.32702303,0.06434231
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,292.40,327.21847909,0.10613273
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,292.45,318.88010742,0.06655806
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,292.50,310.54173576,0.02698368
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,292.55,308.06331652,0.01508171
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,292.60,305.58489727,0.00317988
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,292.65,306.75917682,0.00852725
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,292.70,307.93345636,0.01387461
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,292.75,308.70479136,0.01731923
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,292.80,309.47612636,0.02076385
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,292.85,314.32393636,0.04345884
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,292.90,319.17174636,0.06615382
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,292.95,321.24172348,0.07573108
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,293.00,323.31170061,0.08530820
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,293.05,320.28724652,0.07082774
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,293.10,317.26279242,0.05634727
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,293.15,305.60670955,0.00110550
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,293.20,293.95062667,0.00000000
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,293.25,304.11354803,0.00000000
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,293.30,314.27646939,0.04145305
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,293.35,321.97373121,0.07760414
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,293.40,329.67099303,0.11375537
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,293.45,324.53801485,0.08931775
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,293.50,319.40503667,0.06488014
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,293.55,316.47256015,0.05083403
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,293.60,313.54008364,0.03678793
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,293.65,314.36828212,0.04050103
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,293.70,315.19648061,0.04421414
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,293.75,320.60767530,0.06956962
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,293.80,326.01887000,0.09492525
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,293.85,320.73529500,0.06977642
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,293.90,315.45172000,0.04462760
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,293.95,320.34037121,0.06751556
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,294.00,325.22902242,0.09040351
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,294.05,321.28338667,0.07157295
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,294.10,317.33775091,0.05274225
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,294.15,311.67368076,0.02579676
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,294.20,306.00961061,0.00000000
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,294.25,305.39541636,0.00000000
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,294.30,304.78122212,0.00000000
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,294.35,299.28492561,0.00000000
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,294.40,293.78862909,0.00000000
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,294.45,301.14416167,0.00000000
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,294.50,308.49969424,0.00942248
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,294.55,314.62736121,0.03816134
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,294.60,320.75502818,0.06690048
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,294.65,312.85544455,0.02939789
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,294.70,304.95586091,0.00000000
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,294.75,311.35731182,0.02192729
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,294.80,317.75876273,0.05195913
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,294.85,314.73665667,0.03748991
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,294.90,311.71455061,0.02302039
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,294.95,314.22822000,0.03469294
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,295.00,316.74188939,0.04636534
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,295.05,315.50367515,0.04032017
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,295.10,314.26546091,0.03427501
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,295.15,310.72348333,0.01735065
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,295.20,307.18150576,0.00042629
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,295.25,311.03725258,0.01843641
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,295.30,314.89299939,0.03644666
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,295.35,315.07212955,0.03709460
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,295.40,315.25125970,0.03774254
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,295.45,302.73968606,0.00000000
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,295.50,290.22811242,0.00000000
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,295.55,297.97872576,0.00000000
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,295.60,305.72933909,0.00000000
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,295.65,310.18150045,0.01281162
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,295.70,314.63366182,0.03363831
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,295.75,311.40557424,0.01819631
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,295.80,308.17748667,0.00275417
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,295.85,304.18319318,0.00000000
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,295.90,300.18889970,0.00000000
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,295.95,309.01225348,0.00610252
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,296.00,317.83560727,0.04757128
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,296.05,321.11540606,0.06286182
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,296.10,324.39520485,0.07815206
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,296.15,318.96611879,0.05231625
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,296.20,313.53703273,0.02648015
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,296.25,310.35857303,0.01127248
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,296.30,307.18011333,0.00000000
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,296.35,306.34734561,0.00000000
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,296.40,305.51457788,0.00000000
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,296.45,302.44360833,0.00000000
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,296.50,299.37263879,0.00000000
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,296.55,303.31107303,0.00000000
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,296.60,307.24950727,0.00000000
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,296.65,309.32139227,0.00479094
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,296.70,311.39327727,0.01437714
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,296.75,306.68016621,0.00000000
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,296.80,301.96705515,0.00000000
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,296.85,309.34294788,0.00410106
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,296.90,316.71884061,0.03873448
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,296.95,316.70632939,0.03847753
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,297.00,316.69381818,0.03822042
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,297.05,307.63179121,0.00000000
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,297.10,298.56976424,0.00000000
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,297.15,297.32921045,0.00000000
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,297.20,296.08865667,0.00000000
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,297.25,294.60019167,0.00000000
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,297.30,293.11172667,0.00000000
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,297.35,300.07119091,0.00000000
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,297.40,307.03065515,0.00000000
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,297.45,300.93424258,0.00000000
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,297.50,294.83783000,0.00000000
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,297.55,308.65140121,0.00000000
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,297.60,322.46497242,0.06309845
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,297.65,322.64789409,0.06376426
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,297.70,322.83081576,0.06443007
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,297.75,316.22330894,0.03302928
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,297.80,309.61580212,0.00162849
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,297.85,310.07098682,0.00358009
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,297.90,310.52617152,0.00553169
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,297.95,310.11336470,0.00338438
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,298.00,309.70055788,0.00123693
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,298.05,314.26111636,0.02257551
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,298.10,318.82167485,0.04391409
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,298.15,314.96103424,0.02548475
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,298.20,311.10039364,0.00705569
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,298.25,315.52545621,0.02775426
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,298.30,319.95051879,0.04845312
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,298.35,316.23186985,0.03069434
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,298.40,312.51322091,0.01293570
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,298.45,307.90839712,0.00000000
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,298.50,303.30357333,0.00000000
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,298.55,303.62223530,0.00000000
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,298.60,303.94089727,0.00000000
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,298.65,310.66868424,0.00323537
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,298.70,317.39647121,0.03480837
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,298.75,314.21347530,0.01957923
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,298.80,311.03047939,0.00435009
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,298.85,303.18603561,0.00000000
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,298.90,295.34159182,0.00000000
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,298.95,308.58681985,0.00000000
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,299.00,321.83204788,0.05456703
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,299.05,314.22455242,0.01844376
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,299.10,306.61705697,0.00000000
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,299.15,305.70522758,0.00000000
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,299.20,304.79339818,0.00000000
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,299.25,306.12808136,0.00000000
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,299.30,307.46276455,0.00000000
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,299.35,310.81303424,0.00114585
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,299.40,314.16330394,0.01676900
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,299.45,312.03863348,0.00653760
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,299.50,309.91396303,0.00000000
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,299.55,306.63308833,0.00000000
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,299.60,303.35221364,0.00000000
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,299.65,306.86403030,0.00000000
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,299.70,310.37584697,0.00000000
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,299.75,307.36210409,0.00000000
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,299.80,304.34836121,0.00000000
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,299.85,311.15652803,0.00078845
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,299.90,317.96469485,0.03274091
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,299.95,320.35379606,0.04382518
+Sucrose 0 mbar,sucrose,0.0,Sucrose_0mbar.xy,300.00,322.74289727,0.05490930
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,280.00,298.46029700,0.00000000
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,280.05,297.90911180,0.00000000
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,280.10,297.35792660,0.00000000
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,280.15,299.57549250,0.00357574
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,280.20,301.79305840,0.01591460
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,280.25,298.04344400,0.00000000
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,280.30,294.29382960,0.00000000
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,280.35,298.09755130,0.00000000
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,280.40,301.90127300,0.01622177
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,280.45,301.53518990,0.01409778
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,280.50,301.16910680,0.01197362
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,280.55,296.25111060,0.00000000
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,280.60,291.33311440,0.00000000
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,280.65,294.29801770,0.00000000
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,280.70,297.26292100,0.00000000
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,280.75,299.83491810,0.00413180
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,280.80,302.40691520,0.01845491
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,280.85,300.39773040,0.00713285
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,280.90,298.38854560,0.00000000
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,280.95,297.06629380,0.00000000
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,281.00,295.74404200,0.00000000
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,281.05,296.96161440,0.00000000
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,281.10,298.17918680,0.00000000
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,281.15,296.59640220,0.00000000
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,281.20,295.01361760,0.00000000
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,281.25,294.66253620,0.00000000
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,281.30,294.31145480,0.00000000
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,281.35,290.63650830,0.00000000
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,281.40,286.96156180,0.00000000
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,281.45,290.89240730,0.00000000
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,281.50,294.82325280,0.00000000
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,281.55,296.56193740,0.00000000
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,281.60,298.30062200,0.00000000
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,281.65,300.65324030,0.00736826
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,281.70,303.00585860,0.02046342
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,281.75,301.23646770,0.01048394
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,281.80,299.46707680,0.00050430
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,281.85,302.22116980,0.01584661
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,281.90,304.97526280,0.03118909
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,281.95,295.07073770,0.00000000
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,282.00,285.16621260,0.00000000
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,282.05,291.10742160,0.00000000
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,282.10,297.04863060,0.00000000
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,282.15,298.96577150,0.00000000
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,282.20,300.88291240,0.00783242
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,282.25,298.75511530,0.00000000
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,282.30,296.62731820,0.00000000
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,282.35,301.47681540,0.01093307
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,282.40,306.32631260,0.03800556
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,282.45,307.86032290,0.04651808
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,282.50,309.39433320,0.05503059
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,282.55,303.90564430,0.02423066
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,282.60,298.41695540,0.00000000
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,282.65,304.02732670,0.02476247
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,282.70,309.63769800,0.05609421
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,282.75,302.42354670,0.01563546
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,282.80,295.20939540,0.00000000
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,282.85,296.24359410,0.00000000
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,282.90,297.27779280,0.00000000
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,282.95,298.82967400,0.00000000
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,283.00,300.38155520,0.00383114
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,283.05,301.08786260,0.00771028
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,283.10,301.79417000,0.01158942
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,283.15,300.03356550,0.00165915
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,283.20,298.27296100,0.00000000
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,283.25,298.00598300,0.00000000
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,283.30,297.73900500,0.00000000
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,283.35,306.16378320,0.03567674
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,283.40,314.58856140,0.08276319
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,283.45,312.07124450,0.06859691
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,283.50,309.55392760,0.05443045
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,283.55,306.88174260,0.03939701
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,283.60,304.20955760,0.02436374
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,283.65,304.11273190,0.02374703
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,283.70,304.01590620,0.02313031
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,283.75,309.66803740,0.05469576
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,283.80,315.32016860,0.08626120
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,283.85,315.70051470,0.08831548
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,283.90,316.08086080,0.09037011
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,283.95,322.04449070,0.12367926
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,284.00,328.00812060,0.15698841
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,284.05,335.12905080,0.19677611
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,284.10,342.24998100,0.23656365
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,284.15,341.64058150,0.23307776
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,284.20,341.03118200,0.22959155
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,284.25,344.15298160,0.24699241
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,284.30,347.27478120,0.26439327
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,284.35,346.91764260,0.26231936
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,284.40,346.56050400,0.26024559
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,284.45,351.09782860,0.28557044
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,284.50,355.63515320,0.31089512
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,284.55,365.27536520,0.36478540
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,284.60,374.91557720,0.41867584
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,284.65,385.56078260,0.47819203
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,284.70,396.20598800,0.53770822
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,284.75,403.72231870,0.57970929
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,284.80,411.23864940,0.62171030
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,284.85,415.70544980,0.64664018
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,284.90,420.17225020,0.67157024
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,284.95,423.43481330,0.68975919
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,285.00,426.69737640,0.70794809
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,285.05,427.13551220,0.71032596
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,285.10,427.57364800,0.71270394
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,285.15,443.77812240,0.80334055
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,285.20,459.98259680,0.89397681
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,285.25,464.23133400,0.91768610
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,285.30,468.48007120,0.94139552
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,285.35,466.73621550,0.93155891
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,285.40,464.99235980,0.92172241
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,285.45,471.55090620,0.95836180
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,285.50,478.10945260,0.99500138
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,285.55,472.96768760,0.96614331
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,285.60,467.82592260,0.93728560
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,285.65,469.93715260,0.94902945
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,285.70,472.04838260,0.96077317
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,285.75,475.56541860,0.98038667
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,285.80,479.08245460,1.00000000
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,285.85,470.38994070,0.95126534
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,285.90,461.69742680,0.90253067
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,285.95,467.74137070,0.93628949
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,286.00,473.78531460,0.97004825
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,286.05,466.99758910,0.93197662
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,286.10,460.20986360,0.89390492
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,286.15,447.97102050,0.82531828
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,286.20,435.73217740,0.75673163
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,286.25,438.74846600,0.77354187
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,286.30,441.76475460,0.79035199
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,286.35,434.24791280,0.74819893
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,286.40,426.73107100,0.70604569
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,286.45,420.44040350,0.67075640
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,286.50,414.14973600,0.63546729
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,286.55,413.99433330,0.63452238
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,286.60,413.83893060,0.63357782
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,286.65,408.52539730,0.60375851
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,286.70,403.21186400,0.57393914
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,286.75,398.28714250,0.54629642
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,286.80,393.36242100,0.51865369
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,286.85,387.91423080,0.48808044
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,286.90,382.46604060,0.45750722
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,286.95,381.65723110,0.45290494
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,287.00,380.84842160,0.44830266
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,287.05,377.83615050,0.43136561
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,287.10,374.82387940,0.41442856
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,287.15,376.78421840,0.42532763
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,287.20,378.74455740,0.43622670
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,287.25,375.48877420,0.41792640
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,287.30,372.23299100,0.39962626
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,287.35,362.30950210,0.34400082
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,287.40,352.38601320,0.28837538
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,287.45,352.02124500,0.28625873
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,287.50,351.65647680,0.28414211
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,287.55,347.97531950,0.26346052
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,287.60,344.29416220,0.24277912
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,287.65,345.56760740,0.24983305
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,287.70,346.84105260,0.25688714
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,287.75,342.13062830,0.23044385
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,287.80,337.42020400,0.20400071
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,287.85,340.01469790,0.21844973
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,287.90,342.60919180,0.23289874
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,287.95,333.09247130,0.17955035
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,288.00,323.57575080,0.12620197
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,288.05,327.08730140,0.14578474
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,288.10,330.59885200,0.16536732
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,288.15,333.64137280,0.18232453
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,288.20,336.68389360,0.19928139
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,288.25,329.66812770,0.15993308
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,288.30,322.65236180,0.12058493
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,288.35,324.69219580,0.13192903
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,288.40,326.73202980,0.14327313
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,288.45,325.82275770,0.13810846
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,288.50,324.91348560,0.13294362
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,288.55,327.64358650,0.14815181
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,288.60,330.37368740,0.16336001
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,288.65,329.23824260,0.15692930
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,288.70,328.10279780,0.15049841
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,288.75,327.66139970,0.14795297
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,288.80,327.22000160,0.14540736
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,288.85,326.68129260,0.14231697
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,288.90,326.14258360,0.13922657
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,288.95,326.59858060,0.14170453
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,289.00,327.05457760,0.14418247
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,289.05,323.64500890,0.12502150
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,289.10,320.23544020,0.10586036
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,289.15,319.97057770,0.10430303
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,289.20,319.70571520,0.10274553
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,289.25,317.96973900,0.09295295
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,289.30,316.23376280,0.08316055
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,289.35,316.13859840,0.08255323
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,289.40,316.04343400,0.08194575
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,289.45,313.52189850,0.06775589
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,289.50,311.00036300,0.05356586
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,289.55,316.44964740,0.08399559
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,289.60,321.89893180,0.11442549
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,289.65,320.26097870,0.10518181
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,289.70,318.62302560,0.09593794
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,289.75,314.47146590,0.07262331
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,289.80,310.31990620,0.04930866
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,289.85,311.56002430,0.05617587
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,289.90,312.80014240,0.06304324
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,289.95,318.37558600,0.09417938
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,290.00,323.95102960,0.12531552
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,290.05,320.27231140,0.10464778
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,290.10,316.59359320,0.08398004
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,290.15,313.61524150,0.06723279
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,290.20,310.63688980,0.05048554
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,290.25,307.25854990,0.03149916
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,290.30,303.88021000,0.01251295
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,290.35,304.00785890,0.01315289
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,290.40,304.13550780,0.01379267
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,290.45,304.30239340,0.01465231
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,290.50,304.46927900,0.01551178
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,290.55,306.62815040,0.02752213
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,290.60,308.78702180,0.03953265
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,290.65,305.86693140,0.02311169
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,290.70,302.94684100,0.00669056
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,290.75,302.53747480,0.00432433
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,290.80,302.12810860,0.00195811
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,290.85,303.49587200,0.00953991
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,290.90,304.86363540,0.01712189
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,290.95,305.27380880,0.01934325
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,291.00,305.68398220,0.02156479
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,291.05,304.80944980,0.01659453
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,291.10,303.93491740,0.01162427
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,291.15,300.90349330,0.00000000
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,291.20,297.87206920,0.00000000
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,291.25,301.97557590,0.00043204
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,291.30,306.07908260,0.02332831
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,291.35,309.56190910,0.04275032
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,291.40,313.04473560,0.06217216
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,291.45,310.62604660,0.04855784
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,291.50,308.20735760,0.03494369
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,291.55,306.58683480,0.02579721
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,291.60,304.96631200,0.01665107
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,291.65,305.86658980,0.02161604
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,291.70,306.76686760,0.02658117
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,291.75,308.50946750,0.03626134
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,291.80,310.25206740,0.04594168
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,291.85,307.72147700,0.03170074
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,291.90,305.19088660,0.01746015
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,291.95,308.43108170,0.03552385
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,292.00,311.67127680,0.05358738
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,292.05,309.69610880,0.04245597
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,292.10,307.72094080,0.03132457
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,292.15,303.01660810,0.00491542
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,292.20,298.31227540,0.00000000
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,292.25,297.86538150,0.00000000
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,292.30,297.41848760,0.00000000
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,292.35,301.83401570,0.00000000
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,292.40,306.24954380,0.02263968
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,292.45,304.27477070,0.01151049
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,292.50,302.29999760,0.00038096
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,292.55,302.87167710,0.00350655
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,292.60,303.44335660,0.00663214
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,292.65,299.69907700,0.00000000
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,292.70,295.95479740,0.00000000
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,292.75,303.11339330,0.00456111
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,292.80,310.27198920,0.04455963
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,292.85,312.22764900,0.05543239
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,292.90,314.18330880,0.06630533
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,292.95,309.73581060,0.04133393
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,293.00,305.28831240,0.01636253
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,293.05,309.86852100,0.04192758
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,293.10,314.44872960,0.06749246
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,293.15,313.01092640,0.05936911
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,293.20,311.57312320,0.05124558
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,293.25,307.56779240,0.02874940
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,293.30,303.56246160,0.00625340
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,293.35,298.86015080,0.00000000
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,293.40,294.15784000,0.00000000
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,293.45,291.85198380,0.00000000
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,293.50,289.54612760,0.00000000
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,293.55,288.99189460,0.00000000
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,293.60,288.43766160,0.00000000
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,293.65,296.00441360,0.00000000
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,293.70,303.57116560,0.00570468
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,293.75,305.86021070,0.01844381
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,293.80,308.14925580,0.03118311
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,293.85,304.51650210,0.01077248
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,293.90,300.88374840,0.00000000
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,293.95,300.43782620,0.00000000
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,294.00,299.99190400,0.00000000
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,294.05,296.68689250,0.00000000
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,294.10,293.38188100,0.00000000
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,294.15,300.83504190,0.00000000
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,294.20,308.28820280,0.03136334
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,294.25,305.78325800,0.01726625
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,294.30,303.27831320,0.00316915
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,294.35,305.23228950,0.01403269
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,294.40,307.18626580,0.02489623
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,294.45,310.67041520,0.04432542
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,294.50,314.15456460,0.06375460
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,294.55,312.00682360,0.05165712
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,294.60,309.85908260,0.03955947
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,294.65,307.92746060,0.02867185
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,294.70,305.99583860,0.01778422
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,294.75,304.21245250,0.00772633
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,294.80,302.42906640,0.00000000
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,294.85,299.14241710,0.00000000
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,294.90,295.85576780,0.00000000
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,294.95,301.76560800,0.00000000
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,295.00,307.67544820,0.02673834
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,295.05,312.06375730,0.05122901
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,295.10,316.45206640,0.07571968
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,295.15,314.20023950,0.06303948
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,295.20,311.94841260,0.05035929
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,295.25,312.30512620,0.05228135
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,295.30,312.66183980,0.05420358
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,295.35,306.06148970,0.01718083
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,295.40,299.46113960,0.00000000
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,295.45,302.78611130,0.00000000
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,295.50,306.11108300,0.01723447
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,295.55,302.77052180,0.00000000
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,295.60,299.42996060,0.00000000
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,295.65,300.41719400,0.00000000
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,295.70,301.40442740,0.00000000
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,295.75,305.04697520,0.01090420
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,295.80,308.68952300,0.03122018
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,295.85,304.75469470,0.00911864
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,295.90,300.81986640,0.00000000
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,295.95,301.02931540,0.00000000
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,296.00,301.23876440,0.00000000
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,296.05,302.38937920,0.00000000
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,296.10,303.53999400,0.00194563
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,296.15,304.01936620,0.00455445
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,296.20,304.49873840,0.00716309
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,296.25,298.84105890,0.00000000
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,296.30,293.18337940,0.00000000
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,296.35,293.26544240,0.00000000
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,296.40,293.34750540,0.00000000
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,296.45,295.57007460,0.00000000
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,296.50,297.79264380,0.00000000
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,296.55,301.92679910,0.00000000
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,296.60,306.06095440,0.01531070
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,296.65,307.41805450,0.02283306
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,296.70,308.77515460,0.03035525
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,296.75,307.91310500,0.02545503
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,296.80,307.05105540,0.02055464
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,296.85,309.36359530,0.03342514
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,296.90,311.67613520,0.04629599
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,296.95,311.76165980,0.04670002
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,297.00,311.84718440,0.04710421
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,297.05,306.90677580,0.01937349
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,297.10,301.96636720,0.00000000
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,297.15,300.02025970,0.00000000
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,297.20,298.07415220,0.00000000
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,297.25,305.44246050,0.01087772
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,297.30,312.81076880,0.05205004
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,297.35,317.70780950,0.07938869
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,297.40,322.60485020,0.10672718
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,297.45,311.26339510,0.04316408
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,297.50,299.92194000,0.00000000
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,297.55,301.53236140,0.00000000
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,297.60,303.14278280,0.00000000
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,297.65,299.15420730,0.00000000
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,297.70,295.16563180,0.00000000
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,297.75,294.61671800,0.00000000
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,297.80,294.06780420,0.00000000
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,297.85,299.36109590,0.00000000
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,297.90,304.65438760,0.00549523
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,297.95,310.92154530,0.04050351
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,298.00,317.18870300,0.07551178
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,298.05,312.40925170,0.04868221
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,298.10,307.62980040,0.02185264
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,298.15,301.99401960,0.00000000
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,298.20,296.35823880,0.00000000
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,298.25,293.19961460,0.00000000
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,298.30,290.04099040,0.00000000
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,298.35,291.78195990,0.00000000
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,298.40,293.52292940,0.00000000
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,298.45,297.75899200,0.00000000
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,298.50,301.99505460,0.00000000
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,298.55,302.77327420,0.00000000
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,298.60,303.55149380,0.00000000
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,298.65,305.99376880,0.01187283
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,298.70,308.43604380,0.02546972
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,298.75,307.98343950,0.02286142
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,298.80,307.53083520,0.02025312
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,298.85,309.72842060,0.03248026
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,298.90,311.92600600,0.04470740
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,298.95,311.80597410,0.04396085
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,299.00,311.68594220,0.04321431
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,299.05,305.12013440,0.00638494
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,299.10,298.55432660,0.00000000
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,299.15,303.24827200,0.00000000
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,299.20,307.94221740,0.02195856
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,299.25,311.56896950,0.04218606
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,299.30,315.19572160,0.06241355
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,299.35,314.68052700,0.05945503
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,299.40,314.16533240,0.05649635
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,299.45,315.22817090,0.06237135
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,299.50,316.29100940,0.06824635
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,299.55,306.21372290,0.01175974
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,299.60,296.13643640,0.00000000
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,299.65,299.49431360,0.00000000
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,299.70,302.85219080,0.00000000
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,299.75,308.98487160,0.02697375
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,299.80,315.11755240,0.06122932
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,299.85,308.18606610,0.02235267
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,299.90,301.25457980,0.00000000
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,299.95,301.78169060,0.00000000
+Sucrose 0.2 mbar,sucrose,0.2,Sucrose_0_2mbar.xy,300.00,302.30880140,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,280.00,297.56074780,0.03234034
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,280.05,294.59536280,0.01164279
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,280.10,291.62997780,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,280.15,291.00351890,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,280.20,290.37706000,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,280.25,292.48370470,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,280.30,294.59034940,0.01096647
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,280.35,292.97973360,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,280.40,291.36911780,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,280.45,292.39395860,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,280.50,293.41879940,0.00232661
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,280.55,297.34312700,0.02941932
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,280.60,301.26745460,0.05651182
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,280.65,299.48744220,0.04403648
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,280.70,297.70742980,0.03156114
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,280.75,297.45752950,0.02969938
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,280.80,297.20762920,0.02783784
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,280.85,294.32507500,0.00771480
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,280.90,291.44252080,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,280.95,286.53890620,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,281.00,281.63529160,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,281.05,290.27046820,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,281.10,298.90564480,0.03884579
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,281.15,292.38550570,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,281.20,285.86536660,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,281.25,285.68758010,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,281.30,285.50979360,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,281.35,287.19705080,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,281.40,288.88430800,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,281.45,286.69887260,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,281.50,284.51343720,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,281.55,281.85665350,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,281.60,279.19986980,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,281.65,281.19502440,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,281.70,283.19017900,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,281.75,285.33398380,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,281.80,287.47778860,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,281.85,290.90276110,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,281.90,294.32773360,0.00503827
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,281.95,293.57720720,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,282.00,292.82668080,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,282.05,297.40915390,0.02602752
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,282.10,301.99162700,0.05768519
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,282.15,297.94634110,0.02949701
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,282.20,293.90105520,0.00130884
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,282.25,296.98723650,0.02258767
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,282.30,300.07341780,0.04386650
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,282.35,299.28683630,0.03828187
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,282.40,298.50025480,0.03269745
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,282.45,297.10825790,0.02291366
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,282.50,295.71626100,0.01312987
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,282.55,290.81384720,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,282.60,285.91143340,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,282.65,285.31035640,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,282.70,284.70927940,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,282.75,295.76246970,0.01280896
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,282.80,306.81566000,0.08935047
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,282.85,298.56276190,0.03197625
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,282.90,290.30986380,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,282.95,291.03308820,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,283.00,291.75631260,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,283.05,294.46074930,0.00300950
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,283.10,297.16518600,0.02164038
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,283.15,296.39173820,0.01614699
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,283.20,295.61829040,0.01065381
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,283.25,303.23141480,0.06333353
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,283.30,310.84453920,0.11601304
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,283.35,306.25468670,0.08404759
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,283.40,301.66483420,0.05208193
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,283.45,305.51115410,0.07863336
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,283.50,309.35747400,0.10518502
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,283.55,307.77170670,0.09405682
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,283.60,306.18593940,0.08292905
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,283.65,309.63254540,0.10670786
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,283.70,313.07915140,0.13048689
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,283.75,316.22976990,0.15221258
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,283.80,319.38038840,0.17393827
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,283.85,316.60364680,0.15454914
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,283.90,313.82690520,0.13516022
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,283.95,312.25731330,0.12414464
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,284.00,310.68772140,0.11312886
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,284.05,315.47058280,0.14617643
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,284.10,320.25344420,0.17922421
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,284.15,326.35520100,0.22142032
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,284.20,332.45695780,0.26361662
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,284.25,335.28360560,0.28309509
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,284.30,338.11025340,0.30257356
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,284.35,339.88869590,0.31478134
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,284.40,341.66713840,0.32698911
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,284.45,343.98987970,0.34297225
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,284.50,346.31262100,0.35895562
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,284.55,349.09718040,0.37814197
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,284.60,351.88173980,0.39732873
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,284.65,366.24145970,0.49680570
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,284.70,380.60117960,0.59628266
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,284.75,376.10811500,0.56498867
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,284.80,371.61505040,0.53369427
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,284.85,377.84231760,0.57676101
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,284.90,384.06958480,0.61982781
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,284.95,392.57848310,0.67872107
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,285.00,401.08738140,0.73761410
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,285.05,400.54556150,0.73372740
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,285.10,400.00374160,0.72984087
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,285.15,412.67031000,0.81757343
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,285.20,425.33687840,0.90530604
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,285.25,426.37433530,0.91237372
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,285.30,427.41179220,0.91944182
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,285.35,430.32164650,0.93949753
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,285.40,433.23150080,0.95955324
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,285.45,436.16554500,0.97977686
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,285.50,439.09958920,1.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,285.55,435.67942170,0.97614795
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,285.60,432.25925420,0.95229590
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,285.65,434.14596350,0.96525472
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,285.70,436.03267280,0.97821355
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,285.75,431.87102570,0.94921803
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,285.80,427.70937860,0.92022270
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,285.85,425.16877310,0.90247154
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,285.90,422.62816760,0.88472068
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,285.95,422.96080390,0.88689971
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,286.00,423.29344020,0.88907838
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,286.05,417.33849050,0.84764409
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,286.10,411.38354080,0.80620962
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,286.15,403.12886460,0.74882334
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,286.20,394.87418840,0.69143689
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,286.25,397.30364990,0.70816028
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,286.30,399.73311140,0.72488385
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,286.35,392.15413210,0.67218447
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,286.40,384.57515280,0.61948508
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,286.45,381.62253920,0.59887600
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,286.50,378.66992560,0.57826692
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,286.55,375.49569240,0.55612087
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,286.60,372.32145920,0.53397477
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,286.65,368.11239040,0.50465047
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,286.70,363.90332160,0.47532618
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,286.75,362.36721570,0.46454263
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,286.80,360.83110980,0.45375925
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,286.85,356.22146770,0.42165643
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,286.90,351.61182560,0.38955361
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,286.95,354.04986590,0.40633669
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,287.00,356.48790620,0.42311957
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,287.05,354.19287480,0.40707189
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,287.10,351.89784340,0.39102438
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,287.15,340.60334640,0.31255230
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,287.20,329.30884940,0.23408026
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,287.25,330.01504390,0.23885053
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,287.30,330.72123840,0.24362081
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,287.35,330.27969210,0.24042968
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,287.40,329.83814580,0.23723857
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,287.45,320.63674530,0.17328523
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,287.50,311.43534480,0.10933189
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,287.55,316.94945350,0.14745203
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,287.60,322.46356220,0.18557197
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,287.65,320.46679450,0.17159325
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,287.70,318.47002680,0.15761431
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,287.75,315.90123260,0.13966779
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,287.80,313.33243840,0.12172108
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,287.85,311.55728620,0.10927960
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,287.90,309.78213400,0.09683813
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,287.95,320.09390300,0.16823658
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,288.00,330.40567200,0.23963524
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,288.05,328.71313430,0.22776680
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,288.10,327.02059660,0.21589835
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,288.15,322.84108880,0.18677919
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,288.20,318.66158100,0.15765983
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,288.25,315.43551630,0.13515408
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,288.30,312.20945160,0.11264833
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,288.35,315.27682420,0.13379677
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,288.40,318.34419680,0.15494519
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,288.45,314.27331520,0.12657921
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,288.50,310.20243360,0.09821343
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,288.55,311.77790880,0.10901352
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,288.60,313.35338400,0.11981339
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,288.65,318.56439580,0.15583088
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,288.70,323.77540760,0.19184837
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,288.75,316.66110420,0.14237206
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,288.80,309.54680080,0.09289595
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,288.85,313.75270340,0.12194166
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,288.90,317.95860600,0.15098736
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,288.95,312.28755650,0.11152197
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,289.00,306.61650700,0.07205679
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,289.05,310.86469990,0.10139567
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,289.10,315.11289280,0.13073477
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,289.15,311.78850310,0.10754698
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,289.20,308.46411340,0.08435918
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,289.25,300.89588650,0.03173429
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,289.30,293.32765960,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,289.35,298.69533000,0.01621388
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,289.40,304.06300040,0.05331773
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,289.45,302.17479900,0.04009219
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,289.50,300.28659760,0.02686642
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,289.55,297.67246100,0.00860535
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,289.60,295.05832440,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,289.65,293.54418810,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,289.70,292.03005180,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,289.75,296.66857030,0.00112870
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,289.80,301.30708880,0.03317522
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,289.85,300.46198860,0.02718479
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,289.90,299.61688840,0.02119437
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,289.95,294.50671740,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,290.00,289.39654640,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,290.05,293.75031470,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,290.10,298.10408300,0.01018789
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,290.15,296.55853320,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,290.20,295.01298340,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,290.25,292.28048970,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,290.30,289.54799600,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,290.35,290.70099130,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,290.40,291.85398660,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,290.45,293.11690060,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,290.50,294.37981460,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,290.55,292.66563670,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,290.60,290.95145880,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,290.65,291.96854340,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,290.70,292.98562800,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,290.75,294.99882690,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,290.80,297.01202580,0.00081625
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,290.85,293.84874680,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,290.90,290.68546780,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,290.95,292.90042290,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,291.00,295.11537800,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,291.05,296.49439140,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,291.10,297.87340480,0.00602112
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,291.15,301.23941140,0.02924087
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,291.20,304.60541800,0.05246063
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,291.25,297.24941420,0.00130799
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,291.30,289.89341040,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,291.35,294.01615350,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,291.40,298.13889660,0.00709266
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,291.45,298.15616190,0.00708419
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,291.50,298.17342720,0.00707573
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,291.55,300.83840050,0.02543290
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,291.60,303.50337380,0.04378987
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,291.65,304.46166730,0.05030866
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,291.70,305.41996080,0.05682744
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,291.75,302.95780950,0.03962076
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,291.80,300.49565820,0.02241388
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,291.85,301.05755450,0.02618290
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,291.90,301.61945080,0.02995213
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,291.95,298.73828160,0.00983883
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,292.00,295.85711240,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,292.05,293.30259180,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,292.10,290.74807120,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,292.15,290.47316300,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,292.20,290.19825480,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,292.25,295.53017950,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,292.30,300.86210420,0.02367233
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,292.35,301.61700400,0.02878025
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,292.40,302.37190380,0.03388838
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,292.45,303.07494160,0.03863665
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,292.50,303.77797940,0.04338492
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,292.55,301.54923880,0.02779698
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,292.60,299.32049820,0.01220905
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,292.65,300.72855560,0.02184762
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,292.70,302.13661300,0.03148641
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,292.75,301.62477520,0.02780778
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,292.80,301.11293740,0.02412914
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,292.85,297.16842110,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,292.90,293.22390480,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,292.95,294.97757160,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,293.00,296.73123840,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,293.05,299.93692050,0.01532989
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,293.10,303.14260260,0.03743767
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,293.15,300.78900620,0.02098374
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,293.20,298.43540980,0.00453002
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,293.25,299.13656050,0.00926517
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,293.30,299.83771120,0.01400010
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,293.35,298.07805120,0.00166616
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,293.40,296.31839120,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,293.45,298.16876610,0.00203872
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,293.50,300.01914100,0.01474544
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,293.55,301.30151260,0.02351209
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,293.60,302.58388420,0.03227895
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,293.65,297.43518760,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,293.70,292.28649100,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,293.75,293.33930330,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,293.80,294.39211560,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,293.85,293.54617710,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,293.90,292.70023860,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,293.95,299.15304480,0.00758292
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,294.00,305.60585100,0.05221423
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,294.05,298.09611990,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,294.10,290.58638880,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,294.15,292.10900610,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,294.20,293.63162340,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,294.25,293.50803360,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,294.30,293.38444380,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,294.35,290.08848490,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,294.40,286.79252600,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,294.45,284.81844070,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,294.50,282.84435540,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,294.55,289.22475130,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,294.60,295.60514720,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,294.65,294.89877230,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,294.70,294.19239740,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,294.75,290.82779100,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,294.80,287.46318460,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,294.85,290.21890080,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,294.90,292.97461700,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,294.95,290.32810310,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,295.00,287.68158920,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,295.05,289.48294170,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,295.10,291.28429420,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,295.15,297.89811670,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,295.20,304.51193920,0.04154645
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,295.25,298.23200130,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,295.30,291.95206340,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,295.35,291.59445810,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,295.40,291.23685280,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,295.45,290.02809960,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,295.50,288.81934640,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,295.55,291.51577280,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,295.60,294.21219920,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,295.65,295.29300530,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,295.70,296.37381140,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,295.75,296.05109410,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,295.80,295.72837680,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,295.85,296.09048240,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,295.90,296.45258800,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,295.95,299.56687430,0.00532045
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,296.00,302.68116060,0.02679403
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,296.05,300.34815500,0.01048298
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,296.10,298.01514940,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,296.15,296.23441030,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,296.20,294.45367120,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,296.25,302.07374220,0.02193907
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,296.30,309.69381320,0.07466705
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,296.35,305.09664790,0.04265080
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,296.40,300.49948260,0.01063455
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,296.45,296.17531330,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,296.50,291.85114400,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,296.55,292.60006460,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,296.60,293.34898520,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,296.65,293.18522910,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,296.70,293.02147300,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,296.75,292.15043580,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,296.80,291.27939860,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,296.85,287.25085110,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,296.90,283.22230360,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,296.95,284.18520110,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,297.00,285.14809860,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,297.05,290.76897590,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,297.10,296.38985320,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,297.15,296.74016570,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,297.20,297.09047820,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,297.25,296.24658490,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,297.30,295.40269160,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,297.35,295.04356450,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,297.40,294.68443740,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,297.45,296.94054420,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,297.50,299.19665100,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,297.55,299.67463560,0.00196146
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,297.60,300.15262020,0.00514877
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,297.65,303.10419800,0.02549387
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,297.70,306.05577580,0.04583896
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,297.75,299.65104110,0.00128449
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,297.80,293.24630640,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,297.85,297.37979820,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,297.90,301.51329000,0.01381699
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,297.95,304.47748740,0.03424951
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,298.00,307.44168480,0.05468224
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,298.05,304.71502080,0.03564069
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,298.10,301.98835680,0.01659893
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,298.15,296.44284860,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,298.20,290.89734040,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,298.25,291.76925750,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,298.30,292.64117460,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,298.35,297.90753930,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,298.40,303.17390400,0.02405252
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,298.45,299.54698080,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,298.50,295.92005760,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,298.55,297.75936790,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,298.60,299.59867820,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,298.65,300.03020490,0.00160498
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,298.70,300.46173160,0.00446969
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,298.75,298.81470560,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,298.80,297.16767960,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,298.85,297.50395090,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,298.90,297.84022220,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,298.95,301.37335550,0.01015148
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,299.00,304.90648880,0.03453063
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,299.05,307.59758760,0.05306901
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,299.10,310.28868640,0.07160738
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,299.15,307.82661080,0.05440070
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,299.20,305.36453520,0.03719445
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,299.25,302.04468380,0.01403820
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,299.30,298.72483240,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,299.35,301.88249310,0.01265676
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,299.40,305.04015380,0.03443114
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,299.45,300.69587760,0.00416910
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,299.50,296.35160140,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,299.55,295.66658720,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,299.60,294.98157300,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,299.65,299.78192070,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,299.70,304.58226840,0.03048515
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,299.75,297.67942230,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,299.80,290.77657620,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,299.85,300.08827340,0.00000000
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,299.90,309.39997060,0.06338941
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,299.95,306.47548440,0.04297573
+Sucrose 1 mbar,sucrose,1.0,Sucrose_1mbar .xy,300.00,303.55099820,0.02256184
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,280.00,240.14532480,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,280.05,241.22776780,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,280.10,242.31021080,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,280.15,245.63104730,0.02978328
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,280.20,248.95188380,0.10737998
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,280.25,245.12851600,0.01765991
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,280.30,241.30514820,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,280.35,242.66511820,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,280.40,244.02508820,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,280.45,251.97595560,0.17731671
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,280.50,259.92682300,0.36334723
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,280.55,256.18241270,0.27547649
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,280.60,252.43800240,0.18760647
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,280.65,249.35522350,0.11523113
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,280.70,246.27244460,0.04285579
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,280.75,248.05534240,0.08443367
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,280.80,249.83824020,0.12601155
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,280.85,249.34602150,0.11430664
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,280.90,248.85380280,0.10260174
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,280.95,248.94459250,0.10455113
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,281.00,249.03538220,0.10650016
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,281.05,244.58598430,0.00211878
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,281.10,240.13658640,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,281.15,245.10070900,0.01381903
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,281.20,250.06483160,0.12990068
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,281.25,244.94283590,0.00976731
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,281.30,239.82084020,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,281.35,236.74080210,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,281.40,233.66076400,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,281.45,243.79002570,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,281.50,253.91928740,0.21910793
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,281.55,250.69197310,0.14334770
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,281.60,247.46465880,0.06758746
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,281.65,248.03561530,0.08078182
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,281.70,248.60657180,0.09397656
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,281.75,244.03426460,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,281.80,239.46195740,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,281.85,240.98337890,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,281.90,242.50480040,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,281.95,240.38177080,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,282.00,238.25874120,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,282.05,240.02780810,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,282.10,241.79687500,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,282.15,242.91362610,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,282.20,244.03037720,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,282.25,243.41147260,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,282.30,242.79256800,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,282.35,246.30498890,0.03777023
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,282.40,249.81740980,0.11985320
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,282.45,247.27766950,0.06019551
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,282.50,244.73792920,0.00053854
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,282.55,239.05392530,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,282.60,233.36992140,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,282.65,241.86116280,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,282.70,250.35240420,0.13131939
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,282.75,242.04257920,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,282.80,233.73275420,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,282.85,239.40939280,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,282.90,245.08603140,0.00727331
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,282.95,241.85987750,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,283.00,238.63372360,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,283.05,237.12719410,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,283.10,235.62066460,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,283.15,240.99049810,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,283.20,246.36033160,0.03605384
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,283.25,247.46075390,0.06164853
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,283.30,248.56117620,0.08724286
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,283.35,246.53882490,0.03970246
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,283.40,244.51647360,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,283.45,248.72659950,0.09058522
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,283.50,252.93672540,0.18900838
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,283.55,253.88535340,0.21104808
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,283.60,254.83398140,0.23308776
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,283.65,254.94700510,0.23555747
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,283.70,255.06002880,0.23802717
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,283.75,247.33868310,0.05701753
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,283.80,239.61733740,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,283.85,242.90728550,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,283.90,246.19723360,0.02975326
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,283.95,243.88678080,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,284.00,241.57632800,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,284.05,246.44610310,0.03505038
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,284.10,251.31587820,0.14892212
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,284.15,252.92980710,0.18654297
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,284.20,254.54373600,0.22416347
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,284.25,254.98039390,0.23421273
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,284.30,255.41705180,0.24426199
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,284.35,253.18248620,0.19175182
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,284.40,250.94792060,0.13924165
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,284.45,257.25814960,0.28684869
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,284.50,263.56837860,0.43445608
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,284.55,265.66069050,0.48328048
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,284.60,267.75300240,0.53210413
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,284.65,266.31865140,0.49833524
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,284.70,264.88430040,0.46456563
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,284.75,266.44103650,0.50084710
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,284.80,267.99777260,0.53712821
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,284.85,264.35313070,0.45159391
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,284.90,260.70848880,0.36606029
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,284.95,267.89012090,0.53407496
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,285.00,275.07175300,0.70209038
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,285.05,274.95044210,0.69907212
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,285.10,274.82913120,0.69605422
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,285.15,272.92214870,0.65121579
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,285.20,271.01516620,0.60637742
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,285.25,272.13147820,0.63234377
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,285.30,273.24779020,0.65831083
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,285.35,275.81589810,0.71827763
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,285.40,278.38400600,0.77824515
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,285.45,277.46265100,0.75648987
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,285.50,276.54129600,0.73473501
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,285.55,273.31600570,0.65902233
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,285.60,270.09071540,0.58330959
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,285.65,268.40371840,0.54362285
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,285.70,266.71672140,0.50393683
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,285.75,271.18860560,0.60848975
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,285.80,275.66048980,0.71304339
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,285.85,281.79441770,0.85652149
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,285.90,287.92834560,1.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,285.95,282.01863980,0.86141872
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,286.00,276.10893400,0.72283751
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,286.05,274.85369600,0.69326258
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,286.10,273.59845800,0.66368759
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,286.15,272.18997150,0.63052410
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,286.20,270.78148500,0.59736055
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,286.25,273.24195520,0.65480691
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,286.30,275.70242540,0.71225363
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,286.35,268.48992170,0.54316115
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,286.40,261.27741800,0.37406796
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,286.45,261.90487730,0.38858598
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,286.50,262.53233660,0.40310401
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,286.55,263.86775760,0.43420202
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,286.60,265.20317860,0.46530002
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,286.65,266.00106710,0.48380935
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,286.70,266.79895560,0.50231838
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,286.75,264.77850600,0.45482263
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,286.80,262.75805640,0.40732691
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,286.85,258.48629580,0.30710587
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,286.90,254.21453520,0.20688486
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,286.95,255.65950130,0.24054833
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,287.00,257.10446740,0.27421215
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,287.05,255.96485390,0.24734564
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,287.10,254.82524040,0.22047876
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,287.15,254.27929040,0.20751560
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,287.20,253.73334040,0.19455208
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,287.25,250.01937350,0.10739463
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,287.30,246.30540660,0.02023682
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,287.35,250.23762680,0.11215142
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,287.40,254.16984700,0.20406638
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,287.45,259.56720850,0.33029413
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,287.50,264.96457000,0.45652223
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,287.55,263.34004860,0.41829923
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,287.60,261.71552720,0.38007551
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,287.65,258.52829210,0.30525404
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,287.70,255.34105700,0.23043260
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,287.75,255.42953330,0.23232767
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,287.80,255.51800960,0.23422238
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,287.85,253.79349330,0.19365725
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,287.90,252.06897700,0.15309213
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,287.95,251.26291290,0.13403709
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,288.00,250.45684880,0.11498205
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,288.05,254.65636180,0.21315649
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,288.10,258.85587480,0.31133091
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,288.15,258.13511920,0.29427460
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,288.20,257.41436360,0.27721718
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,288.25,253.75356020,0.19130442
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,288.30,250.09275680,0.10539199
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,288.35,251.02723030,0.12710007
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,288.40,251.96170380,0.14880776
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,288.45,249.53103910,0.09170483
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,288.50,247.10037440,0.03460225
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,288.55,248.34591450,0.06359541
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,288.60,249.59145460,0.09258857
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,288.65,249.18709910,0.08294134
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,288.70,248.78274360,0.07329411
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,288.75,248.43551680,0.06498482
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,288.80,248.08829000,0.05667553
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,288.85,252.79272540,0.16667530
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,288.90,257.49716080,0.27667543
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,288.95,250.98038260,0.12387633
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,289.00,244.46360440,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,289.05,250.87483080,0.12104999
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,289.10,257.28605720,0.27102274
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,289.15,255.09086370,0.21943420
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,289.20,252.89567020,0.16784601
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,289.25,253.79840700,0.18881077
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,289.30,254.70114380,0.20977552
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,289.35,250.47769400,0.11068589
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,289.40,246.25424420,0.01159626
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,289.45,251.57584360,0.13604973
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,289.50,256.89744300,0.26050320
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,289.55,252.65946170,0.16107336
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,289.60,248.42148040,0.06164353
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,289.65,247.12954290,0.03120985
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,289.70,245.83760540,0.00077547
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,289.75,244.25192870,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,289.80,242.66625200,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,289.85,245.65301990,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,289.90,248.63978780,0.06569310
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,289.95,251.17391710,0.12486479
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,290.00,253.70804640,0.18403682
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,290.05,250.97514180,0.11985534
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,290.10,248.24223720,0.05567386
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,290.15,243.71415760,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,290.20,239.18607800,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,290.25,244.79973860,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,290.30,250.41339920,0.10581332
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,290.35,248.92622110,0.07080654
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,290.40,247.43904300,0.03580011
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,290.45,249.84144200,0.09188672
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,290.50,252.24384100,0.14797297
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,290.55,252.84013230,0.16176091
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,290.60,253.43642360,0.17554849
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,290.65,252.33478780,0.14957143
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,290.70,251.23315200,0.12359402
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,290.75,247.57660370,0.03778095
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,290.80,243.92005540,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,290.85,245.80427650,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,290.90,247.68849760,0.03987006
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,290.95,245.53555250,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,291.00,243.38260740,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,291.05,246.31342770,0.00713465
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,291.10,249.24424800,0.07559656
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,291.15,245.25768520,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,291.20,241.27112240,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,291.25,239.08772110,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,291.30,236.90431980,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,291.35,241.64283020,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,291.40,246.38134060,0.00748486
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,291.45,249.22887700,0.07399631
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,291.50,252.07641340,0.14050777
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,291.55,250.31631790,0.09910964
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,291.60,248.55622240,0.05771152
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,291.65,244.60914870,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,291.70,240.66207500,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,291.75,237.77697620,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,291.80,234.89187740,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,291.85,239.19624580,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,291.90,243.50061420,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,291.95,244.47478460,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,292.00,245.44895500,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,292.05,245.64097440,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,292.10,245.83299380,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,292.15,247.52606010,0.03163582
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,292.20,249.21912640,0.07110994
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,292.25,246.85546990,0.01557616
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,292.30,244.49181340,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,292.35,244.24189810,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,292.40,243.99198280,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,292.45,246.11463740,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,292.50,248.23729200,0.04705225
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,292.55,247.72593730,0.03489922
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,292.60,247.21458260,0.02274619
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,292.65,246.94420440,0.01623691
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,292.70,246.67382620,0.00972764
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,292.75,247.83502980,0.03674569
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,292.80,248.99623340,0.06376337
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,292.85,247.01476540,0.01718070
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,292.90,245.03329740,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,292.95,247.69947520,0.03286192
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,293.00,250.36565300,0.09512582
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,293.05,250.58606900,0.10011132
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,293.10,250.80648500,0.10509610
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,293.15,244.19811070,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,293.20,237.58973640,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,293.25,239.81269860,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,293.30,242.03566080,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,293.35,246.31561180,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,293.40,250.59556280,0.09909285
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,293.45,247.12359270,0.01760309
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,293.50,243.65162260,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,293.55,242.56765480,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,293.60,241.48368700,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,293.65,245.27416330,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,293.70,249.06463960,0.06217563
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,293.75,256.07400980,0.22615646
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,293.80,263.08338000,0.39013764
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,293.85,256.07046560,0.22571941
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,293.90,249.05755120,0.06130118
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,293.95,247.82156170,0.03217722
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,294.00,246.58557220,0.00305327
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,294.05,250.85514370,0.10286869
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,294.10,255.12471520,0.20268376
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,294.15,253.63377990,0.16758907
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,294.20,252.14284460,0.13249473
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,294.25,249.87768860,0.07926806
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,294.30,247.61253260,0.02604138
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,294.35,242.33081510,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,294.40,237.04909760,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,294.45,239.70231380,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,294.50,242.35553000,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,294.55,242.76033900,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,294.60,243.16514800,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,294.65,247.68986240,0.02661209
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,294.70,252.21457680,0.13240290
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,294.75,253.21674490,0.15569620
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,294.80,254.21891300,0.17898950
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,294.85,251.65221390,0.11870036
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,294.90,249.08551480,0.05841158
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,294.95,249.06375770,0.05772509
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,295.00,249.04200060,0.05703861
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,295.05,249.10928620,0.05843695
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,295.10,249.17657180,0.05983565
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,295.15,249.05797170,0.05688066
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,295.20,248.93937160,0.05392602
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,295.25,246.30196760,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,295.30,243.66456360,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,295.35,251.21507850,0.10669099
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,295.40,258.76559340,0.28334552
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,295.45,253.02118750,0.14863552
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,295.50,247.27678160,0.01392517
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,295.55,249.12014940,0.05691925
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,295.60,250.96351720,0.09991334
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,295.65,252.70154330,0.14044023
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,295.70,254.43956940,0.18096784
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,295.75,257.91694810,0.26223031
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,295.80,261.39432680,0.34349206
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,295.85,256.94152320,0.23903134
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,295.90,252.48871960,0.13457027
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,295.95,250.20440380,0.08089475
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,296.00,247.92008800,0.02721924
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,296.05,251.89094890,0.12003902
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,296.10,255.86180980,0.21285881
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,296.15,254.25857930,0.17513396
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,296.20,252.65534880,0.13740948
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,296.25,246.99931350,0.00476894
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,296.30,241.34327820,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,296.35,244.89741800,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,296.40,248.45155780,0.03824838
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,296.45,247.45301510,0.01468598
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,296.50,246.45447240,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,296.55,243.62139780,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,296.60,240.78832320,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,296.65,240.68873680,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,296.70,240.58915040,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,296.75,244.89602380,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,296.80,249.20289720,0.05442740
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,296.85,250.79994010,0.09165265
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,296.90,252.39698300,0.12887791
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,296.95,247.59563010,0.01625371
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,297.00,242.79427720,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,297.05,241.18612370,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,297.10,239.57797020,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,297.15,240.34967650,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,297.20,241.12138280,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,297.25,247.42683840,0.01123748
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,297.30,253.73229400,0.15873303
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,297.35,251.68229240,0.11054510
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,297.40,249.63229080,0.06235717
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,297.45,248.27985110,0.03050586
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,297.50,246.92741140,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,297.55,241.54747100,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,297.60,236.16753060,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,297.65,239.64279500,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,297.70,243.11805940,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,297.75,243.54099870,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,297.80,243.96393800,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,297.85,241.96509860,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,297.90,239.96625920,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,297.95,241.39628870,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,298.00,242.82631820,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,298.05,245.06247230,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,298.10,247.29862640,0.00522243
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,298.15,246.51123670,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,298.20,245.72384700,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,298.25,249.07922460,0.04639184
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,298.30,252.43460220,0.12479689
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,298.35,247.89831330,0.01838106
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,298.40,243.36202440,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,298.45,243.24570750,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,298.50,243.12939060,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,298.55,246.32590230,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,298.60,249.52241400,0.05553092
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,298.65,250.44082720,0.07686269
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,298.70,251.35924040,0.09819481
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,298.75,247.64935100,0.01113277
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,298.80,243.93946160,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,298.85,245.42713430,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,298.90,246.91480700,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,298.95,239.97548640,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,299.00,233.03616580,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,299.05,238.46507400,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,299.10,243.89398220,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,299.15,245.29813440,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,299.20,246.70228660,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,299.25,245.91807220,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,299.30,245.13385780,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,299.35,242.36633810,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,299.40,239.59881840,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,299.45,247.31139850,0.00073723
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,299.50,255.02397860,0.18118690
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,299.55,250.96171210,0.08587239
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,299.60,246.89944560,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,299.65,247.31455650,0.00010220
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,299.70,247.72966740,0.00964652
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,299.75,245.77801830,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,299.80,243.82636920,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,299.85,244.43045640,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,299.90,245.03454360,0.00000000
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,299.95,248.89719580,0.03610423
+Sucrose 5 mbar,sucrose,5.0,Sucrose_5mbar.xy,300.00,252.75984800,0.12638928
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,280.00,310.62805420,0.00945818
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,280.05,311.52335390,0.01425891
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,280.10,312.41865360,0.01905965
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,280.15,307.59380910,0.00000000
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,280.20,302.76896460,0.00000000
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,280.25,306.48887270,0.00000000
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,280.30,310.20878080,0.00668228
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,280.35,310.03257550,0.00563966
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,280.40,309.85637020,0.00459737
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,280.45,307.41712630,0.00000000
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,280.50,304.97788240,0.00000000
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,280.55,306.30061040,0.00000000
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,280.60,307.62333840,0.00000000
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,280.65,304.85804560,0.00000000
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,280.70,302.09275280,0.00000000
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,280.75,302.34831570,0.00000000
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,280.80,302.60387860,0.00000000
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,280.85,300.85025870,0.00000000
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,280.90,299.09663880,0.00000000
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,280.95,304.93766300,0.00000000
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,281.00,310.77868720,0.00864788
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,281.05,312.38427170,0.01732205
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,281.10,313.98985620,0.02599622
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,281.15,307.43382390,0.00000000
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,281.20,300.87779160,0.00000000
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,281.25,302.48029930,0.00000000
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,281.30,304.08280700,0.00000000
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,281.35,305.45564980,0.00000000
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,281.40,306.82849260,0.00000000
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,281.45,312.29259680,0.01616942
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,281.50,317.75670100,0.04588514
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,281.55,320.13446120,0.05877009
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,281.60,322.51222140,0.07165504
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,281.65,318.63903430,0.05045189
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,281.70,314.76584720,0.02924875
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,281.75,310.20071660,0.00427235
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,281.80,305.63558600,0.00000000
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,281.85,304.47368380,0.00000000
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,281.90,303.31178160,0.00000000
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,281.95,308.45923640,0.00000000
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,282.00,313.60669120,0.02243815
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,282.05,310.98422170,0.00805559
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,282.10,308.36175220,0.00000000
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,282.15,312.58879000,0.01664239
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,282.20,316.81582780,0.03961209
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,282.25,311.91022610,0.01277894
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,282.30,307.00462440,0.00000000
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,282.35,313.03024920,0.01872348
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,282.40,319.05587400,0.05150134
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,282.45,316.15296610,0.03558937
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,282.50,313.25005820,0.01967757
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,282.55,311.03639840,0.00752421
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,282.60,308.82273860,0.00000000
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,282.65,313.06533350,0.01842542
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,282.70,317.30792840,0.04147983
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,282.75,315.93343030,0.03390270
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,282.80,314.55893220,0.02632557
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,282.85,317.18952820,0.04058931
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,282.90,319.82012420,0.05485322
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,282.95,312.24445370,0.01345943
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,283.00,304.66878320,0.00000000
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,283.05,310.33136290,0.00286360
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,283.10,315.99394260,0.03366172
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,283.15,316.07085820,0.03399955
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,283.20,316.14777380,0.03433722
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,283.25,321.43531330,0.06309003
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,283.30,326.72285280,0.09184285
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,283.35,319.38259300,0.05173299
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,283.40,312.04233320,0.01162298
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,283.45,313.50939460,0.01954160
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,283.50,314.97645600,0.02746039
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,283.55,322.39484260,0.06783319
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,283.60,329.81322920,0.10820615
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,283.65,324.81703840,0.08087889
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,283.70,319.82084760,0.05355180
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,283.75,322.38191190,0.06743627
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,283.80,324.94297620,0.08132090
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,283.85,330.79166930,0.11313369
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,283.90,336.64036240,0.14494665
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,283.95,344.45720940,0.18749256
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,284.00,352.27405640,0.23003832
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,284.05,344.49836470,0.18755381
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,284.10,336.72267300,0.14506930
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,284.15,343.26279150,0.18065268
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,284.20,349.80291000,0.21623622
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,284.25,359.17570330,0.26726693
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,284.30,368.54849660,0.31829762
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,284.35,374.38827020,0.35006198
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,284.40,380.22804380,0.38182634
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,284.45,378.66650040,0.37322924
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,284.50,377.10495700,0.36463210
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,284.55,393.51146130,0.45401958
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,284.60,409.91796560,0.54340708
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,284.65,416.23733880,0.57778674
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,284.70,422.55671200,0.61216635
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,284.75,428.00060960,0.64177173
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,284.80,433.44450720,0.67137730
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,284.85,433.30142280,0.67051542
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,284.90,433.15833840,0.66965353
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,284.95,437.60604600,0.69382644
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,285.00,442.05375360,0.71799934
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,285.05,445.79168330,0.73830181
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,285.10,449.52961300,0.75860417
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,285.15,460.53375200,0.81853122
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,285.20,471.53789100,0.87845808
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,285.25,476.59545720,0.90595675
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,285.30,481.65302340,0.93345541
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,285.35,487.76934370,0.96672785
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,285.40,493.88566400,1.00000000
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,285.45,490.61146520,0.98206335
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,285.50,487.33726640,0.96412688
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,285.55,488.40861350,0.96988755
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,285.60,489.47996060,0.97564834
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,285.65,485.67002660,0.95479000
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,285.70,481.86009260,0.93393207
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,285.75,474.03805190,0.89119476
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,285.80,466.21601120,0.84845746
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,285.85,467.18747990,0.85367340
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,285.90,468.15894860,0.85888952
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,285.95,458.10078360,0.80395806
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,286.00,448.04261860,0.74902683
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,286.05,446.54293040,0.74076688
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,286.10,445.04324220,0.73250705
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,286.15,435.48205850,0.68028581
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,286.20,425.92087480,0.62806451
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,286.25,424.27826220,0.61902541
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,286.30,422.63564960,0.60998613
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,286.35,414.79900350,0.56716925
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,286.40,406.96235740,0.52435243
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,286.45,408.47447460,0.53251684
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,286.50,409.98659180,0.54068106
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,286.55,405.16543080,0.51430845
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,286.60,400.34426980,0.48793575
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,286.65,391.35052920,0.43880892
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,286.70,382.35678860,0.38968205
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,286.75,370.16845600,0.32313412
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,286.80,357.98012340,0.25658637
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,286.85,364.46093060,0.29184639
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,286.90,370.94173780,0.32710642
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,286.95,368.68574440,0.31472209
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,287.00,366.42975100,0.30233806
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,287.05,358.94891980,0.26146150
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,287.10,351.46808860,0.22058496
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,287.15,351.93240980,0.22303534
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,287.20,352.39673100,0.22548588
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,287.25,349.63350160,0.21033578
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,287.30,346.87027220,0.19518553
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,287.35,344.46564340,0.18199086
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,287.40,342.06101460,0.16879605
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,287.45,341.23004620,0.16418304
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,287.50,340.39907780,0.15957002
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,287.55,332.35528380,0.11562351
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,287.60,324.31148980,0.07167684
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,287.65,331.64228490,0.11157200
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,287.70,338.97308000,0.15146734
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,287.75,338.65207200,0.14963521
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,287.80,338.33106400,0.14780310
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,287.85,332.56120860,0.11625691
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,287.90,326.79135320,0.08471072
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,287.95,334.93079520,0.12901571
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,288.00,343.07023720,0.17332086
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,288.05,333.14844490,0.11913282
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,288.10,323.22665260,0.06494512
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,288.15,323.16347150,0.06451908
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,288.20,323.10029040,0.06409288
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,288.25,332.65048950,0.11609099
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,288.30,342.20068860,0.16808926
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,288.35,333.54867320,0.12082598
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,288.40,324.89665780,0.07356271
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,288.45,327.31729710,0.08668148
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,288.50,329.73793640,0.09980024
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,288.55,324.60279900,0.07171544
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,288.60,319.46766160,0.04363048
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,288.65,321.23151020,0.05316771
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,288.70,322.99535880,0.06270477
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,288.75,322.72896740,0.06117054
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,288.80,322.46257600,0.05963631
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,288.85,329.62443170,0.09861017
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,288.90,336.78628740,0.13758421
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,288.95,337.20997210,0.13981290
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,289.00,337.63365680,0.14204194
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,289.05,331.42303470,0.10809215
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,289.10,325.21241260,0.07414236
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,289.15,326.46127240,0.08087108
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,289.20,327.71013220,0.08759996
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,289.25,326.13330110,0.07891946
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,289.30,324.55647000,0.07023896
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,289.35,329.22667640,0.09562525
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,289.40,333.89688280,0.12101155
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,289.45,338.18073670,0.14429095
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,289.50,342.46459060,0.16757053
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,289.55,347.97475290,0.19753738
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,289.60,353.48491520,0.22750406
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,289.65,348.02570670,0.19765188
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,289.70,342.56649820,0.16779985
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,289.75,334.46465480,0.12353681
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,289.80,326.36281140,0.07927360
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,289.85,332.37111510,0.11195693
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,289.90,338.37941880,0.14464027
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,289.95,333.15429500,0.11606469
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,290.00,327.92917120,0.08748912
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,290.05,325.70892550,0.07529981
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,290.10,323.48867980,0.06311067
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,290.15,325.09525970,0.07179017
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,290.20,326.70183960,0.08046983
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,290.25,328.47539240,0.09005982
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,290.30,330.24894520,0.09964980
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,290.35,327.54037450,0.08479776
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,290.40,324.83180380,0.06994573
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,290.45,320.80785310,0.04792030
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,290.50,316.78390240,0.02589504
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,290.55,319.49043690,0.04057300
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,290.60,322.19697140,0.05525079
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,290.65,322.50526070,0.05685043
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,290.70,322.81355000,0.05844989
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,290.75,325.18707130,0.07131188
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,290.80,327.56059260,0.08417369
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,290.85,329.75654080,0.09606726
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,290.90,331.95248900,0.10796068
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,290.95,330.62801360,0.10065648
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,291.00,329.30353820,0.09335212
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,291.05,326.12285160,0.07592555
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,291.10,322.94216500,0.05849866
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,291.15,319.35377500,0.03884855
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,291.20,315.76538500,0.01919861
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,291.25,316.05668260,0.02070555
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,291.30,316.34798020,0.02221265
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,291.35,312.97828990,0.00375511
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,291.40,309.60859960,0.00000000
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,291.45,310.82402750,0.00000000
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,291.50,312.03945540,0.00000000
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,291.55,313.91873500,0.00855718
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,291.60,315.79801460,0.01872381
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,291.65,314.09312740,0.00934518
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,291.70,312.38824020,0.00000000
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,291.75,312.01738220,0.00000000
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,291.80,311.64652420,0.00000000
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,291.85,312.83323020,0.00214816
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,291.90,314.01993620,0.00853804
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,291.95,310.56806990,0.00000000
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,292.00,307.11620360,0.00000000
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,292.05,308.76571150,0.00000000
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,292.10,310.41521940,0.00000000
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,292.15,312.84131750,0.00170282
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,292.20,315.26741560,0.01485137
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,292.25,312.64500380,0.00046897
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,292.30,310.02259200,0.00000000
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,292.35,314.42829710,0.01003067
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,292.40,318.83400220,0.03397476
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,292.45,318.85580520,0.03401187
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,292.50,318.87760820,0.03404915
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,292.55,324.94416320,0.06705017
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,292.60,331.01071820,0.10005121
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,292.65,321.67025510,0.04903349
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,292.70,312.32979200,0.00000000
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,292.75,313.87126650,0.00634046
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,292.80,315.41274100,0.01466498
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,292.85,315.19523240,0.01339719
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,292.90,314.97772380,0.01212940
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,292.95,320.94785820,0.04460454
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,293.00,326.91799260,0.07707985
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,293.05,321.24239400,0.04604774
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,293.10,315.56679540,0.01501546
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,293.15,315.70645840,0.01569546
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,293.20,315.84612140,0.01637562
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,293.25,320.67312190,0.04261698
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,293.30,325.50012240,0.06885817
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,293.35,319.99488100,0.03875502
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,293.40,314.48963960,0.00865204
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,293.45,315.03338630,0.01153561
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,293.50,315.57713300,0.01441918
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,293.55,309.68722760,0.00000000
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,293.60,303.79732220,0.00000000
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,293.65,311.14190150,0.00000000
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,293.70,318.48648080,0.02995836
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,293.75,318.36230500,0.02919948
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,293.80,318.23812920,0.02844077
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,293.85,321.60941890,0.04674371
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,293.90,324.98070860,0.06504681
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,293.95,320.69257170,0.04158084
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,294.00,316.40443480,0.01811488
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,294.05,316.76816100,0.02001673
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,294.10,317.13188720,0.02191875
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,294.15,313.68237450,0.00302602
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,294.20,310.23286180,0.00000000
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,294.25,308.55187140,0.00000000
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,294.30,306.87088100,0.00000000
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,294.35,303.80454660,0.00000000
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,294.40,300.73821220,0.00000000
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,294.45,304.77392660,0.00000000
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,294.50,308.80964100,0.00000000
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,294.55,311.37667550,0.00000000
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,294.60,313.94371000,0.00371684
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,294.65,313.48987900,0.00116028
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,294.70,313.03604800,0.00000000
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,294.75,307.81005190,0.00000000
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,294.80,302.58405580,0.00000000
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,294.85,305.69940570,0.00000000
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,294.90,308.81475560,0.00000000
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,294.95,314.89772730,0.00834832
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,295.00,320.98069900,0.04143889
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,295.05,323.26170690,0.05379628
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,295.10,325.54271480,0.06615350
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,295.15,320.20291430,0.03695252
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,295.20,314.86311380,0.00775170
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,295.25,313.38084420,0.00000000
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,295.30,311.89857460,0.00000000
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,295.35,306.85468540,0.00000000
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,295.40,301.81079620,0.00000000
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,295.45,305.63627130,0.00000000
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,295.50,309.46174640,0.00000000
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,295.55,314.53186350,0.00537405
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,295.60,319.60198060,0.03294129
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,295.65,313.05405590,0.00000000
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,295.70,306.50613120,0.00000000
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,295.75,309.63397760,0.00000000
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,295.80,312.76182400,0.00000000
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,295.85,311.61645400,0.00000000
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,295.90,310.47108400,0.00000000
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,295.95,312.42561210,0.00000000
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,296.00,314.38014020,0.00381236
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,296.05,316.42629270,0.01488915
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,296.10,318.47244520,0.02596577
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,296.15,318.07546760,0.02371942
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,296.20,317.67849000,0.02147291
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,296.25,319.62783160,0.03202165
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,296.30,321.57717320,0.04257038
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,296.35,316.60248750,0.01536045
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,296.40,311.62780180,0.00000000
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,296.45,310.55892760,0.00000000
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,296.50,309.49005340,0.00000000
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,296.55,311.77156490,0.00000000
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,296.60,314.05307640,0.00104978
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,296.65,311.74706670,0.00000000
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,296.70,309.44105700,0.00000000
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,296.75,315.49540850,0.00867068
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,296.80,321.54976000,0.04160514
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,296.85,320.58209090,0.03624640
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,296.90,319.61442180,0.03088782
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,296.95,318.15328210,0.02283839
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,297.00,316.69214240,0.01478880
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,297.05,312.32291470,0.00000000
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,297.10,307.95368700,0.00000000
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,297.15,311.26483910,0.00000000
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,297.20,314.57599120,0.00292251
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,297.25,314.91327020,0.00468025
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,297.30,315.25054920,0.00643781
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,297.35,318.44107900,0.02375504
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,297.40,321.63160880,0.04107243
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,297.45,320.15222640,0.03292331
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,297.50,318.67284400,0.02477420
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,297.55,313.77107090,0.00000000
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,297.60,308.86929780,0.00000000
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,297.65,314.19288800,0.00009919
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,297.70,319.51647820,0.02904838
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,297.75,318.44399320,0.02311831
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,297.80,317.37150820,0.01718825
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,297.85,317.28169730,0.01661693
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,297.90,317.19188640,0.01604560
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,297.95,315.76101010,0.00816093
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,298.00,314.33013380,0.00027642
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,298.05,308.54923040,0.00000000
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,298.10,302.76832700,0.00000000
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,298.15,308.78181460,0.00000000
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,298.20,314.79530220,0.00248666
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,298.25,320.40802010,0.03301284
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,298.30,326.02073800,0.06353904
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,298.35,324.97350740,0.05774660
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,298.40,323.92627680,0.05195400
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,298.45,323.84806660,0.05144592
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,298.50,323.76985640,0.05093800
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,298.55,321.53217050,0.03865367
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,298.60,319.29448460,0.02636934
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,298.65,316.21181270,0.00947715
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,298.70,313.12914080,0.00000000
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,298.75,316.51152280,0.01094848
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,298.80,319.89390480,0.02931165
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,298.85,316.23325480,0.00926763
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,298.90,312.57260480,0.00000000
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,298.95,320.11263460,0.03025992
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,299.00,327.65266440,0.07129623
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,299.05,324.93847920,0.05641324
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,299.10,322.22429400,0.04153058
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,299.15,317.56551850,0.01604344
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,299.20,312.90674300,0.00000000
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,299.25,314.84788010,0.00106010
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,299.30,316.78901720,0.01156423
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,299.35,316.83468710,0.01173165
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,299.40,316.88035700,0.01189924
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,299.45,311.18349600,0.00000000
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,299.50,305.48663500,0.00000000
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,299.55,308.16658400,0.00000000
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,299.60,310.84653300,0.00000000
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,299.65,316.10785170,0.00727857
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,299.70,321.36917040,0.03588826
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,299.75,315.59375840,0.00431179
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,299.80,309.81834640,0.00000000
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,299.85,312.71114760,0.00000000
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,299.90,315.60394880,0.00412257
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,299.95,318.05511590,0.01740792
+Malonic acid 0.2 mbar,malonic_acid,0.2,MalonicAcid_0_2mbar.xy,300.00,320.50628300,0.03069328
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,280.00,311.47594420,0.05884771
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,280.05,304.01853520,0.00029833
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,280.10,296.56112620,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,280.15,302.68506010,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,280.20,308.80899400,0.03776098
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,280.25,309.65083980,0.04432523
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,280.30,310.49268560,0.05088925
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,280.35,303.07090150,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,280.40,295.64911740,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,280.45,297.33982520,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,280.50,299.03053300,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,280.55,300.58228990,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,280.60,302.13404680,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,280.65,301.98869390,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,280.70,301.84334100,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,280.75,307.15522890,0.02433869
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,280.80,312.46711680,0.06597319
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,280.85,311.43023830,0.05779780
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,280.90,310.39335980,0.04962218
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,280.95,299.57666340,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,281.00,288.75996700,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,281.05,292.88478400,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,281.10,297.00960100,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,281.15,298.57534440,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,281.20,300.14108780,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,281.25,301.21745910,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,281.30,302.29383040,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,281.35,297.98824790,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,281.40,293.68266540,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,281.45,294.68251970,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,281.50,295.68237400,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,281.55,295.68112720,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,281.60,295.67988040,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,281.65,297.51493090,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,281.70,299.34998140,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,281.75,300.07995340,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,281.80,300.80992540,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,281.85,293.73028260,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,281.90,286.65063980,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,281.95,289.81287270,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,282.00,292.97510560,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,282.05,299.38271840,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,282.10,305.79033120,0.01253208
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,282.15,300.81810440,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,282.20,295.84587760,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,282.25,294.89867810,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,282.30,293.95147860,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,282.35,291.37678510,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,282.40,288.80209160,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,282.45,291.45529730,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,282.50,294.10850300,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,282.55,293.94576530,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,282.60,293.78302760,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,282.65,291.55470290,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,282.70,289.32637820,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,282.75,299.57679810,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,282.80,309.82721800,0.04363471
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,282.85,310.78790710,0.05113155
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,282.90,311.74859620,0.05862815
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,282.95,307.59497870,0.02599939
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,283.00,303.44136120,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,283.05,303.05676310,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,283.10,302.67216500,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,283.15,300.53386370,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,283.20,298.39556240,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,283.25,303.50948890,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,283.30,308.62341540,0.03378354
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,283.35,308.82627580,0.03533434
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,283.40,309.02913620,0.03688538
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,283.45,307.53637310,0.02513289
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,283.50,306.04361000,0.01338063
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,283.55,314.80240290,0.08205868
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,283.60,323.56119580,0.15073673
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,283.65,315.31941080,0.08603348
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,283.70,307.07762580,0.02133047
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,283.75,308.14872430,0.02969310
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,283.80,309.21982280,0.03805596
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,283.85,316.97183950,0.09883541
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,283.90,324.72385620,0.15961461
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,283.95,327.38337500,0.18043965
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,284.00,330.04289380,0.20126492
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,284.05,328.77550830,0.19128062
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,284.10,327.50812280,0.18129633
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,284.15,335.98384950,0.24775365
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,284.20,344.45957620,0.31421098
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,284.25,346.17251460,0.32760957
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,284.30,347.88545300,0.34100816
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,284.35,356.85903170,0.41137132
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,284.40,365.83261040,0.48173448
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,284.45,376.74639370,0.56731999
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,284.50,387.66017700,0.65290552
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,284.55,386.08880940,0.64053649
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,284.60,384.51744180,0.62816745
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,284.65,388.74265140,0.66127628
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,284.70,392.96786100,0.69438535
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,284.75,393.82851290,0.70109707
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,284.80,394.68916480,0.70780879
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,284.85,405.97151180,0.79628593
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,284.90,417.25385880,0.88476306
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,284.95,419.36221960,0.90126395
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,285.00,421.47058040,0.91776484
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,285.05,420.84623820,0.91282588
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,285.10,420.22189600,0.90788662
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,285.15,421.84351000,0.92056859
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,285.20,423.46512400,0.93325078
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,285.25,427.72417980,0.96662539
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,285.30,431.98323560,1.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,285.35,428.36970800,0.97160870
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,285.40,424.75618040,0.94321740
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,285.45,427.20677900,0.96240330
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,285.50,429.65737760,0.98158938
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,285.55,428.15533210,0.96976411
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,285.60,426.65328660,0.95793885
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,285.65,427.70925140,0.96618295
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,285.70,428.76521620,0.97442704
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,285.75,420.47442510,0.90933925
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,285.80,412.18363400,0.84425151
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,285.85,393.28377750,0.69592869
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,285.90,374.38392100,0.54760545
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,285.95,377.02636260,0.56829661
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,286.00,379.66880420,0.58898759
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,286.05,378.06705170,0.57638007
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,286.10,376.46529920,0.56377256
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,286.15,370.64866830,0.51809645
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,286.20,364.83203740,0.47242036
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,286.25,365.11792240,0.47462267
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,286.30,365.40380740,0.47682494
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,286.35,357.12729460,0.41184923
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,286.40,348.85078180,0.34687349
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,286.45,351.01333350,0.36379963
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,286.50,353.17588520,0.38072553
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,286.55,353.53843330,0.38352951
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,286.60,353.90098140,0.38633326
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,286.65,349.66352000,0.35304677
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,286.70,345.42605860,0.31976029
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,286.75,341.59076270,0.28962901
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,286.80,337.75546680,0.25949776
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,286.85,332.20007390,0.21587144
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,286.90,326.64468100,0.17224486
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,286.95,322.80878990,0.14210881
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,287.00,318.97289880,0.11197301
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,287.05,320.60375570,0.12472752
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,287.10,322.23461260,0.13748205
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,287.15,326.03195380,0.16723403
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,287.20,329.82929500,0.19698627
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,287.25,325.72386890,0.16473581
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,287.30,321.61844280,0.13248511
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,287.35,319.75056360,0.11778952
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,287.40,317.88268440,0.10309418
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,287.45,315.26261500,0.08249708
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,287.50,312.64254560,0.06190046
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,287.55,308.45761800,0.02902604
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,287.60,304.27269040,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,287.65,306.56828390,0.01412167
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,287.70,308.86387740,0.03209148
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,287.75,311.43622020,0.05223246
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,287.80,314.00856300,0.07237367
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,287.85,313.78116610,0.07054897
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,287.90,313.55376920,0.06872426
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,287.95,318.29287290,0.10586511
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,288.00,323.03197660,0.14300597
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,288.05,322.92480910,0.14212438
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,288.10,322.81764160,0.14124279
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,288.15,321.03342400,0.12720373
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,288.20,319.24920640,0.11316490
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,288.25,315.13097950,0.08081388
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,288.30,311.01275260,0.04846285
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,288.35,313.15504470,0.06523000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,288.40,315.29733680,0.08199690
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,288.45,319.68412080,0.11637352
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,288.50,324.07090480,0.15075015
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,288.55,316.05944190,0.08785436
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,288.60,308.04797900,0.02495810
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,288.65,315.27097400,0.08158676
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,288.70,322.49396900,0.13821542
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,288.75,323.66985890,0.14740050
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,288.80,324.84574880,0.15658532
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,288.85,325.39536800,0.16085702
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,288.90,325.94498720,0.16512848
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,288.95,326.15994900,0.16677433
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,289.00,326.37491080,0.16842018
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,289.05,320.22407270,0.12012182
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,289.10,314.07323460,0.07182370
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,289.15,315.80076530,0.08533650
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,289.20,317.52829600,0.09884977
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,289.25,315.10806260,0.07982071
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,289.30,312.68782920,0.06079166
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,289.35,315.46208650,0.08251695
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,289.40,318.23634380,0.10424225
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,289.45,321.99761660,0.13371123
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,289.50,325.75888940,0.16318047
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,289.55,319.13128800,0.11114170
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,289.60,312.50368660,0.05910295
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,289.65,316.08733390,0.08717845
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,289.70,319.67098120,0.11525394
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,289.75,315.02476590,0.07876051
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,289.80,310.37855060,0.04226684
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,289.85,311.23144450,0.04891801
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,289.90,312.08433840,0.05556894
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,289.95,311.64968380,0.05211801
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,290.00,311.21502920,0.04866708
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,290.05,315.73847990,0.08411612
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,290.10,320.26193060,0.11956491
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,290.15,315.49090860,0.08209220
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,290.20,310.71988660,0.04461974
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,290.25,314.34577940,0.07302660
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,290.30,317.97167220,0.10143372
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,290.35,311.80212840,0.05298859
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,290.40,305.63258460,0.00454369
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,290.45,306.36647030,0.01026060
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,290.50,307.10035600,0.01597774
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,290.55,309.28755780,0.03309757
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,290.60,311.47475960,0.05021692
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,290.65,310.44130410,0.04206811
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,290.70,309.40784860,0.03391906
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,290.75,303.05813040,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,290.80,296.70841220,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,290.85,301.69150530,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,290.90,306.67459840,0.01231229
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,290.95,305.06664980,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,291.00,303.45870120,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,291.05,301.39258340,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,291.10,299.32646560,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,291.15,298.37293660,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,291.20,297.41940760,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,291.25,298.81816270,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,291.30,300.21691780,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,291.35,294.79011720,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,291.40,289.36331660,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,291.45,291.44356820,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,291.50,293.52381980,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,291.55,298.44007400,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,291.60,303.35632820,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,291.65,299.43782090,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,291.70,295.51931360,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,291.75,302.39242380,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,291.80,309.26553400,0.03190784
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,291.85,308.90830490,0.02906459
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,291.90,308.55107580,0.02622134
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,291.95,306.03682910,0.00645459
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,292.00,303.52258240,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,292.05,305.90311760,0.00532400
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,292.10,308.28365280,0.02396039
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,292.15,311.28088540,0.04743497
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,292.20,314.27811800,0.07090979
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,292.25,313.45866860,0.06444012
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,292.30,312.63921920,0.05797020
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,292.35,307.95361530,0.02116766
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,292.40,303.26801140,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,292.45,306.28019610,0.00795703
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,292.50,309.29238080,0.03154917
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,292.55,312.77976500,0.05886950
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,292.60,316.26714920,0.08618983
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,292.65,310.39724640,0.04009568
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,292.70,304.52734360,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,292.75,308.97249710,0.02883617
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,292.80,313.41765060,0.06367082
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,292.85,314.02587850,0.06840222
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,292.90,314.63410640,0.07313339
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,292.95,315.11785790,0.07688816
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,293.00,315.60160940,0.08064292
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,293.05,308.70621260,0.02650291
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,293.10,301.81081580,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,293.15,306.41058160,0.00841075
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,293.20,311.01034740,0.04445860
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,293.25,307.23869000,0.01482656
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,293.30,303.46703260,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,293.35,305.83226370,0.00371095
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,293.40,308.19749480,0.02222714
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,293.45,305.11228310,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,293.50,302.02707140,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,293.55,301.02168910,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,293.60,300.01630680,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,293.65,299.81404370,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,293.70,299.61178060,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,293.75,301.98562340,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,293.80,304.35946620,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,293.85,303.76846200,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,293.90,303.17745780,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,293.95,309.12995140,0.02909548
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,294.00,315.08244500,0.07575636
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,294.05,315.88075370,0.08197895
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,294.10,316.67906240,0.08820154
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,294.15,315.05224880,0.07539722
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,294.20,313.42543520,0.06259338
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,294.25,306.53033710,0.00845576
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,294.30,299.63523900,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,294.35,297.42445860,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,294.40,295.21367820,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,294.45,297.22918270,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,294.50,299.24468720,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,294.55,300.59188500,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,294.60,301.93908280,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,294.65,302.49491150,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,294.70,303.05074020,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,294.75,304.18682020,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,294.80,305.32290020,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,294.85,305.80403540,0.00226957
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,294.90,306.28517060,0.00600351
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,294.95,303.15956240,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,295.00,300.03395420,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,295.05,308.47783470,0.02308455
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,295.10,316.92171520,0.08929191
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,295.15,313.43391770,0.06188706
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,295.20,309.94612020,0.03448221
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,295.25,309.51532100,0.03106169
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,295.30,309.08452180,0.02764117
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,295.35,306.20894820,0.00503955
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,295.40,303.33337460,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,295.45,303.95648450,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,295.50,304.57959440,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,295.55,306.26980300,0.00535441
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,295.60,307.96001160,0.01857462
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,295.65,305.63825470,0.00031797
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,295.70,303.31649780,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,295.75,304.43259430,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,295.80,305.54869080,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,295.85,306.95421880,0.01048016
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,295.90,308.35974680,0.02146671
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,295.95,302.46249000,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,296.00,296.56523320,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,296.05,297.71691560,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,296.10,298.86859800,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,296.15,300.57239630,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,296.20,302.27619460,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,296.25,307.82794390,0.01700969
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,296.30,313.37969320,0.06052637
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,296.35,307.63458960,0.01541125
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,296.40,301.88948600,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,296.45,307.41570340,0.01361264
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,296.50,312.94192080,0.05692891
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,296.55,309.94175360,0.03334993
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,296.60,306.94158640,0.00977096
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,296.65,308.46119540,0.02165251
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,296.70,309.98080440,0.03353430
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,296.75,309.07103700,0.02635590
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,296.80,308.16126960,0.01917727
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,296.85,309.57972120,0.03026558
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,296.90,310.99817280,0.04135365
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,296.95,303.40543310,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,297.00,295.81269340,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,297.05,295.87182590,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,297.10,295.93095840,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,297.15,298.46227510,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,297.20,300.99359180,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,297.25,299.92469950,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,297.30,298.85580720,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,297.35,305.66756000,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,297.40,312.47931280,0.05256742
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,297.45,316.12030030,0.08109281
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,297.50,319.76128780,0.10961844
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,297.55,315.99943470,0.08006326
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,297.60,312.23758160,0.05050831
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,297.65,311.24530250,0.04268249
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,297.70,310.25302340,0.03485668
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,297.75,307.13242700,0.01033267
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,297.80,304.01183060,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,297.85,305.42723250,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,297.90,306.84263440,0.00793715
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,297.95,305.44014930,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,298.00,304.03766420,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,298.05,302.99398300,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,298.10,301.95030180,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,298.15,303.18461380,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,298.20,304.41892580,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,298.25,307.98585210,0.01662181
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,298.30,311.55277840,0.04456610
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,298.35,303.74771410,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,298.40,295.94264980,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,298.45,300.81291430,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,298.50,305.68317880,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,298.55,307.74715660,0.01450524
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,298.60,309.81113440,0.03065777
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,298.65,311.21249050,0.04161176
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,298.70,312.61384660,0.05256575
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,298.75,302.58953170,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,298.80,292.56521680,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,298.85,291.91296990,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,298.90,291.26072300,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,298.95,300.23673390,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,299.00,309.21274480,0.02563761
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,299.05,311.78771010,0.04579942
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,299.10,314.36267540,0.06596098
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,299.15,312.28196030,0.04959560
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,299.20,310.20124520,0.03323046
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,299.25,309.41408100,0.02701410
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,299.30,308.62691680,0.02079750
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,299.35,306.23097490,0.00195903
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,299.40,303.83503300,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,299.45,301.98756510,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,299.50,300.14009720,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,299.55,297.77342260,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,299.60,295.40674800,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,299.65,300.42669510,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,299.70,305.44664220,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,299.75,303.72794230,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,299.80,302.00924240,0.00000000
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,299.85,306.77709350,0.00583710
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,299.90,311.54494460,0.04320350
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,299.95,316.30632080,0.08051913
+Malonic acid 1 mbar,malonic_acid,1.0,MalonicAcid_1mbar.xy,300.00,321.06769700,0.11783453
