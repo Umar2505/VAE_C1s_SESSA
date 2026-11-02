@@ -6,8 +6,39 @@ The seven original `.xy` files in this directory are the sucrose and malonic aci
 
 `MalonicAcid_0mbar.xy` is retained as an original file, but it has no C 1s region, so it has no rows in `real_c1s_spectra.csv`.
 
+## Exact normalization of each measured spectrum
+
+Each C 1s region contains multiple scans at the same kinetic energies. For every kinetic energy, their counts per second were averaged. Binding energy was then calculated as `excitation energy − kinetic energy` (the files give 1253.64 eV excitation energy), and the averaged counts were linearly interpolated onto 401 points from 280 to 300 eV. These interpolated values are saved unchanged in the `counts_per_second` column.
+
+For **each spectrum separately**, let `x[i]` be the interpolated counts per second at grid point `i`, where `i = 0, …, 400`. The same `prepare_spectrum` procedure used for SESSA training inputs was applied:
+
+```text
+left  = mean(x[0:10])                 # first 10 points
+right = mean(x[391:401])              # last 10 points
+baseline[i] = left + (right − left) × i / 400
+corrected[i] = max(x[i] − baseline[i], 0)
+model_input[i] = corrected[i] / max(max(corrected), 0.000001)
+```
+
+The baseline is a straight line between the two endpoint means. Clipping removes values below that line. Dividing by that spectrum's maximum puts `model_input` between 0 and 1; if every corrected value is zero, the result stays zero. This is **per-spectrum scaling**, so the original count-rate differences between samples are not retained in `model_input`. The original `.xy` files and the `counts_per_second` column retain those count rates. No dataset-wide mean or standard deviation was used.
+
 `real_c1s_published_fits.csv` transcribes the reported C 1s fit values from Tables S3 and S5 of the [paper supplement](../../acp-21-4709-2021-supplement.pdf). Its FWHM columns preserve the numbers **as printed**: the table header says eV although the printed values are around 1500–2200 and appear to be in meV. The paper's 0 mbar sucrose centers also differ from Table S3 by 0.70 eV. `raw_c1s_available` is 0 for the malonic acid 0 mbar fit because the corresponding `.xy` file has no C 1s region.
 
 `real_c1s_comparable_fits.csv` is a derived table for comparing the published fits with the model predictions. It includes the 16 peaks that have a usable model-component mapping: sucrose peaks 1–3 map to `CC`, `CO`, `OCO`; malonic acid peak 1 maps to `CC` and peak 2 to `COO`. Malonic acid's second C–C peak and decomposition feature have no separate model outputs, so its comparison is marked `matched_peaks_only`. The 0 mbar malonic acid fits are excluded because no raw C 1s spectrum is available for prediction.
 
-The comparable columns use each sample's published C–C center as the zero for peak-center offsets. Areas are divided by the sum of the **mapped** peak areas within that sample. The FWHM column divides the printed total FWHM by 1000, explicitly assuming those numbers are meV; this is an inference from their magnitude and the paper's description of broadening, not a corrected value supplied by the authors. Shape is not compared because the experimental fits use Voigt functions while the models predict broad shape classes. The models' FWHM output is capped at 1.6 eV, below every inferred experimental FWHM here (1.67–2.20 eV), so these width differences cannot be eliminated by the current model architecture.
+## How published fits and model outputs are compared
+
+The input normalization above prepares spectra for prediction. **It does not by itself make published peak areas comparable with model areas.** The final cell of each notebook applies these additional transformations to the mapped peaks of each sample:
+
+| Property | Published fit | Model prediction |
+| --- | --- | --- |
+| Peak-center spacing, eV | `peak center − published CC center` | `predicted peak center − predicted CC center` |
+| Peak-area share | `published peak area / sum of published areas for mapped peaks` | `predicted peak area / sum of predicted areas for the same mapped peaks` |
+| Total FWHM, eV | `printed total FWHM / 1000`, assuming the printed numbers are meV | Predicted FWHM directly in eV |
+| Presence | A peak included in the published fit is treated as present | Presence probability is called present at 0.5 or above |
+
+For example, sucrose at 0 mbar has a published C–O center of 287.36 eV and C–C center of 285.90 eV, so its center spacing is **1.46 eV**. Its C–O area share is `728.57 / (4207.45 + 728.57 + 262.60) = 0.1401`. Its printed total FWHM of 2199.89 becomes **2.19989 eV** under the meV assumption. The notebook computes the corresponding model values using the predicted C–C center, the predicted areas of `CC`, `CO`, and `OCO`, and the model FWHM.
+
+For sucrose, all three published C 1s peaks enter the area-share denominator. For malonic acid, only `CC` and `COO` enter it; the molecular C–C and decomposition peaks are excluded on both sides because the models have no separate outputs for them. This makes the malonic acid comparison partial. Area shares are dimensionless and are not atomic percentages. Subtracting the C–C center removes a common energy offset, so absolute binding-energy agreement is not measured.
+
+The FWHM division is an inference from the printed magnitudes and the paper's description of broadening, not a corrected value supplied by the authors. Shape is not compared because the experimental fits use Voigt functions while the models predict broad shape classes. The models' FWHM output is capped at 1.6 eV, below every inferred experimental FWHM here (1.67–2.20 eV), so these width differences cannot be eliminated by the current model architecture.
