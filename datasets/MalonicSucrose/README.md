@@ -28,17 +28,19 @@ The baseline is a straight line between the two endpoint means. Clipping removes
 
 ## How published fits and model outputs are compared
 
-The input normalization above prepares spectra for prediction. **It does not by itself make published peak areas comparable with model areas.** The final cell of each notebook applies these additional transformations to the mapped peaks of each sample:
+The input normalization above prepares spectra for prediction. **It does not by itself make published peak areas comparable with model areas.** The comparison cell of each notebook applies these additional transformations to the mapped peaks of each sample:
 
 | Property | Published fit | Model prediction |
 | --- | --- | --- |
-| Peak-center spacing, eV | `peak center − published CC center` | `predicted peak center − predicted CC center` |
-| Peak-area share | `published peak area / sum of published areas for mapped peaks` | `predicted peak area / sum of predicted areas for the same mapped peaks` |
-| Total FWHM, eV | `printed total FWHM / 1000`, assuming the printed numbers are meV | Predicted FWHM directly in eV |
+| Peak-center spacing, eV | `peak center − published CC center` | `predicted peak center − predicted CC center` for detected peaks, if predicted CC is detected |
+| Peak-area share | `published peak area / sum of published areas for mapped peaks` | Zero for an absent predicted peak; otherwise its predicted area divided by the sum of detected mapped-peak areas |
+| Total FWHM, eV | `printed total FWHM / 1000`, assuming the printed numbers are meV | Predicted FWHM directly in eV for detected peaks |
 | Presence | A peak included in the published fit is treated as present | Presence probability is called present at 0.5 or above |
 
 For example, sucrose at 0 mbar has a published C–O center of 287.36 eV and C–C center of 285.90 eV, so its center spacing is **1.46 eV**. Its C–O area share is `728.57 / (4207.45 + 728.57 + 262.60) = 0.1401`. Its printed total FWHM of 2199.89 becomes **2.19989 eV** under the meV assumption. The notebook computes the corresponding model values using the predicted C–C center, the predicted areas of `CC`, `CO`, and `OCO`, and the model FWHM.
 
 For sucrose, all three published C 1s peaks enter the area-share denominator. For malonic acid, only `CC` and `COO` enter it; the molecular C–C and decomposition peaks are excluded on both sides because the models have no separate outputs for them. This makes the malonic acid comparison partial. Area shares are dimensionless and are not atomic percentages. Subtracting the C–C center removes a common energy offset, so absolute binding-energy agreement is not measured.
+
+The area-share error includes all mapped published peaks, counting a missed model peak as zero area. Center-spacing and width errors include only peaks that the model detects; center spacing is unavailable if it misses the C–C anchor. Properties printed for absent model peaks are raw network outputs and are ignored in both the comparison and reconstructed curves. The notebooks also count any additional detected sucrose components outside its published three-peak fit. Those extra components are reported separately and do not enter the mapped-peak area shares. Malonic acid has only a partial component mapping, so its unmapped components are not counted as extras.
 
 The FWHM division is an inference from the printed magnitudes and the paper's description of broadening, not a corrected value supplied by the authors. Shape is not compared because the experimental fits use Voigt functions while the models predict broad shape classes. The models' FWHM output is capped at 1.6 eV, below every inferred experimental FWHM here (1.67–2.20 eV), so these width differences cannot be eliminated by the current model architecture.
