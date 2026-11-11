@@ -2,6 +2,8 @@
 
 This document describes `c1s_peak_cnn.ipynb`, `c1s_peak_transformer.ipynb`, and `c1s_peak_vae.ipynb`. All three notebooks train on the same SESSA data and predict the same peak properties. They differ in how they represent the input spectrum.
 
+These notebooks and the results below still use the original five-component `datasets/sessa_c1s_v1` dataset. The generator now defaults to `datasets/sessa_c1s_v2`, with seven possible labels (`CC`, `CN`, `CO`, `CARBONYL`, `OCO`, `COO`, `COOH`), no more than five present in a case, and measured widths from 0.5 to 3.0 eV. The notebooks need their data path, center positions, output size, and FWHM range updated before training on v2. The two datasets must not be combined as if they shared a label schema.
+
 ## What one prediction contains
 
 The dataset has five named C 1s components: `CC` (C–C/C–H), `CO` (C–O), `CARBONYL` (C=O), `OCO` (O–C–O), and `COO` (carboxyl-type carbon). For **each** component, every model predicts:
