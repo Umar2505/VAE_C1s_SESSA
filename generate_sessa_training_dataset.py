@@ -23,6 +23,7 @@ import csv
 import json
 import os
 import shutil
+import signal
 import subprocess
 import time
 from concurrent.futures import ThreadPoolExecutor
@@ -229,7 +230,8 @@ def command_file(case: dict, case_dir: Path, rng_seed: int) -> str:
         "MODEL SET NCHAN 2048",
         "MODEL SET CONVERGENCE 0.001",
         "MODEL AUTO NCOL REGION 1",
-        "MODEL AUTO NTRAJ REGION 1",
+        # AUTO NTRAJ can spend hours trying to converge for some valid cases.
+        "MODEL SET NTRAJ 10000 REGION 1",
         f"MODEL SET RNG_SEED {rng_seed}",
         "MODEL SIMULATE",
         "MODEL PLOT REGION 1",
@@ -262,26 +264,41 @@ def run_sessa(case_dir: Path, expected_plots: list[Path], sessa_bin: Path,
         # from two simulation attempts into one training case.
         for path in expected_plots:
             path.unlink(missing_ok=True)
+        process = subprocess.Popen(
+            launch,
+            stdin=subprocess.PIPE,
+            text=True,
+            cwd=sessa_bin.parent,
+            env=env,
+            stdout=subprocess.PIPE,
+            stderr=subprocess.STDOUT,
+            start_new_session=True,
+        )
         try:
-            result = subprocess.run(
-                launch,
-                input=f'PROJECT LOAD SESSION "{session}"\nquit\n',
-                text=True,
-                cwd=sessa_bin.parent,
-                env=env,
-                stdout=subprocess.PIPE,
-                stderr=subprocess.STDOUT,
-                timeout=timeout_sec,
-                check=False,
+            message, _ = process.communicate(
+                f'PROJECT LOAD SESSION "{session}"\nquit\n', timeout=timeout_sec
             )
-            message = result.stdout or ""
-            successful = result.returncode == 0 and all(
+            message = message or ""
+            successful = process.returncode == 0 and all(
                 path.exists() for path in expected_plots
             )
-            status = f"exit {result.returncode}"
-            if result.returncode == 0 and not successful:
+            status = f"exit {process.returncode}"
+            if process.returncode == 0 and not successful:
                 status += ", missing plot exports"
         except subprocess.TimeoutExpired as exc:
+            # xvfb-run starts SESSA as a child. Kill the whole group so a
+            # timed-out SESSA cannot keep stdout open and hang Python.
+            try:
+                os.killpg(process.pid, signal.SIGKILL)
+            except ProcessLookupError:
+                pass
+            try:
+                process.communicate(timeout=5)
+            except subprocess.TimeoutExpired:
+                # Do not wait on an escaped child that still holds stdout.
+                if process.stdout:
+                    process.stdout.close()
+                process.wait(timeout=5)
             successful = False
             status = f"timed out after {timeout_sec} seconds"
             message = str(exc)
@@ -384,20 +401,45 @@ def prepare_and_simulate(case: dict, output: Path, sessa_bin: Path,
     if case_config.exists():
         old = json.loads(case_config.read_text(encoding="utf-8"))
         if old != case:
-            raise RuntimeError(
-                f"Existing {case_config} differs from this run. Choose a new "
-                "--output directory or use the original seed and case count."
+            original = old.copy()
+            original["organic_thickness_angstrom"] = original.pop(
+                "initial_organic_thickness_angstrom", None
             )
+            if original != case:
+                raise RuntimeError(
+                    f"Existing {case_config} differs from this run. Choose a new "
+                    "--output directory or use the original seed and case count."
+                )
+            case.update(old)
     else:
         case_config.write_text(json.dumps(case, indent=2) + "\n", encoding="utf-8")
     session = case_dir / "run.ses"
-    session.write_text(command_file(case, case_dir, rng_seed), encoding="utf-8")
     expected_plots = [case_dir / "total_plot.dat"] + [
         case_dir / f"component_{peak['state']}.dat" for peak in case["peaks"]
     ]
-    if not all(path.exists() for path in expected_plots):
-        run_sessa(case_dir, expected_plots, sessa_bin, use_display,
-                  timeout_sec, max_attempts)
+    for _ in range(6):
+        session.write_text(command_file(case, case_dir, rng_seed), encoding="utf-8")
+        if not all(path.exists() for path in expected_plots):
+            run_sessa(case_dir, expected_plots, sessa_bin, use_display,
+                      timeout_sec, max_attempts)
+        try:
+            for path in expected_plots:
+                read_plot(path)
+            break
+        except RuntimeError as exc:
+            if "substantially negative intensities" not in str(exc):
+                raise
+            thinner = round(max(20.0, case["organic_thickness_angstrom"] * 0.7), 3)
+            if thinner == case["organic_thickness_angstrom"]:
+                raise
+            case.setdefault("initial_organic_thickness_angstrom",
+                            case["organic_thickness_angstrom"])
+            case["organic_thickness_angstrom"] = thinner
+            case_config.write_text(json.dumps(case, indent=2) + "\n", encoding="utf-8")
+            for path in expected_plots:
+                path.unlink(missing_ok=True)
+    else:
+        raise RuntimeError(f"{case_dir.name}: no valid SESSA export after thinning")
     session.unlink(missing_ok=True)
     return case_dir, case_config, expected_plots
 
