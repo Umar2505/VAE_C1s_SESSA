@@ -18,7 +18,7 @@ The dataset has seven possible C 1s components: `CC` (C–C/C–H), `CN` (single
 
 The models output enough information to construct one approximate peak curve for every component called present. The area is relative to the SESSA clean spectrum's normalization; it is not an absolute measured count rate or an atomic percentage. The FWHM is an *effective width of the saved component curve*, not the intrinsic Gaussian or Lorentzian width entered into SESSA. A shape label is predicted separately from the width.
 
-Each model's final layer has **49 raw values**: seven for each of seven components. Within each set of seven, one value is a presence score, one produces the center, one produces FWHM, one produces area, and three are scores for the possible shapes. The center is constrained to within 0.6 eV of that component's nominal position. FWHM is constrained to 0.5–3.0 eV, and area is constrained to be positive. The generator checks that measured FWHM labels for present components are within this range.
+Each model's final layer has **49 raw values**: seven for each of seven components. Within each set of seven, one value is a presence score, one produces the center, one produces FWHM, one produces area, and three are scores for the possible shapes. The center is constrained to within 0.6 eV of that component's nominal position. FWHM is constrained to 0.5–3.0 eV, and area is constrained to be positive. The generator checks that measured FWHM labels for present components are within this range. If analyzer broadening makes a saved component slightly wider than 3.0 eV, it reduces that case's analyzer width just enough to meet the limit and records both the sampled and used widths in `metadata.json`.
 
 ## Shared data pipeline
 

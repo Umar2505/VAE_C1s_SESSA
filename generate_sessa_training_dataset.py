@@ -403,7 +403,10 @@ def prepare_and_simulate(case: dict, output: Path, sessa_bin: Path,
         if old != case:
             original = old.copy()
             original["organic_thickness_angstrom"] = original.pop(
-                "initial_organic_thickness_angstrom", None
+                "initial_organic_thickness_angstrom", original["organic_thickness_angstrom"]
+            )
+            original["analyzer_fwhm_ev"] = original.pop(
+                "initial_analyzer_fwhm_ev", original["analyzer_fwhm_ev"]
             )
             if original != case:
                 raise RuntimeError(
@@ -504,14 +507,36 @@ def main() -> None:
             case_dir, case_config, expected_plots = pending.pop(index).result()
             queue_next()
 
-            energy, intensity = read_plot(expected_plots[0])
-            clean = broaden_and_resample(energy, intensity, case["analyzer_fwhm_ev"])
-            raw_components = {}
-            for peak, component_file in zip(case["peaks"], expected_plots[1:]):
-                component_energy, component_intensity = read_plot(component_file)
-                raw_components[peak["state"]] = broaden_and_resample(
-                    component_energy, component_intensity, case["analyzer_fwhm_ev"]
-                )
+            plot_data = [read_plot(path) for path in expected_plots]
+
+            def components_at(analyzer_fwhm: float) -> list[np.ndarray]:
+                return [broaden_and_resample(energy, intensity, analyzer_fwhm)
+                        for energy, intensity in plot_data[1:]]
+
+            analyzer_fwhm = case["analyzer_fwhm_ev"]
+            component_curves = components_at(analyzer_fwhm)
+            if max(measured_fwhm(curve) for curve in component_curves) > 3.0:
+                # The saved width includes analyzer broadening. Narrow only
+                # cases whose measured component would exceed the label limit.
+                low, high = 0.45, analyzer_fwhm
+                if max(measured_fwhm(curve) for curve in components_at(low)) > 3.0:
+                    raise RuntimeError(f"{case_dir.name}: FWHM exceeds 3.0 eV "
+                                       "even at minimum analyzer broadening")
+                for _ in range(16):
+                    middle = (low + high) / 2
+                    if max(measured_fwhm(curve) for curve in components_at(middle)) <= 3.0:
+                        low = middle
+                    else:
+                        high = middle
+                analyzer_fwhm = round(max(0.45, low - 0.001), 5)
+                component_curves = components_at(analyzer_fwhm)
+                case.setdefault("initial_analyzer_fwhm_ev", case["analyzer_fwhm_ev"])
+                case["analyzer_fwhm_ev"] = analyzer_fwhm
+                case_config.write_text(json.dumps(case, indent=2) + "\n", encoding="utf-8")
+            energy, intensity = plot_data[0]
+            clean = broaden_and_resample(energy, intensity, analyzer_fwhm)
+            raw_components = {peak["state"]: curve for peak, curve in
+                              zip(case["peaks"], component_curves)}
             component_sum = np.sum(list(raw_components.values()), axis=0)
             relative_mismatch = float(np.max(np.abs(component_sum - clean)) / clean.max())
             if relative_mismatch > 0.15:
@@ -555,7 +580,7 @@ def main() -> None:
                 widths[j] = measured_fwhm(component_array[j])
                 if not 0.5 <= widths[j] <= 3.0:
                     raise RuntimeError(
-                        f"{case_dir.name}: {COMPONENTS[j]} has {widths[j]:.2f} eV "
+                        f"{case_dir.name}: {COMPONENTS[j]} has {widths[j]:.4f} eV "
                         "FWHM outside the requested 0.5–3.0 eV range"
                     )
             clean_all.append(clean)
