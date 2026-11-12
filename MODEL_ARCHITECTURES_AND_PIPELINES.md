@@ -2,7 +2,7 @@
 
 This document describes `c1s_peak_cnn.ipynb`, `c1s_peak_transformer.ipynb`, and `c1s_peak_vae.ipynb`. All three notebooks train on the same SESSA data and predict the same peak properties. They differ in how they represent the input spectrum.
 
-The notebooks use `datasets/sessa_c1s_v2`, with seven possible labels (`CC`, `CN`, `CO`, `CARBONYL`, `OCO`, `COO`, `COOH`) and at most five present in a case. Their saved v1 outputs were cleared when the notebooks changed. The revised models need to be trained before their results can be evaluated; the v1 and v2 labels must not be mixed.
+The notebooks use `datasets/sessa_c1s`, with seven possible labels (`CC`, `CN`, `CO`, `CARBONYL`, `OCO`, `COO`, `COOH`) and at most five present in a case. Saved notebook results from the previous generator have been cleared. Generate the current dataset and retrain before interpreting model results.
 
 ## What one prediction contains
 
@@ -16,13 +16,15 @@ The dataset has seven possible C 1s components: `CC` (C–C/C–H), `CN` (single
 | Area | Area of the component over the 280–300 eV window, in relative-intensity × eV units. | `component_area_window` |
 | Shape | One of Gaussian, Lorentzian, or pseudo-Voigt. | `shape_code` |
 
-The models output enough information to construct one approximate peak curve for every component called present. The area is relative to the SESSA clean spectrum's normalization; it is not an absolute measured count rate or an atomic percentage. The FWHM is an *effective width of the saved component curve*, not the intrinsic Gaussian or Lorentzian width entered into SESSA. A shape label is predicted separately from the width.
+The models output enough information to construct one approximate peak curve for every component called present. The area is relative to the maximum of the noise-free spectrum **after adding its linear background**; it is not an absolute measured count rate or an atomic percentage. The FWHM is an *effective width of the saved component curve*, not the intrinsic Gaussian or Lorentzian width entered into SESSA. A shape label is predicted separately from the width.
 
 Each model's final layer has **49 raw values**: seven for each of seven components. Within each set of seven, one value is a presence score, one produces the center, one produces FWHM, one produces area, and three are scores for the possible shapes. The center is constrained to within 0.6 eV of that component's nominal position. FWHM is constrained to 0.5–3.0 eV, and area is constrained to be positive. The generator checks that measured FWHM labels for present components are within this range. If analyzer broadening makes a saved component slightly wider than 3.0 eV, it reduces that case's analyzer width just enough to meet the limit and records both the sampled and used widths in `metadata.json`.
 
 ## Shared data pipeline
 
-The notebooks expect `dataset.npz` from `generate_sessa_training_dataset.py`. The first code cell contains `data_path`; set it to the complete dataset on the training machine. The current generator uses a 401-point C 1s grid from 280 to 300 eV and saves three noisy count observations per simulated case. The notebook reads the noisy observations as inputs and repeats the same peak labels for all three observations of a case.
+The notebooks expect `dataset.npz` from `generate_sessa_training_dataset.py`. The first code cell contains `data_path`; set it to the complete dataset on the training machine. The generator uses a 401-point C 1s grid from 280 to 300 eV. It disables SESSA inelastic collisions (`MODEL SET NCOL 0 REGION 1`) and then adds a linear background with independently sampled endpoint heights of 20–55% of the broadened SESSA peak maximum. These illustrative heights should be checked against representative measurements. Each case has three Poisson observations with expected total-spectrum maxima of 50, 500, and 5,000 counts. The notebook reads these observations as inputs and repeats the same peak labels for all three observations of a case.
+
+The noise-free total (`clean_relative`) and each component (`component_relative`) are divided by the **same** total-spectrum maximum, so component areas use the model input's scale. `background_relative` saves the line separately. The components sum to the peak-only part of `clean_relative`; case metadata records both background endpoints.
 
 Before a spectrum enters a model, the notebook divides its nonnegative intensities by that spectrum's maximum. It does not subtract an endpoint baseline or clip an intensity floor. The peak labels, including measured FWHM from the noise-free component curves, come directly from the NPZ file.
 
@@ -41,7 +43,7 @@ The NPZ's `train`, `validation`, and `test` case labels are preserved. All noisy
 | Adaptive average pooling | 64 × 16 |
 | Flatten and dense layers, 1024 → 64 → 49 | 49 values |
 
-Keeping 16 pooled positions allows the dense layers to use information about where a peak occurs on the energy axis. The notebook saves the best validation checkpoint as `outputs/sessa_models_v2_raw/cnn.pt` when run.
+Keeping 16 pooled positions allows the dense layers to use information about where a peak occurs on the energy axis. The notebook saves the best validation checkpoint as `outputs/sessa_models/cnn.pt` when run.
 
 ## Transformer architecture
 
@@ -55,7 +57,7 @@ Keeping 16 pooled positions allows the dense layers to use information about whe
 | Mean of the 51 encoded tokens | 32 values |
 | Dense layers, 32 → 32 → 49 | 49 values |
 
-Encoder dropout is 0.1. The best validation checkpoint is saved as `outputs/sessa_models_v2_raw/transformer.pt` when run.
+Encoder dropout is 0.1. The best validation checkpoint is saved as `outputs/sessa_models/transformer.pt` when run.
 
 ## VAE architecture
 
@@ -69,7 +71,7 @@ Encoder dropout is 0.1. The best validation checkpoint is saved as `outputs/sess
 | Decoder, 16 → 128 → 401 with ReLU and sigmoid | Reconstructed normalized input spectrum |
 | Property head, 16 → 49 | 49 property values |
 
-The VAE's decoder reconstructs the **maximum-normalized noisy input**, including its floor. The property head supplies the peak table. The best validation checkpoint is saved as `outputs/sessa_models_v2_raw/vae.pt` when run.
+The VAE's decoder reconstructs the **maximum-normalized noisy input**, including its floor. The property head supplies the peak table. The best validation checkpoint is saved as `outputs/sessa_models/vae.pt` when run.
 
 ## Training loss and model selection
 
@@ -99,13 +101,13 @@ Each notebook prints and saves a test table for every component and an `ALL` row
 | Area MAE | Average absolute area error for truly present peaks, in relative-intensity × eV units. |
 | Shape accuracy | Share of truly present peaks assigned the correct shape class. |
 
-Property errors are calculated on truly present peaks **even if the presence decision was wrong**, so missed peaks do not disappear from the center, FWHM, area, or shape assessment. Presence uses the 0.5 threshold and the five-peak cap. The test table is saved as `outputs/sessa_models_v2_raw/<model>_test_metrics.csv` when a notebook runs.
+Property errors are calculated on truly present peaks **even if the presence decision was wrong**, so missed peaks do not disappear from the center, FWHM, area, or shape assessment. Presence uses the 0.5 threshold and the five-peak cap. The test table is saved as `outputs/sessa_models/<model>_test_metrics.csv` when a notebook runs.
 
 ## Hardest successes and easiest failures
 
 Each notebook uses a simple peak formula to draw spectra from the **true** SESSA peak properties and from its **predicted** properties. It integrates the absolute difference between these two curves and divides by the integrated true curve area. The plot also shows the maximum-normalized noisy scan, with its floor, that was given to the model.
 
-A successful scan has every peak-presence decision correct and a reconstruction error at or below the test median. An unsuccessful scan has a reconstruction error in the worst 10% of the test set. Among successful scans, lower input counts and more true peaks rank as harder. Among unsuccessful scans, higher counts and fewer true peaks rank as easier. Up to three distinct SESSA cases are shown for each group; unused panels stay blank when a small test set has fewer qualifying cases. The figure is saved as `outputs/sessa_models_v2_raw/<model>_best_worst.png`.
+A successful scan has every peak-presence decision correct and a reconstruction error at or below the test median. An unsuccessful scan has a reconstruction error in the worst 10% of the test set. Among successful scans, lower input counts and more true peaks rank as harder. Among unsuccessful scans, higher counts and fewer true peaks rank as easier. Up to three distinct SESSA cases are shown for each group; unused panels stay blank when a small test set has fewer qualifying cases. The figure is saved as `outputs/sessa_models/<model>_best_worst.png`.
 
 The true and predicted component curves are reconstructions from *peak-property tables*. They are not exact SESSA physical simulations: SESSA also includes instrument and scattering effects that the simple profile formula does not reproduce.
 
@@ -113,7 +115,7 @@ The true and predicted component curves are reconstructions from *peak-property 
 
 The original sucrose and malonic acid `.xy` measurements from the [Zenodo dataset](https://zenodo.org/records/4624072) are saved in `datasets/MalonicSucrose/`. A separate `datasets/MalonicSucrose/real_c1s_spectra.csv` analysis file contains the six available C 1s spectra: sucrose at 0, 0.2, 1, and 5 mbar, and malonic acid at 0.2 and 1 mbar. It uses the first C 1s region in each file, averages repeated scans, converts kinetic to binding energy, and interpolates to the SESSA grid. The notebooks use `counts_per_second` and divide each scan by its maximum. The `MalonicAcid_0mbar.xy` file is also saved locally but has no C 1s region, so it is omitted from the analysis CSV.
 
-For each real measurement, the prediction cell displays the predicted presence probability, presence decision, center, FWHM, area, and shape for each component. It does not export a peak table. These properties can be used later to construct approximate peak curves. A final plotting cell shows all six real model inputs, the predicted peak components, and the mapped components from the published fits. It saves `outputs/sessa_models_v2_raw/<model>_real_data.png` when the notebook runs.
+For each real measurement, the prediction cell displays the predicted presence probability, presence decision, center, FWHM, area, and shape for each component. It does not export a peak table. These properties can be used later to construct approximate peak curves. A final plotting cell shows all six real model inputs, the predicted peak components, and the mapped components from the published fits. It saves `outputs/sessa_models/<model>_real_data.png` when the notebook runs.
 
 The measured curves in those plots use maximum-normalized raw count rates, with the intensity floor retained. The published table provides peak centers, widths, and area fractions but not exact fitted Voigt curves, so the plotting cell draws approximate 50:50 pseudo-Voigt components. It aligns the published C–C center to the smoothed measured C–C maximum to remove the reported absolute-energy offset without using a model prediction. The published and predicted sums are separately scaled to a maximum of 1 for display; each set of component curves uses its sum's scale. The plotted peak sums do not include a fitted background. These plots therefore show peak locations and relative shapes, not agreement in absolute counts per second. Only model components selected by the 0.5 threshold and five-peak cap are drawn. Malonic acid has only a partial published component mapping.
 
@@ -128,7 +130,7 @@ peak(E) = H × [(1 - η)G(E) + ηL(E)]
 
 For the best/worst plots, `H` is calculated so that the curve integrates to the predicted area over the 280–300 eV grid. The pseudo-Voigt fraction is a fixed plotting choice, not a learned SESSA mixing parameter. This simple reconstruction does not include a fitted experimental background or absolute count calibration.
 
-The [paper supplement](acp-21-4709-2021-supplement.pdf) contains experimental C 1s peak fits in Tables S3 (sucrose) and S5 (malonic acid). These values are preserved in `datasets/MalonicSucrose/real_c1s_published_fits.csv`. A second file, `datasets/MalonicSucrose/real_c1s_comparable_fits.csv`, transforms the 16 peaks with a usable model mapping into comparison columns. Sucrose's three peaks map to `CC`, `CO`, and `OCO`. For malonic acid, only adventitious `CC` and the acid peak are mapped; the notebooks change that peak's historical `COO` label to `COOH` in memory for v2. The molecular C–C and decomposition features have no separate model outputs. The malonic acid comparison is therefore partial.
+The [paper supplement](acp-21-4709-2021-supplement.pdf) contains experimental C 1s peak fits in Tables S3 (sucrose) and S5 (malonic acid). The file `datasets/MalonicSucrose/real_c1s_comparable_fits.csv` transforms the 16 peaks with a usable model mapping into comparison columns. Sucrose's three peaks map to `CC`, `CO`, and `OCO`. For malonic acid, only adventitious `CC` and the acid peak are mapped; the acid peak maps directly to `COOH`. The molecular C–C and decomposition features have no separate model outputs. The malonic acid comparison is therefore partial.
 
 The real-data comparison cell prints these mapped published peaks beside the model predictions. For each sample, it compares centers as distances from the C–C center and areas as fractions of the mapped peak areas. An absent predicted peak contributes zero area; center-spacing and width errors use detected peaks only. This avoids claiming a common absolute energy calibration or intensity scale. The [main article](https://acp.copernicus.org/articles/21/4709/2021/) gives 0 mbar sucrose centers 0.70 eV below the corresponding Table S3 values, so absolute-center error is not reported. The cell also reports mapped-peak detection, center-spacing MAE, area-share MAE, and a width MAE under an explicit unit assumption. These are descriptive comparisons for six measurements, not a held-out real-data accuracy estimate.
 

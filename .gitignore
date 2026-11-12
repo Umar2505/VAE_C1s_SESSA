@@ -7,5 +7,5 @@ __pycache__/
 data_cache/
 outputs/
 dataset/
-datasets/sessa_c1s_v*/
+datasets/sessa_c1s/
 output/

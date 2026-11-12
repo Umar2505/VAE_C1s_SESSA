@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
-"""Generate labelled C 1s spectra with SESSA 2.3 and three Poisson count levels.
+"""Generate labelled C 1s spectra with SESSA 2.3 and linear backgrounds.
 
-One physical SESSA simulation produces one clean spectrum with at most five
-of seven possible carbon components. It then produces three noisy observations,
-with expected peak counts of
-50, 500, and 5000. SESSA's plotted data are exported with PLOT SAVE DATA;
+One SESSA simulation with inelastic scattering disabled produces a peak-only
+spectrum with at most five of seven possible carbon components. A sampled
+linear background is added before three Poisson-noisy observations with
+expected total-spectrum maxima of 50, 500, and 5000 counts are produced.
+SESSA's plotted data are exported with PLOT SAVE DATA;
 the region .spc export is omitted because this installation has produced an
 invalid .spc file in binding-energy mode.
 
@@ -48,7 +49,8 @@ BASE_CENTERS_EV = {"CC": 285.0, "CN": 285.94, "CO": 286.5,
                    "CARBONYL": 287.9, "OCO": 287.95,
                    "COO": 288.99, "COOH": 289.26}
 MAX_PEAKS = 5
-NOISE_PEAK_COUNTS = (50, 500, 5000)
+NOISE_MAX_COUNTS = (50, 500, 5000)
+LINEAR_BACKGROUND_FRACTION_RANGE = (0.20, 0.55)
 ENERGY_GRID_EV = np.linspace(280.0, 300.0, 401)
 AVOGADRO = 6.02214076e23
 MASS = {"C": 12.011, "H": 1.008, "N": 14.007, "O": 15.999}
@@ -229,7 +231,8 @@ def command_file(case: dict, case_dir: Path, rng_seed: int) -> str:
     lines.extend((
         "MODEL SET NCHAN 2048",
         "MODEL SET CONVERGENCE 0.001",
-        "MODEL AUTO NCOL REGION 1",
+        # Zero inelastic collisions: the background is added explicitly below.
+        "MODEL SET NCOL 0 REGION 1",
         # AUTO NTRAJ can spend hours trying to converge for some valid cases.
         "MODEL SET NTRAJ 10000 REGION 1",
         f"MODEL SET RNG_SEED {rng_seed}",
@@ -453,7 +456,7 @@ def main() -> None:
                         help="number of distinct SESSA simulations (default: 10000)")
     parser.add_argument("--seed", type=int, default=20261101)
     parser.add_argument("--output", type=Path,
-                        default=Path(__file__).resolve().parent / "datasets" / "sessa_c1s_v2")
+                        default=Path(__file__).resolve().parent / "datasets" / "sessa_c1s")
     parser.add_argument("--sessa-bin", type=Path, default=SESSA_BIN)
     parser.add_argument("--use-display", action="store_true",
                         help="run on your existing X display instead of xvfb-run")
@@ -474,6 +477,14 @@ def main() -> None:
     output.mkdir(parents=True, exist_ok=True)
     rng = np.random.default_rng(args.seed)
     cases = [make_case(rng, i) for i in range(args.cases)]
+    # Keep background draws independent of material/peak draws. Fractions are
+    # relative to the maximum of the broadened peak-only SESSA spectrum.
+    background_rng = np.random.default_rng(args.seed + 31)
+    for case in cases:
+        low, high = background_rng.uniform(*LINEAR_BACKGROUND_FRACTION_RANGE, size=2)
+        case["sessa_max_inelastic_collisions"] = 0
+        case["linear_background_280_fraction_of_sessa_max"] = round(float(low), 6)
+        case["linear_background_300_fraction_of_sessa_max"] = round(float(high), 6)
     # Draw one split per case from a separate RNG. Earlier cases keep their
     # splits when --cases increases, so a pilot run can be resumed in place.
     split_rng = np.random.default_rng(args.seed + 19)
@@ -483,7 +494,7 @@ def main() -> None:
     for index, case in enumerate(cases):
         case["split"] = split_names[index]
 
-    clean_all, components_all, noisy_all = [], [], []
+    clean_all, backgrounds_all, components_all, noisy_all = [], [], [], []
     centers_all, presence_all, areas_all, shapes_all, widths_all = [], [], [], [], []
     manifest_rows = []
     with ThreadPoolExecutor(max_workers=args.workers) as pool:
@@ -545,22 +556,30 @@ def main() -> None:
                     f"spectrum (relative mismatch {relative_mismatch:.1%}). Inspect the "
                     "SESSA plot exports before training."
                 )
-            scale = float(clean.max())
-            clean /= scale
+            sessa_max = float(clean.max())
+            linear_background = np.linspace(
+                case["linear_background_280_fraction_of_sessa_max"],
+                case["linear_background_300_fraction_of_sessa_max"],
+                len(ENERGY_GRID_EV),
+            ) * sessa_max
+            total = clean + linear_background
+            scale = float(total.max())
+            clean = total / scale
+            background_relative = linear_background / scale
             component_array = np.zeros((len(COMPONENTS), len(ENERGY_GRID_EV)))
             for component_index, state in enumerate(COMPONENTS):
                 if state in raw_components:
                     component_array[component_index] = raw_components[state] / scale
 
             noise_rng = np.random.default_rng(args.seed + 1000003 * (index + 1))
-            noisy = np.stack([noise_rng.poisson(clean * level) for level in NOISE_PEAK_COUNTS])
+            noisy = np.stack([noise_rng.poisson(clean * level) for level in NOISE_MAX_COUNTS])
             save_csv(case_dir / "clean.csv", clean, "relative_intensity")
-            for level, counts in zip(NOISE_PEAK_COUNTS, noisy):
+            for level, counts in zip(NOISE_MAX_COUNTS, noisy):
                 filename = f"poisson_{level}.csv"
                 save_csv(case_dir / filename, counts, "counts")
                 manifest_rows.append({
                     "case_id": case["case_id"], "split": case["split"],
-                    "peak_counts": level,
+                    "max_counts": level,
                     "file": str((case_dir / filename).relative_to(output)),
                     "metadata": str(case_config.relative_to(output)),
                 })
@@ -584,6 +603,7 @@ def main() -> None:
                         "FWHM outside the requested 0.5–3.0 eV range"
                     )
             clean_all.append(clean)
+            backgrounds_all.append(background_relative)
             components_all.append(component_array)
             noisy_all.append(noisy)
             centers_all.append(centers)
@@ -596,7 +616,7 @@ def main() -> None:
                   flush=True)
 
     with (output / "manifest.csv").open("w", newline="", encoding="utf-8") as handle:
-        writer = csv.DictWriter(handle, fieldnames=("case_id", "split", "peak_counts", "file", "metadata"))
+        writer = csv.DictWriter(handle, fieldnames=("case_id", "split", "max_counts", "file", "metadata"))
         writer.writeheader()
         writer.writerows(manifest_rows)
     np.savez_compressed(
@@ -605,8 +625,9 @@ def main() -> None:
         components=np.asarray(COMPONENTS),
         case_id=np.asarray([case["case_id"] for case in cases]),
         split=np.asarray(split_names),
-        peak_counts=np.asarray(NOISE_PEAK_COUNTS),
+        max_counts=np.asarray(NOISE_MAX_COUNTS),
         clean_relative=np.stack(clean_all),
+        background_relative=np.stack(backgrounds_all),
         component_relative=np.stack(components_all),
         poisson_counts=np.stack(noisy_all),
         presence=np.stack(presence_all),
