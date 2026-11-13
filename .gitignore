@@ -6,6 +6,6 @@ __pycache__/
 .~lock.*#
 data_cache/
 outputs/
-dataset/
+datasets/
 datasets/sessa_c1s/
 output/
